@@ -20,7 +20,7 @@ menu_settings:
       url: '/contact'
 
 footer_settings:
-  footer_tagline: Natural Born Bayesian
+  footer_tagline: Bayesian Beyond Belief
 
 hero_settings:
   overlay_opacity: 0.8
