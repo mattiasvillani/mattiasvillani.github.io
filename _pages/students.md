@@ -5,6 +5,4 @@ description: A sleek, modern Jekyll theme for personal websites.
 featured_image: /images/demo/contact.jpg
 ---
 
-![](/images/demo/about.jpg)
-
-Please note, this contact form is for demo purposes only and is not monitored. Please contact us [via our website](https://jekyllthemes.io) if you need support.
+The [Mathematics Genealogy project](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=104187) keeps tracks of mathematicians in the world. I am very pleased to have Harald Cramér as my academic great grandfather!
