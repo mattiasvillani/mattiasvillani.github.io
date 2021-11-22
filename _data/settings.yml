@@ -11,7 +11,7 @@ menu_settings:
     - title: 'Home'
       url: '/'
     - title: 'Research'
-      url: '/project/research/'
+      url: '/_pages/research.md'
     - title: 'Teaching'
       url: '/project/teaching/'
     - title: 'Students'
