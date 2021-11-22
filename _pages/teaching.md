@@ -5,30 +5,11 @@ description: List of my research papers with download links.
 featured_image: /images/math.jpg
 ---
 
-## ArXived and submitted 
+## Current and upcoming courses 
 
 
 ---
 
-## Journal publications
+## Past courses
 
 
----
-
-## Refereed conference papers
-
----
-
-## Books
-
----
-
-## Book chapters
-
----
-
-## Other publications
-
----
-
-## Older working papers
