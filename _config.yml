@@ -3,6 +3,9 @@ site: Personal Jekyll Theme
 url: 
 baseurl: 
 
+name: Mattias Villani
+title: null
+
 collections:
   pages:
     output: true
