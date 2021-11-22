@@ -13,9 +13,11 @@ menu_settings:
     - title: 'Research'
       url: '/research'
     - title: 'Teaching'
-      url: '/project/teaching/'
+      url: '/teaching'
     - title: 'Students'
-      url: '/project/students/'
+      url: '/students'
+    - title: 'Code'
+      url: '/code'
     - title: 'Contact'
       url: '/contact'
 
