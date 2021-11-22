@@ -10,10 +10,12 @@ menu_settings:
   menu_items:
     - title: 'Projects'
       url: '/'
-    - title: 'Blog'
-      url: '/blog/'
-    - title: 'About'
-      url: '/about'
+    - title: 'Research'
+      url: '/project/research/'
+    - title: 'Teaching'
+      url: '/project/teaching/'
+    - title: 'Students'
+      url: '/project/students/'
     - title: 'Contact'
       url: '/contact'
 
