@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Mattias Villani
-  favicon_image: /images/favicon.png
+  favicon_image: /images/naturalbornbayesian.png
 
 header_settings:
   logo_image: 
@@ -25,7 +25,7 @@ footer_settings:
   footer_tagline: Bayesian Beyond Belief
 
 hero_settings:
-  overlay_opacity: 0.8
+  overlay_opacity: 0.4
 
 post_settings:
   grid_spacing: 10
