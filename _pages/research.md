@@ -108,26 +108,50 @@ with Per Sidén, Finn Lindgren, David Bolin and Anders Eklund<br/> \\
 </tr>
 
 <tr>
-<td markdown="span"><img width = "100%" src="/images/papers/sthlmbuses.png"></td>
-<td markdown="span">**Spatial 3D Matérn priors for fast whole-brain fMRI analysis**<br /> \\
-with Per Sidén, Finn Lindgren, David Bolin and Anders Eklund<br /> \\
-
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--medium">journal</a>
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--medium">arXiv</a>
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--medium">code</a>
+<td markdown="span"><img width = "100%" src="/images/papers/blockpoisson.png"></td>
+<td markdown="span">**The block-Poisson estimator for optimally tuned exact subsampling MCMC** \\
+*Journal of Computational and Graphical Statistics*, 2021<br/> \\
+with Matias Quiroz, Minh-Ngoc Tran, Robert Kohn and Khue-Dung Dang<br /> \\
+<a href="https://doi.org/10.1080/10618600.2021.1917420" class="button button--medium">journal</a>
+<a href="https://arxiv.org/abs/1603.08232" class="button button--medium">arXiv</a>
+<a href="https://www.tandfonline.com/doi/suppl/10.1080/10618600.2021.1917420?scroll=top" class="button button--medium">code</a>
 </td>
 </tr>
 
 <tr>
-<td markdown="span"><img width = "100%" src="/images/papers/sthlmbuses.png"></td>
-<td markdown="span">**Spatial 3D Matérn priors for fast whole-brain fMRI analysis**<br /> \\
-with Per Sidén, Finn Lindgren, David Bolin and Anders Eklund<br /> \\
-
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--medium">journal</a>
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--medium">arXiv</a>
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--medium">code</a>
+<td markdown="span"><img width = "100%" src="/images/papers/gpbold.png"></td>
+<td markdown="span">**Physiological Gaussian Process Priors for the Hemodynamics in fMRI Analysis**\\
+*Journal of Neuroscience Methods*, 2020, Vol 342.<br/> \\
+with Josef Wilzén and Anders Eklund<br/> \\
+<a href="https://doi.org/10.1016/j.jneumeth.2020.108778" class="button button--medium">journal</a>
+<a href="https://arxiv.org/abs/1708.06152" class="button button--medium">arXiv</a>
 </td>
 </tr>
+
+<tr>
+<td markdown="span"><img width = "100%" src="/images/papers/hmcecs.png"></td>
+<td markdown="span">**Hamiltonian Monte Carlo with Energy Conserving Subsampling**\\
+*Journal of Machine Learning Research*, 2019, Vol 20, 1−31.<br/> \\
+with Khue-Dung Dang, Matias Quiroz, Robert Kohn and Minh-Ngoc Tran<br/> \\
+
+<a href="http://jmlr.org/papers/volume20/17-452/17-452.pdf" class="button button--medium">journal</a>
+<a href="https://arxiv.org/abs/1708.00955" class="button button--medium">arXiv</a>
+<a href="http://num.pyro.ai/en/stable/mcmc.html?highlight=ecs#numpyro.infer.hmc_gibbs.HMCECS" class="button button--medium">numpyro code</a>
+</td>
+</tr>
+
+<tr>
+<td markdown="span"><img width = "100%" src="/images/papers/sankhyaa.png"></td>
+<td markdown="span">**Subsampling MCMC - An introduction for the survey statistician**\\
+*Sankhya A*, 2018, Vol 80(1): 33–69.<br/> \\
+with Matias Quiroz, Robert Kohn, Minh-Ngoc Tran and Khue-Dung Dang<br/> \\
+<a href="https://link.springer.com/article/10.1007/s13171-018-0153-7" class="button button--medium">journal</a>
+<a href="https://arxiv.org/abs/1807.08409" class="button button--medium">arXiv</a>
+<a href="http://em.rdcu.be/wf/click?upn=lMZy1lernSJ7apc5DgYM8WhN1Znsg4Fto2L84ZyKa74-3D_j6RJ2ZLlLMQuZgmZcRaIHilbaaMgBLEtH9bqf9kGjjD13KILmBsQMeFxp7r89Tow0wUptoxph1lqdnsGRGeW-2BvQgFPuDpG77GCLKCqeJF5K4gRbEGtK06JrzWyroIZXXF1nP89troAotDjHR8UoFTWoiBFFg4haEIxrXGsXmJnSqBgvCTT4dj9DqqrD4z6ILcP4rb-2FonlBAyKm0xkwtwb3BRFqYstDZpC2tr1sW4QKd9lVfe-2F6bCSKv-2Fy6lUyW-2B3B0vxr-2FLyeJdx1L694MbHuw-3D-3D" class="button button--medium">shareedit</a>
+</td>
+</tr>
+
+
 
 </tbody>
 </table>
