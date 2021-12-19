@@ -28,6 +28,14 @@ with Bertil Wegmann, Anders Lundquist and Anders Eklund<br /> \\
 </tr>
 
 <tr>
+<td markdown="span"><img width = "100%" src="/images/papers/localpools.png"></td>
+<td markdown="span">**Local Prediction Pools**<br /> \\
+with Oscar Oelrich and Sebastian Ankargren<br /> \\
+<a href="https://arxiv.org/abs/2112.09073" class="button button--medium">arXiv</a>
+</td>
+</tr>
+
+<tr>
 <td markdown="span"><img width = "100%" src="/images/papers/onlinemixtures.png"></td>
 <td markdown="span">**Dynamic Mixture of Experts Models for Online Prediction**<br /> \\
 with Parfait Munezero and Robert Kohn<br /> \\
@@ -142,12 +150,24 @@ with Khue-Dung Dang, Matias Quiroz, Robert Kohn and Minh-Ngoc Tran<br/> \\
 
 <tr>
 <td markdown="span"><img width = "100%" src="/images/papers/sankhyaa.png"></td>
-<td markdown="span">**Subsampling MCMC - An introduction for the survey statistician**\\
+<td markdown="span">**Subsampling MCMC - An Introduction for the Survey Statistician**\\
 *Sankhya A*, 2018, Vol 80(1): 33–69.<br/> \\
 with Matias Quiroz, Robert Kohn, Minh-Ngoc Tran and Khue-Dung Dang<br/> \\
 <a href="https://link.springer.com/article/10.1007/s13171-018-0153-7" class="button button--medium">journal</a>
 <a href="https://arxiv.org/abs/1807.08409" class="button button--medium">arXiv</a>
 <a href="http://em.rdcu.be/wf/click?upn=lMZy1lernSJ7apc5DgYM8WhN1Znsg4Fto2L84ZyKa74-3D_j6RJ2ZLlLMQuZgmZcRaIHilbaaMgBLEtH9bqf9kGjjD13KILmBsQMeFxp7r89Tow0wUptoxph1lqdnsGRGeW-2BvQgFPuDpG77GCLKCqeJF5K4gRbEGtK06JrzWyroIZXXF1nP89troAotDjHR8UoFTWoiBFFg4haEIxrXGsXmJnSqBgvCTT4dj9DqqrD4z6ILcP4rb-2FonlBAyKm0xkwtwb3BRFqYstDZpC2tr1sW4QKd9lVfe-2F6bCSKv-2Fy6lUyW-2B3B0vxr-2FLyeJdx1L694MbHuw-3D-3D" class="button button--medium">shareedit</a>
+</td>
+</tr>
+
+
+<tr>
+<td markdown="span"><img width = "100%" src="/images/papers/sankhyaa.png"></td>
+<td markdown="span">**Efficient Covariance Approximations for Large Sparse Precision Matrices**\\
+*Journal of Computational and Graphical Statistics*, 2018, Vol 27:4, 898-909.<br/> \\
+with Per Sidén, Finn Lindgren and David Bolin<br/> \\
+<a href="https://doi.org/10.1080/10618600.2018.1473782" class="button button--medium">journal (OA)</a>
+<a href="https://arxiv.org/abs/1705.08656" class="button button--medium">arXiv</a>
+<a href="https://github.com/psiden/CovApprox" class="button button--medium">code</a>
 </td>
 </tr>
 
