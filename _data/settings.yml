@@ -18,6 +18,8 @@ menu_settings:
       url: '/students'
     - title: 'Code'
       url: '/code'
+    - title: 'News'
+      url: '/news'
     - title: 'Contact'
       url: '/contact'
 
