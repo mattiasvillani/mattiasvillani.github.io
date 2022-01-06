@@ -1,0 +1,623 @@
+\documentclass[11pt,english,oneside]{amsart}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL /home/mv/Dropbox/Apps/ShareLaTeX/SpectralSubsamplingMultivariate/MultiSpectralMCMC.tex      Mon Apr  5 22:10:35 2021
+%DIF ADD /home/mv/Dropbox/Apps/ShareLaTeX/SpectralSubsamplingMultivariate/MultiSpectralMCMCRev.tex   Tue Jan  4 09:58:41 2022
+\usepackage{mathpazo}
+\usepackage[scaled=0.92]{helvet}
+\usepackage{courier}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+%\geometry{verbose,tmargin=3.2cm,bmargin=3.2cm,lmargin=2.7cm,rmargin=2.7cm}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{numprint} 
+\npthousandsep{,}
+%\selectlanguage{english}
+\usepackage[authoryear]{natbib}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+
+
+\onehalfspacing
+
+\makeatletter
+\numberwithin{equation}{section}
+%\numberwithin{figure}{section}
+
+\usepackage{chngcntr}
+
+\newtheorem{theorem}{Theorem} %[section]
+\theoremstyle{plain}
+\newtheorem{acknowledgement}{Acknowledgement}
+\newtheorem{axiom}{Axiom}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{conjecture}{Conjecture}[section]
+\newtheorem{assumption}{Assumption} %[section]
+\newtheorem{example}{Example}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{remark}{Remark}[section]
+\numberwithin{equation}{section}
+\renewcommand{\v}[1]{\boldsymbol{#1}}
+\newcommand{\ci}{\mathrm{i}}
+\newcommand{\TODO}{\textcolor{red}{\bf TODO!}}
+\newcommand{\rob}[1]{\textcolor{red}{{\bf Rob}:\ #1}}
+\makeatother
+
+\usepackage{babel}
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
+\providecommand{\DIFmodend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+\newcommand{\DIFscaledelfig}{0.5}
+%DIF HIGHLIGHTGRAPHICS PREAMBLE %DIF PREAMBLE
+\RequirePackage{settobox} %DIF PREAMBLE
+\RequirePackage{letltxmacro} %DIF PREAMBLE
+\newsavebox{\DIFdelgraphicsbox} %DIF PREAMBLE
+\newlength{\DIFdelgraphicswidth} %DIF PREAMBLE
+\newlength{\DIFdelgraphicsheight} %DIF PREAMBLE
+% store original definition of \includegraphics %DIF PREAMBLE
+\LetLtxMacro{\DIFOincludegraphics}{\includegraphics} %DIF PREAMBLE
+\newcommand{\DIFaddincludegraphics}[2][]{{\color{blue}\fbox{\DIFOincludegraphics[#1]{#2}}}} %DIF PREAMBLE
+\newcommand{\DIFdelincludegraphics}[2][]{% %DIF PREAMBLE
+\sbox{\DIFdelgraphicsbox}{\DIFOincludegraphics[#1]{#2}}% %DIF PREAMBLE
+\settoboxwidth{\DIFdelgraphicswidth}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\settoboxtotalheight{\DIFdelgraphicsheight}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\scalebox{\DIFscaledelfig}{% %DIF PREAMBLE
+\parbox[b]{\DIFdelgraphicswidth}{\usebox{\DIFdelgraphicsbox}\\[-\baselineskip] \rule{\DIFdelgraphicswidth}{0em}}\llap{\resizebox{\DIFdelgraphicswidth}{\DIFdelgraphicsheight}{% %DIF PREAMBLE
+\setlength{\unitlength}{\DIFdelgraphicswidth}% %DIF PREAMBLE
+\begin{picture}(1,1)% %DIF PREAMBLE
+\thicklines\linethickness{2pt} %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\framebox(1,1){}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\line( 1,1){1}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,1){\line(1,-1){1}}}% %DIF PREAMBLE
+\end{picture}% %DIF PREAMBLE
+}\hspace*{3pt}}} %DIF PREAMBLE
+} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbegin}{\DIFaddbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddend}{\DIFaddend} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbegin}{\DIFdelbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelend}{\DIFdelend} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbegin}{\DIFOaddbegin \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbegin}{\DIFOdelbegin \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbeginFL}{\DIFaddbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddendFL}{\DIFaddendFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbeginFL}{\DIFdelbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelendFL}{\DIFdelendFL} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbeginFL}{\DIFOaddbeginFL \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbeginFL}{\DIFOdelbeginFL \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+%DIF LISTINGS PREAMBLE %DIF PREAMBLE
+\RequirePackage{listings} %DIF PREAMBLE
+\RequirePackage{color} %DIF PREAMBLE
+\lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
+%DIF DIFCODE_UNDERLINE %DIF PREAMBLE
+  moredelim=[il][\color{red}\sout]{\%DIF\ <\ }, %DIF PREAMBLE
+  moredelim=[il][\color{blue}\uwave]{\%DIF\ >\ } %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstdefinestyle{DIFverbatimstyle}{ %DIF PREAMBLE
+	language=DIFcode, %DIF PREAMBLE
+	basicstyle=\ttfamily, %DIF PREAMBLE
+	columns=fullflexible, %DIF PREAMBLE
+	keepspaces=true %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim}{\lstset{style=DIFverbatimstyle}}{} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim*}{\lstset{style=DIFverbatimstyle,showspaces=true}}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+\begin{document}
+\title[Multivariate Spectral Subsampling MCMC]{Spectral Subsampling MCMC for Stationary Multivariate Time Series}
+\author{Mattias Villani, Matias Quiroz, Robert Kohn and Robert Salomone}
+\thanks{
+Villani: \textit{Department of Statistics, Stockholm University, SE-106 91 Stockholm, Sweden} and 
+\textit{Department of Computer and Information Science, Link{\"o}ping University}.
+\textit{E-mail: mattias.villani@stat.su.se}.
+Quiroz: \textit{School of Mathematical and Physical Sciences, University of Technology Sydney}.
+Kohn: \textit{School of Business, University of New South Wales}.
+Salomone:  \textit{Centre for Data Science, Queensland University of Technology}.
+}
+
+\begin{abstract}
+Spectral subsampling MCMC was recently proposed to speed up Markov chain Monte Carlo (MCMC) for long stationary univariate time series by subsampling periodogram observations in the frequency domain. This article extends the approach to stationary multivariate time series. It also proposes a multivariate generalisation of the autoregressive tempered fractionally differentiated moving average model (ARTFIMA) and establishes some of its properties. The new model is shown to provide a better fit compared to multivariate autoregressive moving average models for three real world examples. We demonstrate that spectral subsampling may provide up to two orders of magnitude faster estimation, while retaining MCMC sampling efficiency and accuracy, compared to spectral methods using the full dataset. \\
+                    Keywords: Bayesian, Markov Chain Monte Carlo, Spectral analysis, Whittle likelihood.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+Recent technological developments in sensors, data storage and computing power make it possible to collect high frequency time series data at low cost; some examples are financial transaction data \citep{mykland2012econometrics}, neuroimaging data with high temporal resolution \citep{chen2019analysis}, sensor data from robots \citep{deisenroth2013gaussian} or meteorological weather stations, and GPS and smart card data used in transportation \citep{welch2019big}.
+
+However, statistical analysis of time series with tens of thousands, hundreds of thousands, or even millions of data points is computationally challenging, especially when inferences are obtained with iterative methods such as Markov Chain Monte Carlo (MCMC) simulation or stochastic optimisation algorithms, where the likelihood is evaluated a large number of times. It is therefore common to only use a portion of the data for inference, for example only the most recent observations, or by systematically selecting every $k$th data point over the study period. Such downsampling wastes valuable data, give less precise inferences, and are not even an option when predictions are required at the original sampling frequency.
+
+\citet{salomone2019spectral} propose \emph{spectral subsampling MCMC} to accelerate MCMC for long stationary univariate time series. \citet{salomone2019spectral} use the asymptotically motivated \textit{Whittle likelihood} \citep{whittle1953analysis} to approximate the likelihood of a stationary time series. The Whittle likelihood is based on the discrete Fourier transform with the important property of transforming a time series with dependent observations to \emph{asymptotically independent} periodogram observations in the frequency domain. The key insight in \citet{salomone2019spectral} is that such independence makes it possible to extend subsampling MCMC approaches for independent data \citep{quiroz2019speeding, quiroz2020block, dang2019hamiltonian} to univariate stationary time series by subsampling periodogram observations. 
+
+All of the applications mentioned above are naturally analysed in a multivariate setting: financial portfolios consisting of many assets, neuroimaging data simultaneously measured at multiple brain locations, meteorological data collected at several spatial locations, and so on. The multivariate aspect naturally leads to even more demanding computations in a high frequency setting. 
+
+Our main contribution in this article is extending the spectral subsampling MCMC methodology to stationary \emph{vector-valued} time series by using a multivariate version of the Whittle likelihood based on the asymptotic properties of the matrix-valued periodogram. The proposed multivariate spectral subsampling MCMC algorithm is evaluated on three challenging large-scale multivariate time series applications from meteorology, hydrology and environmental statistics. 
+
+Our second contribution is a new multivariate model with semi-long range dependence extending the autoregressive tempered fractionally integrated moving average (ARTFIMA, \citet{Sabzikar2019}) to the multivariate setting. Several properties of the vector ARTFIMA model are derived, including the spectral density matrix needed for the Whittle likelihood. For all examples considered, the tempered fractional differencing is shown to improve upon the standard multivariate autoregressive integrated moving average (ARIMA) model in terms of the Bayesian information criterion. 
+
+The article is organised as follows. Section \ref{sec:multivar_spectral_mcmc} gives the details on the Whittle likelihood in a multivariate stationary time series setting. Section \ref{sec:subsampling_mcmc} briefly outlines subsampling MCMC. Section \ref{sec:Models} presents the models considered in our applications and establishes properties needed for the implementation of spectral methods. Section \ref{sec:Applications} demonstrates the methodology and evaluates the efficiency of the proposed spectral subsampling algorithm on real data. Section \ref{sec:Conclusions} concludes and Appendix \ref{app:proofs} derives some properties of the vector ARTFIMA model.
+
+\section{The Whittle likelihood for multivariate time series}\label{sec:multivar_spectral_mcmc}
+Let $\mathbf{X}_t \in \mathbb{R}^r$ be an $r$-variate zero mean stationary time series with \DIFaddbegin \DIFadd{absolutely summable }\DIFaddend autocovariance matrix function
+\begin{equation}
+    \v\gamma_{\mathbf{X}}(\tau) = \mathrm{Cov}(\mathbf{X}_t,\mathbf{X}_{t-\tau}),\text{ for } \tau \in \mathbb{Z},
+\end{equation}
+where $\mathbb{Z}$ is the set of integers \DIFaddbegin \DIFadd{and we assume that $\v\gamma_{\mathbf{X}}(\tau)$ is non-singular for all $\tau \in \mathbb{Z}$}\DIFaddend . 
+The spectral density matrix is
+\begin{equation}
+    f_{\mathbf{X}}(\omega) = \frac{1}{2\pi}\sum_{\tau=-\infty}^\infty 
+        \v\gamma_{\mathbf{X}}(\tau)\exp(-\ci \omega \tau), \text{ for } \omega \in (-\pi,\pi],
+\end{equation}
+with the diagonal elements being the usual spectral density for each univariate time series and the off-diagonal
+elements are the cross-spectral densities 
+\begin{equation}
+    f_{jk}(\omega) = \frac{1}{2\pi}\sum_{\tau=-\infty}^\infty \gamma_{jk}(\tau)\exp(-\ci \omega \tau), \text{ for } \omega \in (-\pi,\pi].
+\end{equation}   
+Since the elements of $\v\gamma_{\mathbf{X}}(\tau)$ are real, $f_{\mathbf{X}}(\omega)$ is Hermitian, i.e. $f_{\mathbf{X}}(\omega)^H=f_{\mathbf{X}}(\omega)$, where $\mathbf{A}^H = (\bar{\mathbf{A}})^\top$ is the conjugate transpose of a matrix and $\bar{\mathbf{A}}$ is the matrix of complex conjugates of the elements of $\mathbf{A}$. \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citet{brillinger2001time}[Th. 2.5.1] }\hspace{0pt}%DIFAUXCMD
+proves that $f_{\mathbf{X}}(\omega)$ is also non-negative definite.
+ }\DIFaddend 
+
+The discrete Fourier transform (DFT) of the multivariate time series $\{\mathbf{x}_t\}_{t=0}^{T-1}$ is
+\begin{equation}
+    J_T(\omega_k) = \sum_{t=0}^{T-1} \mathbf{x}_t \exp(-\ci \omega_k t),
+\end{equation}
+for $\omega_k \in \Omega_T = \{2\pi k/T \text{ for } k=-\lceil T/2\rceil+1,\ldots,\lfloor T/2 \rfloor\}$, the set of Fourier frequencies.
+Let $\v X \sim \mathrm{CN}(\v \mu, \v \Sigma)$ denote that the $r$-dimensional complex-valued vector $\v X$ follows the multivariate complex normal distribution \citep[Ch. 4.2]{brillinger2001time}, i.e. that
+\begin{align*}
+    \begin{pmatrix}
+        \mathrm{Re}~\v X \\
+        \mathrm{Im}~\v X  
+    \end{pmatrix}
+    \sim \mathrm{N}_{2r} \Bigg[ 
+    \begin{pmatrix}
+        \mathrm{Re}~\v \mu \\
+        \mathrm{Im}~\v \mu 
+    \end{pmatrix},
+    \frac{1}{2}\begin{pmatrix}
+        \mathrm{Re}~\v \Sigma & -\mathrm{Im}~\v \Sigma\\
+        \mathrm{Im}~\v \Sigma & \hphantom{-}\mathrm{Re}~\v \Sigma
+    \end{pmatrix}
+    \Bigg].
+\end{align*}
+The $J_T(\omega_k)$ are asymptotically independent over the different frequencies and 
+\citep[Theorem 4.4.1]{brillinger2001time}
+\begin{equation}
+    \frac{1}{\sqrt{T}}J_T(\omega_k) \sim \mathrm{CN}(0,2\pi f_{\mathbf{X}}(\omega_k)) \text{ as } T\rightarrow \infty,
+\end{equation}
+except at $\omega_k=0$ and $\omega_k=\pi$, where instead $(1/\sqrt{T})J_T(\omega) \sim \mathrm{N}_r(0,2\pi f_{\mathbf{X}}(\omega_k))$ as $T\rightarrow \infty$. \DIFaddbegin \DIFadd{Following \mbox{%DIFAUXCMD
+\citet{brillinger2001time}}\hspace{0pt}%DIFAUXCMD
+, we will assume that $f_{\mathbf{X}}(\omega)$ is non-singular.
+}\DIFaddend 
+
+The \emph{periodogram} ordinate at frequency $\omega$ is defined as 
+$$I_T(\omega) = (2\pi T)^{-1}J_T(\omega)J_T(\omega)^H.$$ 
+The periodogram ordinates are therefore asymptotically independent complex Wishart distributed with one degree of freedom $I_T(\omega) \sim 
+\mathrm{CW}_r(1,f_{\mathbf{X}}(\omega))$ \citep[Theorem 7.2.4]{brillinger2001time}, with the exception of the frequencies $\omega_k=0$ and $\omega_k=\pi$ where the $I_T(\cdot)$ instead follow a (real) Wishart distribution. The \DIFaddbegin \DIFadd{periodogram ordinates $I_T(\omega)$ are singular matrices for $r>1$, and the }\DIFaddend complex Wishart distribution \DIFdelbegin \DIFdel{$\mathbf{W}\sim \mathrm{CW}_r(\nu,\Sigma)$ 
+has density
+}\DIFdelend \DIFaddbegin \DIFadd{with one degree of freedom is therefore a singular distribution. Its density function has been derived for the real case by \mbox{%DIFAUXCMD
+\cite{uhlig1994singular} }\hspace{0pt}%DIFAUXCMD
+with respect to the Hausdorff measure and by \mbox{%DIFAUXCMD
+\citet{srivastava2003singular} }\hspace{0pt}%DIFAUXCMD
+with respect the Lebesque measure for the functionally independent elements of the matrix. The density for the  complex singular Wishart distribution $\mathbf{W}\sim \mathrm{CW}_r(\nu,\Sigma)$ for $\nu < r$ is derived in \mbox{%DIFAUXCMD
+\citet{ratnarajah2005complex}[Th. 3] }\hspace{0pt}%DIFAUXCMD
+as
+}\DIFaddend \begin{equation*}
+    p(\mathbf{W}|\nu,\Sigma)\propto |\Sigma|^{-\nu}|\DIFdelbegin \DIFdel{\mathbf{W}|^{\nu-r}}\DIFdelend \exp(-\mathrm{tr}~\Sigma^{-1}\mathbf{W}).
+\end{equation*}
+
+Consider now inference for a parametric model with parameter vector $\v \theta$ and spectral density matrix $f_{\mathbf{X},\v \theta}(\omega_k)$. The Whittle log-likelihood exploits the asymptotic result for the periodogram and is defined using the complex \DIFaddbegin \DIFadd{singular }\DIFaddend Wishart distribution as
+\begin{equation}\label{eq:multiwhittle}
+    \ell_\mathcal{W}(\v \theta) = - \sum_{\omega\in \tilde \Omega_T}^T \left( \log | f_{\mathbf{X},\v \theta}(\omega_k)| 
+     + \mathrm{tr}\left[f_{\mathbf{X},\v \theta}(\omega_k)^{-1}I_T(\omega)\right] \right),
+\end{equation}
+where $\tilde \Omega_T$ is the set of Fourier frequencies with the omission of $\omega_k=0$ and $\omega_k=\pi$. The term for $\omega_k=0$ is not included when the time series is demeaned since then $J_T(0)=0$ by construction; the term for $\omega_k=\pi$ is removed for simplicity since it has a different distribution than the other frequencies and its influence is negligible asymptotically.
+Note that since $f_{\mathbf{X},\v \theta}(\omega_k)$ is Hermitian for an absolutely summable stationary process \citep{brillinger2001time},
+both $| f_{\mathbf{X},\v \theta}(\omega_k)|$ and
+\[\mathrm{tr}\left[f_{\mathbf{X},\v \theta}(\omega_k)^{-1}I_T(\omega)\right] = I_T(\omega)^H f_{\mathbf{X},\v \theta}(\omega_k)^{-1}I_T(\omega),\] are real-valued.
+
+\section{Subsampling Markov chain Monte Carlo}\label{sec:subsampling_mcmc}
+Subsampling MCMC uses the framework of pseudo-marginal MCMC \citep{Andrieu2009}, in which an estimator of the likelihood is used within a Metropolis-Hastings algorithm. This section gives a brief overview, see \cite{quiroz2019speeding} and \cite{salomone2019spectral} for details.
+
+Let $\pi({\v \theta}) \propto L_n({\v \theta})p({\v \theta})$ denote the posterior distribution of the model parameter $\v \theta$ from a sample of $n$ observations with likelihood function $L_n({\v \theta})$, and prior distribution $p({\v \theta})$. Metropolis-Hastings MCMC algorithms sample iteratively from $\pi({\v \theta})$ by proposing a parameter vector ${\v \theta}^{(j)}$ at the $j$th iteration from the proposal distribution $g(\v\theta^{(j)} \vert \v\theta^{(j-1)})$ and accepting the draw with probability
+\begin{equation}\label{eq:MHaccProb}
+\min\Bigg\{1,
+    \frac{L_n(\v\theta^{(j)})p(\v\theta^{(j)})}{L_n(\v\theta^{(j-1)})p(\v\theta^{(j-1)})}
+    \cdot
+    \frac{g(\v\theta^{(j-1)} \vert \v\theta^{(j)})}{g(\v\theta^{(j)} \vert \v\theta^{(j-1)})}
+    \Bigg\}.
+\end{equation}
+
+The cost of computing the likelihood $L_n(\v \theta)$ in the acceptance probability is a major concern when $n$ is large. \citet{quiroz2019speeding} propose speeding up MCMC for large $n$ by replacing $L_n(\v \theta)$ with an estimate $\widehat L(\v \theta,\v u)$ based on a small random subsample of $m\ll n$ observations, where $\v u=(u_1,...,u_m)$ indexes the selected observations. Their algorithm samples $\v\theta$ and $\v u$ jointly from an extended target distribution $\tilde \pi (\v\theta,\v u) \propto \widehat L(\v \theta,\v u)p(\v \theta)p(\v u)$. \citet{Andrieu2009} show that such pseudo-marginal MCMC algorithms sample from the full-data posterior $\pi({\v \theta})$ if $\widehat L(\v \theta,\v u)$ is an unbiased and almost surely positive estimator of $L_n(\v \theta)$. \citet{quiroz2019speeding} use an unbiased estimator of the log-likelihood $\widehat \ell(\v\theta,\v u)$ and subsequently debias $\exp(\widehat \ell(\v\theta,\v u))$ to estimate the full-data likelihood. This debiasing approach can not remove all bias and their pseudo-marginal sampler therefore targets a slightly perturbed posterior. The perturbation is shown to be within $O(n^{-1}m^{-2})$ distance in total variation norm of the true posterior, and the applications in \citep{quiroz2019speeding, quiroz2020block, dang2019hamiltonian} show negligible bias. \cite{salomone2019spectral} show that these results extend to subsampling for the Whittle likelihood, with the true posterior in this case being the one using the Whittle likelihood for the full data. 
+
+To apply subsampling MCMC, the log-likelihood needs to decompose as a sum $\ell(\v \theta) = \sum_{k=1}^n \ell_k(\v\theta)$; either by assuming independent data or by using the Whittle likelihood in the frequency domain for temporally dependent data as in \eqref{eq:multiwhittle}. Estimating the log-likelihood is akin to the problem of estimating a population total in survey sampling based \citep{quiroz2018sankhya}. 
+
+It is by now well-known that subsampling MCMC requires a likelihood estimator with small variance, otherwise the sampler tends to get stuck \citep{quiroz2019speeding,quiroz2018sankhya}. \cite{quiroz2019speeding} propose using the \textit{difference estimator} 
+\begin{equation*}
+ \widehat \ell(\v\theta,\v u) = q(\v \theta) + \frac{n}{m}\sum_{i=1}^m \left( \ell_{u_i}(\v \theta) - q_{u_i}(\v \theta)\right), \quad \text{with } q(\v \theta) = \sum_{k=1}^n q_k(\v\theta),
+\end{equation*}
+with control variates $q_k(\v\theta)$ to reduce the variance. The second term in the first equation is an unbiased estimate of $\ell(\v \theta)-q(\v \theta)$ and is efficient if $q_k(\v \theta) \approx \ell_k(\v \theta)$ for $k=1, \dots, n$. The control variates homogenize the log-density terms in the estimator so that the observations can be sampled by simple random sampling \citep{quiroz2019speeding}. \cite{bardenet2017markov} propose to set $q_k(\v \theta)$ equal to a second order Taylor expansion around $\v \theta^\star$ (e.g.\ the posterior mode). An important property of this control variate is that the $q(\v \theta)$ term can be computed in $O(1)$ time. 
+
+The control variate in \cite{bardenet2017markov} works well when the log-density $\ell_{k}(\v \theta)$ of each observation is approximately quadratic in the neighbourhood of $\v \theta^\star$ explored by the MCMC. There is however no guarantee that the individual log-densities $\ell_{k}(\v \theta)$ are close to quadratic in complex models, particularly in large parameter spaces where the posterior may not be highly concentrated around $\v \theta^\star$. \cite{salomone2019spectral} therefore propose a grouped quadratic control variate, in which observations are divided into groups and the log-likelihood contribution for each group is approximated by a quadratic function. The idea is that the Bernstein-von Mises theorem (asymptotic normality of the posterior) suggests an approximately quadratic log-likelihood for the
+group, given that the number of observations in the group is large enough.
+
+Pseudo-marginal methods can be made much more efficient by correlating the estimators used at the numerator and denominator of the Metropolis-Hastings acceptance ratio \citep{deligiannidis2018correlated, Tran2016block, quiroz2020block}. We use the approach in \cite{Tran2016block} and divide the random numbers $\v u$ into blocks. In each Metropolis-Hastings iteration, we propose to update one of the blocks.   
+
+
+\section{Multivariate time series models}\label{sec:Models}
+\subsection{Vector ARMA}\label{subsec:VARMA}
+The vector autoregressive moving average VARMA($p,q$) model is
+\begin{equation}
+    \Phi(L)(\mathbf{X}_t-\boldsymbol \mu) = \Theta(L)\boldsymbol{\varepsilon}_t,
+\end{equation}
+where $\{ \boldsymbol{\varepsilon}_t  \}_{t=1}^T$
+is an iid sequence from $N(0,\Sigma_\varepsilon)$, 
+$\Phi(L) = I_r - \Phi_1L - \cdots - \Phi_pL^p$ and $\Theta(L) = I_r + \Theta_1L + \cdots + \Theta_qL^q$ are the AR and MA 
+lag polynomials, respectively. We assume that the usual conditions for stationarity and invertibility of the VARMA process hold:
+\begin{assumption}\label{ass:VARMAroots}
+    The matrix polynomials $\Phi(z)$ and $\Theta(z)$ share no common zeros and $|\Phi(z)|\neq 0$ and $|\Theta(z)| \neq 0$ for $|z| \leq 1$.
+\end{assumption}
+
+The spectral density matrix of the VARMA($p,q$) model is \citep[Ch. 11]{brockwell1991time}
+\begin{equation}
+    f_{\mathbf{X}}(\omega) = \frac{1}{2\pi}\Phi^{-1}(e^{-i\omega})\Theta(e^{-i\omega}) \Sigma_{\varepsilon} \Theta^H(e^{-i\omega})  \Phi^{-H}(e^{-i\omega}),
+\end{equation}
+where $\v A^{-H}$ denotes the inverse of the conjugate transpose of the matrix $\v A$.
+
+The Whittle likelihood is valid if the process is  stationary, i.e. if all roots of $\Phi(z)$ are outside of the unit circle. We therefore use the reparametrisation in \cite{ansley1986note} to map a set of unconstrained real-valued AR coefficient matrices to the set of stationary parameters. The same reparametrisation is also used on the MA parameter matrices to ensure invertibility.
+
+\subsection{Vector ARTFIMA}\label{subsec:ARTFIMA}
+
+\citet{Sabzikar2019} define the univariate $\mathrm{ARTFIMA}(p,d,\lambda,q)$ process for $Y_t$ as
+\begin{equation}\label{eq:artfima}
+    \phi(L)\Delta^{d,\lambda}(Y_{t}-\mu)=\vartheta(L)\varepsilon_{t},
+\end{equation}
+where $\{\varepsilon_t\}_{t \in \mathbb{Z}}$ is an iid sequence of zero mean random variables with variance $\sigma_{\varepsilon}^2$, 
+$\phi(L)\equiv 1-\phi_{1}L-\cdots-\phi_{p}L^{q}$, and $\vartheta(L)\equiv 1+\vartheta_{1}L+\cdots+\vartheta_{q}L^{p}$,
+are the autoregressive and moving average lag polynomials, and $L$ is the lag operator, i.e. $L^k Y_t \equiv Y_{t-k}$. 
+The \emph{tempered fractional differencing operator} $\Delta^{d,\lambda}$, where $d\notin\mathbb{Z}$ is the \emph{fractional differencing} parameter and $\lambda \geq 0$ is the \emph{tempering} parameter, is defined by the generalised binomial theorem as
+\begin{equation}
+     \Delta^{d,\lambda}Y_t \equiv (1-e^{-\lambda}L)^d Y_t  =\sum_{j=0}^\infty b_j^{d,\lambda}Y_{t-j},   
+\end{equation}
+where 
+\begin{equation*}
+    b_j^{d,\lambda} \equiv (-1)^j \binom{d}{j}e^{-\lambda j} \text{ and } \binom{d}{j} = \frac{\Gamma(1+d)}{\Gamma(1+d-j)j!}.
+\end{equation*}
+Note that we follow the convention in time series of not explicitly writing out the lag operator $L$ in differencing operators unless needed for clarity, i.e. $\Delta^{d,\lambda}\equiv \Delta^{d,\lambda}(L)$.
+
+To explain the role of the parameters $d$ and $\lambda$, note that for $\lambda=0$ and $d$ a non-negative integer, 
+$\Delta^{d,\lambda}Y_t$ reduces to simple differencing of order $d$ and the ARTFIMA model in \eqref{eq:artfima} reduces to the autoregressive integrated moving average 
+(ARIMA) process. For $\lambda=0$ and fractional $d$ we obtain the autoregressive fractionally integrated moving average (ARFIMA) model  \citep{Granger1980}. The ARFIMA process is stationary and invertible for $-0.5 < d < 0.5$, and has long-range or long-memory dependence with an autocovariance function dying off so slowly that it is not absolutely summable. The tempering parameter $\lambda>0$ in ARTFIMA allows for semi-long range dependence, i.e. ARFIMA-like long range dependence for a number of lags beyond which the autocovariances decay exponentially fast. \cite{Sabzikar2019} prove that the ARTFIMA process is stationary for any $d\notin\mathbb{Z}$ if $\lambda>0$, provided that the univariate case of Assumption \ref{ass:VARMAroots} holds.  
+
+The univariate ARTFIMA process is now extended to the multivariate case, where $\mathbf{Y}_{t}$ is an $r$-dimensional vector-valued time series. We define the vector ARTFIMA (VARTFIMA) process as
+\begin{equation}\label{eq:vartfima}
+    \Phi(L)\Delta^{\mathbf{d},\v \lambda}(\mathbf{Y}_{t}-\v \mu)=\Theta(L) \v \varepsilon_{t},
+\end{equation} 
+where $\Delta^{\mathbf{d},\v \lambda}$ is the multivariate tempered fractional differencing operator defined by
+\begin{equation}
+    \Delta^{\mathbf{d},\v \lambda}\mathbf{Y}_{t} \equiv
+    \Big(\Delta^{d_1,\v \lambda_1} Y_{1,t},\ldots, \Delta^{d_r,\v \lambda_r} Y_{r,t} \Big)^\top,
+\end{equation}
+hence allowing for different fractional differences and temporal differencing for the $r$ time series.
+
+Theorem \ref{thm:stationary} generalises the spectral density result in \cite{Sabzikar2019} to the vector case.
+\begin{theorem}\label{thm:stationary}
+    The multivariate ARTFIMA process is causal and stationary for all $d\notin \mathbb{Z}$ and all $\lambda>0$ if $|\Phi(z)|\neq 0$ for $|z| \leq 1$. The spectral density matrix is 
+    \begin{equation*}
+        f_{\mathbf{Y}}(\omega) = \frac{1}{2\pi} \Delta^{\mathbf{-d},\v \lambda}(e^{-i\omega}) \Phi^{-1}(e^{-i\omega})\Theta(e^{-i\omega}) \Sigma_{\varepsilon} \Theta^H(e^{-i\omega})  \Phi^{-H}(e^{-i\omega})  \Delta^{\mathbf{-d},\v \lambda}(e^{-i\omega})^H,
+    \end{equation*}
+    where $\Delta^{\mathbf{-d},\v \lambda}(z) = \mathrm{Diag}\big((1-e^{-\lambda_1}z)^{-d_1},\ldots,(1-e^{-\lambda_r }z)^{-d_r}\big)$, and $\v A^{-H}$ the inverse of conjugate transpose of the matrix $\v A$.
+\end{theorem}
+\begin{proof}
+    See Appendix \ref{app:proofs}. 
+\end{proof}
+
+\section{Applications}\label{sec:Applications}
+We now illustrate the proposed subsampling MCMC methodology on three long multivariate time series datasets of dimensions $2$, $3$ and $4$. 
+
+\subsection{Datasets}\label{subsec:Data}
+
+The first dataset contains observations on mean water velocity at Saginaw and Bay City, two measurement stations located 20 km apart in the Saginaw river that flows into Lake Huron Michigan. The measurements at Saginaw are recorded every $12$th minute, while the data at Bay City are observed every $6$th minute. The measurements at the two locations are merged to a common time stamp $12$ minutes apart. The final dataset contains $\numprint{24001}$ observations during Feb 12, 2017 until August 31, 2017 for each of the two locations. Missing observations are imputed using the {\sf na.interp} function in the R package {\sf forecast}. Figure \ref{fig:WaterVelocityData} plots the data.
+
+The second dataset contains $\numprint{32,001}$ observations of Swedish temperatures at each of three airport locations (Arlanda, Bromma and Landvetter), giving a three-dimensional time series. The data are measured in an hourly scale for the time period February 2, 2008 until June 30, 2020, and processed as follows. Each univariate series is preprocessed separately: missing observations are imputed, then trend and seasonal components are removed using the {\sf stl} function in the R package {\sf stats}. The processed data are plotted in Figure \ref{fig:SwedTempData}.
+
+
+\begin{figure}\label{fig:WaterVelocityData}
+    \includegraphics[width=0.45\linewidth]{Figs/WaterVelocity/WaterVelocitySaginaw.pdf}
+    \includegraphics[width=0.45\linewidth]{Figs/WaterVelocity/WaterVelocityBayCity.pdf}
+    \caption{Water velocity data.}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width=0.32\linewidth]{Figs/SwedTemp/SwedTempArlanda.pdf}
+    \includegraphics[width=0.32\linewidth]{Figs/SwedTemp/SwedTempBromma.pdf}
+    \includegraphics[width=0.32\linewidth]{Figs/SwedTemp/SwedTempLandvetter.pdf}
+    \caption{Swedish temperature data.}\label{fig:SwedTempData}
+\end{figure}
+
+
+The third dataset contains $\numprint{50,001}$ observations of nitrogen dioxide (NO2) and particulate matter (PM10) pollution at two streets in central Stockholm, giving a four-dimensional time series. The data are measured on an hourly scale for the time period May 31, 2008 until October 31, 2015. The data contain a few missing values that are imputed with the {\sf na.interp} function in R. The series are analyzed in logs through the transformation $\log(x_t-\min \{x_t\}_{t=1}^T + 1 )$ and filtered through an estimated seasonal $\mathrm{ARIMA}(0,0,0)(1,0,1)_{24}$ to remove the natural 24 hour cyclic trend. Figure \ref{fig:SthlmPollutionData} plots the transformed data.
+
+\begin{figure}\label{fig:SthlmPollutionData}
+    \includegraphics[width=0.40\linewidth]{Figs/SthlmPollution/SthlmPollutionNO2Street1.pdf}
+    \includegraphics[width=0.40\linewidth]{Figs/SthlmPollution/SthlmPollutionNO2Street2.pdf} \\
+    \includegraphics[width=0.40\linewidth]{Figs/SthlmPollution/SthlmPollutionPM10Street1.pdf}
+    \includegraphics[width=0.40\linewidth]{Figs/SthlmPollution/SthlmPollutionPM10Street2.pdf}
+    \caption{Stockholm air pollution data.}
+\end{figure}
+
+\subsection{Algorithm, model and prior settings}
+The grouped control variates in Section \ref{sec:subsampling_mcmc} are used by dividing the observations into $\numprint{1000}$ groups. We use $10$ randomly selected groups ($1$\% of the data) to estimate the full-data likelihood in each MCMC iteration. For all examples, we sample $\numprint{55000}$ draws from the posterior distribution and discard $\numprint{5000}$ draws as burn-in.
+
+For the block pseudo-marginal, we divide the random numbers into $10$ blocks, where each block correspond to a group currently included in the sample. 
+
+For the ARTFIMA models, we allow for different differencing parameters for each time series. The tempering parameters are restricted to be equal for each time series as the more general model with different $\lambda$ gave estimates of $\lambda$ that were very close across series in a given dataset.
+
+We use a Minnesota-style prior \citep{doan1984forecasting} for the autoregressive and moving average coefficients, which is a normal prior with diagonal covariance matrix with elements
+$$v_{ij,l}=\begin{cases} (\lambda_0/l)^2, &\mbox{if } i = j \\
+(\lambda_0 \theta_0\sigma_i/l\sigma_j)^2 & \mbox{if } i \neq j. \end{cases} 
+$$
+All prior means are set to zero. The hyper-parameter $\lambda_0$ controls how tightly the coefficient of the first lag is concentrated around 0;  we set $\lambda_0=1$. Note that the prior variance decreases with increasing lag length $l$, allowing more shrinkage of coefficients corresponding to lags further back in time. The hyper-parameter $\theta_0$ accounts for the belief that most of the variation in each variable is accounted for by its own lags and is hence set to a value in the range $[0,1)$. We set $\theta_0=0.2$. The ratio $\sigma^2_i/\sigma^2_j$ accounts for the difference in the variability of the variables. Following standard practice, $\sigma^2_i$ is set to the residual variance computed by fitting a univariate vector AR model to the i$th$ series. 
+
+We parameterise the covariance matrix $\Sigma_{\varepsilon}$ as a Cholesky factor with a logarithm transform on the diagonals and assign independent $\mathcal{N}(0,0.1)$ priors for all elements in this parameterisation. We also use a log-transformation for the single $\lambda$ and assign $\mathcal{N}(0,0.1)$. Finally, we assign independent priors $d_k \sim \mathcal{N}(0,1)$, for $k=1,\dots, r$. We have verified that our results are not much influenced by the choice of prior.
+
+\subsection{Model comparison and fit}
+
+We perform model selection using the BIC approximation of the log marginal likelihood \citep{kass1995bayes}
+\begin{equation*}
+    \log p_{\mathrm{BIC}}(\v Y) =  \log p(\v Y|\widehat{\v\theta}) - \frac{k \log n}{2}, 
+\end{equation*}
+where $k$ is the number of estimated parameters, $n$ is the length of the time series and $\widehat{\v\theta}$ is the maximum likelihood estimate obtained by numerical optimisation. We fit all combinations of models for $p+q \leq 2$ and Table \ref{table:BIC} shows the log marginal likelihood for all models considered for the three datasets introduced in Section \ref{subsec:Data}. The results show that the tempered fractional differencing component gives a better model fit for all datasets. The two pure MA models, VARMA(0,1) and VARMA(0,2), perform very poorly on the temperature data, but improve dramatically when tempered fractional differencing is added. According to the BIC approximation of the marginal likelihood, we conclude the following: 
+\begin{itemize}
+    \item $\mathrm{VARTFIMA}(2,0)$ ($28$ parameters) is best for the temperature dataset. 
+    \item  $\mathrm{VARTFIMA}(1,1)$ ($14$ parameters) is best for the water velocity dataset.  
+    \item  $\mathrm{VARTFIMA}(1,1)$ and $\mathrm{VARTFIMA}(2,0)$ are best for the pollution dataset. Both models have $47$ parameters.
+\end{itemize}
+
+\begin{table}[]
+\begin{tabular}{ccrrrcrrrrr}
+\hline 
+ &  &  & \multicolumn{2}{c}{\vspace{-0.25cm}
+} &  & \multicolumn{2}{c}{} &  & \multicolumn{2}{c}{}\tabularnewline
+ &  &  & \multicolumn{2}{c}{Water Velocity} &  & \multicolumn{2}{c}{Temperature} &  & \multicolumn{2}{c}{Pollution}\tabularnewline
+\cline{4-5} \cline{5-5} \cline{7-8} \cline{8-8} \cline{10-11} \cline{11-11} 
+\multicolumn{1}{c}{AR} & \multicolumn{1}{c}{MA} &  & \multicolumn{1}{c}{No TFI} & \multicolumn{1}{c}{TFI} &  & \multicolumn{1}{c}{No TFI} & \multicolumn{1}{c}{TFI} &  & \multicolumn{1}{c}{No TFI} & \multicolumn{1}{c}{TFI}\tabularnewline
+1 & 0 &  & $143307$ & $143794$ &  & $68146$ & $69868$ &  & $363760$ & $366022$\tabularnewline
+0 & 1 &  & $84123$ & $144896$ &  & $8126$ & $69540$ &  & $306068$ & $365658$\tabularnewline
+2 & 0 &  & $144646$ & $145005$ &  & $69747$ & $\textbf{69934}$ &  & $365522$ & $\textbf{366266}$\tabularnewline
+0 & 2 &  & $88994$ & $145193$ &  & $16523$ & $69642$ &  & $325717$ & $366142$\tabularnewline
+1 & 1 &  & $144709$ & $\textbf{145215}$ &  & $69436$ & $69925$ &  & $365762$ & $\textbf{366267}$\tabularnewline
+ &  &  & \vspace{-0.35cm}
+ &  &  &  &  &  &  & \tabularnewline
+\hline 
+\end{tabular} 
+\vspace{0.1cm}
+\caption{BIC approximation of the log marginal likelihood for different models for each of the three datasets in Section \ref{subsec:Data}. A higher value indicates a better model fit.  The AR and MA columns indicate the lag order in the AR and MA component. The No TFI and TFI columns indicate if the process has tempered fractional differencing. The model with the largest marginal likelihood for each dataset is marked in bold font. Both the VARTFIMA(2,0) and VARTFIMA(1,1) are in bold font for the Pollution data since the difference between them is `not worth more than a bare mention' on the modified Jeffreys' scale of evidence in \cite{kass1995bayes}.}
+\label{table:BIC}
+\end{table}
+
+\begin{figure}
+    \includegraphics[width=0.45\linewidth]{Figs/WaterVelocity/WaterVelocityPeriodFitX1_artfima11.png}
+    \includegraphics[width=0.45\linewidth]{Figs/WaterVelocity/WaterVelocityPeriodFitX2_artfima11.png}
+    \caption{Posterior predictive fit of the univariate periodogram data for the VARTFIMA(1,1) model fitted to the Water velocity data. The predictive intervals are obtained by simulation from the asymptotic Whittle distribution $\mathcal{I}(\omega)\sim\mathrm{Expon}(f_{\v\theta}(\omega))$ with parameters $\v\theta$ drawn from the VARTFIMA(1,1) posterior.}\label{fig:WaterVelocitySpectral}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width=0.32\linewidth]{Figs/SwedTemp/SwedTempPeriodFitX1_artfima20.png}
+    \includegraphics[width=0.32\linewidth]{Figs/SwedTemp/SwedTempPeriodFitX2_artfima20.png}
+    \includegraphics[width=0.32\linewidth]{Figs/SwedTemp/SwedTempPeriodFitX3_artfima20.png}
+    \caption{Posterior predictive fit of the univariate periodogram data for the VARTFIMA(2,0) model fitted to the Swedish temperature data. The predictive intervals are obtained by simulation from the asymptotic Whittle distribution $\mathcal{I}(\omega)\sim\mathrm{Expon}(f_{\v\theta}(\omega))$ with parameters $\v\theta$ drawn from the VARTFIMA(1,1) posterior.}\label{fig:SwedTempSpectral}
+\end{figure}
+
+We implemented spectral subsampling MCMC successfully for all these models, with the exception of the $\mathrm{VARTFIMA}(1,1)$ model for the pollution dataset. This is a very challenging and high-dimensional model, and the control variates do not reduce the variance of the likelihood estimator sufficiently, even after grouping. Consequently, the likelihood estimate was too variable and the MCMC chain got stuck. A $\mathrm{VARTFIMA}(2,0)$ model is instead fitted to the pollution dataset; this model has a very similar log marginal likelihood (see Table \ref{table:BIC}). 
+
+VARMA models are known to have local non-identification problems resulting from near cancellation of roots in the AR and MA polynomials \citep{chib1994bayes}, i.e. the likelihood function is flat in the direction of certain linear combination of the parameters. There are also potential identification issues in the MA part of VARMA models \citep[Ch. 7]{lutkepohl2013introduction}. Adding tempered fractional differencing provides more flexibility, but also additional local identification problems since the fractional differencing parameter $d$ becomes non-identified when $\lambda \rightarrow \infty$. Prior distributions alleviate these identification issues to some extent, but the posteriors in the models considered here are nevertheless challenging and are a serious test of the proposed methodology.
+
+Figures \ref{fig:WaterVelocitySpectral}-\ref{fig:SthlmPollutionSpectral} assess the fit of the selected models for each dataset by how well the models' predictive distribution captures the univariate periodogram data. The predictive distribution is computed by, for each posterior draw $\v \theta$, simulating $100$ periodogram observation using the Whittle approximation
+\begin{equation*}
+I_{j,T}(\omega) \vert \v \theta \overset{\mathrm{indep}}{\sim} \mathrm{Expon}(f_{jj}(\omega)),
+\end{equation*}
+where $I_{j,T}$ is the periodogram data for the $j$th time series. A nonparametric multitaper estimate \citep{barbour2014psd} is also shown in the figures. The predictive distributions in Figures \ref{fig:WaterVelocitySpectral}-\ref{fig:SthlmPollutionSpectral} captures the periodogram data quite well for all datasets. Some seasonality seems to have survived the pre-processing of the air pollution dataset. An alternative model would be to fit a multivariate seasonal ARTFIMA model to the original data, but that will not be pursued here.
+
+\begin{figure}
+    \includegraphics[width=0.49\linewidth]{Figs/SthlmPollution/SthlmPollutionPeriodFitX1_artfima20.png}
+    \includegraphics[width=0.49\linewidth]{Figs/SthlmPollution/SthlmPollutionPeriodFitX2_artfima20.png} \\ 
+    \includegraphics[width=0.49\linewidth]{Figs/SthlmPollution/SthlmPollutionPeriodFitX3_artfima20.png}
+    \includegraphics[width=0.49\linewidth]{Figs/SthlmPollution/SthlmPollutionPeriodFitX4_artfima20.png}
+    \caption{Posterior predictive fit of the univariate periodogram data for the VARTFIMA(2,0) model fitted to the Stockholm pollution data. The predictive intervals are obtained by simulation from the asymptotic Whittle distribution $\mathcal{I}(\omega)\sim\mathrm{Expon}(f_{\v\theta}(\omega))$ with parameters $\v\theta$ drawn from the VARTFIMA(1,1) posterior.}\label{fig:SthlmPollutionSpectral}
+\end{figure}
+
+
+\subsection{Efficiency of spectral subsampling MCMC}
+
+To measure the computational advantage of subsampling we use a performance measure that takes into account both the cost of estimating the likelihood and the inefficiency of the MCMC chain. The Computational Time (CT) of an algorithm is defined as
+\begin{equation}
+    \mathrm{CT} \equiv \mathrm{IACT} \times \text{Computing time for a single iteration},
+\end{equation}
+where $\mathrm{IACT} \equiv 1 +2\sum_{k=1}^\infty \rho_k$ is the integrated autocorrelation time of the MCMC chain, and $\rho_k$ is the autocorrelation at lag $k$ of the posterior draws. CT measures the execution time for obtaining the equivalent of a single iid draw from the posterior. To obtain an implementation independent measure, the computing time is set proportional to the number of density evaluations in a run of the algorithm, including the evaluations needed to construct the control variate for subsampling. We use the {\sf CODA} package \citep{plummer2006coda} in {\sf R} to estimate the integrated auto-correlation time; see \cite{quiroz2019speeding} for more details.
+
+Table \ref{tab:Relative_CT} shows the relative computational time (RCT) of MCMC on the full datasets in relation to spectral subsampling MCMC. The RCT is defined as the ratio between the CT of full-data MCMC and that of spectral subsampling MCMC. Hence, values larger than one mean that spectral subsampling is more efficient when taking into account both the computing cost and the sampling efficiency. The results show that our subsampling algorithm is between 82-133 times faster than MCMC on the full dataset when one considers RCT as the measure of computational efficiency.
+\begin{table}[]
+\begin{tabular}{lcrrrcrrr}
+\hline 
+ &  &  & \multicolumn{2}{c}{\vspace{-0.25cm}
+} &  & \multicolumn{2}{c}{} & \tabularnewline
+\multicolumn{1}{l}{Dataset} & \multicolumn{1}{c}{} &  & \multicolumn{1}{c}{Model} & \multicolumn{1}{c}{} & Min & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{Max} & \tabularnewline
+\cline{1-1} \cline{4-4} \cline{6-8} \cline{7-8} \cline{8-8} 
+Water velocity &  &  & VARTFIMA(1,1) &  & 97 & 102 & 133 & \tabularnewline
+Sweden temperature &  &  & VARTFIMA(2,0) &  & 82 & 94 & 107 & \tabularnewline
+Stockholm pollution &  &  & VARTFIMA(2,0) &  & 81 & 98 & 114 & \tabularnewline
+ &  &  & \vspace{-0.35cm}
+ &  &  &  &  & \tabularnewline
+\hline 
+\end{tabular}
+\caption{Relative computational time (CT) of comparing MCMC using the full dataset to spectral subsampling MCMC. The value $1$ indicates that spectral subsampling MCMC and MCMC are equally efficient, and values larger than 1 indicate that spectral subsampling MCMC is the better algorithm. }\label{tab:Relative_CT}
+\end{table}
+
+\begin{figure}
+    \includegraphics[width=0.9\linewidth]{Figs/WaterVelocity/WaterVelocityKDEartfima11.pdf}
+    \caption{Kernel density estimates of a subset of the marginal posterior densities for the VARTFIMA(1,1) model fitted to the Water velocity data. The solid densities are from MCMC using the Whittle posterior on the whole dataset, and the dashed densities are obtained from spectral subsampling MCMC.}\label{fig:WaterVelocityKDEartfima11}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width=0.9\linewidth]{Figs/SwedTemp/SwedTempKDEartfima20.pdf}
+    \caption{Kernel density estimates of a subset of the marginal posterior densities for the VARTFIMA(2,0) model fitted to the Swedish temperature data. The solid densities are from MCMC using the Whittle posterior on the whole dataset, and the dashed densities are obtained from spectral subsampling MCMC.}\label{fig:SwedTempKDEartfima20}
+\end{figure}
+
+\subsection{Accuracy of spectral subsampling for the Whittle posterior}
+This subsection explores how well spectral subsampling MCMC approximates the posterior based on the Whittle likelihood for the full data. The next section investigates how well the Whittle likelihood for the full data approximates the time domain likelihood in finite samples.
+
+\begin{figure}
+    \includegraphics[width=0.9\linewidth]{Figs/SthlmPollution/SthlmPollutionKDEartfima20.pdf}
+    \caption{Kernel density estimates of a subset of the marginal posterior densities for the VARTFIMA(2,0) model fitted to the Stockholm air pollution data. The solid densities are from MCMC using the Whittle posterior on the whole dataset, and the dashed densities are obtained from spectral subsampling MCMC.}\label{fig:SthlmPollutionKDEartfima20}
+\end{figure}
+
+Figures \ref{fig:WaterVelocityKDEartfima11}-\ref{fig:SthlmPollutionKDEartfima20} compare kernel density estimates of the posterior distribution of a subset of the parameters using subsampling MCMC and full-data MCMC for the three datasets. We conclude that the subsampling MCMC algorithm provides very similar answers, but is up to two orders of magnitude faster as shown in Table \ref{tab:Relative_CT}.
+
+\begin{figure}
+    \includegraphics[width=0.8\linewidth]{Figs/WaterVelocity/WaterVelocityCoherenceArtfima11.pdf}
+    \caption{Posterior for the spectral density matrix in the VARTFIMA(1,1) model fitted to the Water velocity data. The plots on the diagonal are the marginal spectral densities for each time series. The plots above the diagonal are the squared coherence, and the plots below the diagonal are the time delays from the phase spectrum. The dashed lines in each subplot displays the posterior median and 95\% credible intervals from spectral subsampling MCMC. The shaded regions are the 95\% credible intervals from the Whittle posterior on the whole dataset.}\label{fig:WaterVelocityCoherence}
+\end{figure}
+
+Figures \ref{fig:WaterVelocityCoherence}-\ref{fig:SthlmPollutionCoherence} investigate the accuracy of subsampling MCMC with respect to the posterior distribution of the spectral density matrix, specifically the marginal spectral densities (graphs on the diagonal) of each time series, squared coherence (above diagonal) and phase/time delay (below diagonal). The \emph{coherence} between two time series $X_{it}$  and $X_{jt}$ at frequency $\omega$ is defined as
+\begin{equation*}
+    \mathcal{K}_{ij}(\omega)=
+    \frac{f_{ij}(\omega)}{\sqrt{f_{ii}(\omega)f_{jj}(\omega)}}.
+\end{equation*}
+The squared coherence 
+\begin{equation*}
+    0\leq \vert \mathcal{K}_{ij} \vert ^2 \leq 1,
+\end{equation*}
+measures the linear correlation between the pair of time series $X_{it}$ and $X_{jt}$ at frequency $\omega$. Expressing the complex-valued cross spectral density $f_{ij}(\omega)$ in polar form as $$f_{ij}(\omega) =  \vert f_{ij}(\omega) \vert \exp(\ci\varphi(\omega)),$$ where the phase spectrum $$\varphi_{ij}(\omega) = \mathrm{arg}(f_{ij}(\omega)),$$ measures the time shift of the signal at frequency $\omega$, the \emph{time delay} from variable $X_{it}$ to variable $X_{jt}$ is measured by $-\varphi_{ij}(\omega)/\omega$ \citep{wei1990time}.
+
+Figures \ref{fig:WaterVelocityCoherence}-\ref{fig:SthlmPollutionCoherence} plot the posterior distribution of these spectral density matrix quantities for the three datasets. Each figure displays the posterior mean and $95\%$ credible intervals from spectral subsampling MCMC as lines. The $95\%$ credible intervals from MCMC on the Whittle posterior based on the full dataset is shown as shaded regions. As expected from the parameter posteriors in Figures \ref{fig:WaterVelocityKDEartfima11}-\ref{fig:SthlmPollutionKDEartfima20}, we again see that subsampling gives virtually no distortion with respect to the Whittle posterior on the full dataset. There is substantial coherence between the series at low frequencies for all datasets. 
+
+The interpretation of the lag delay is most clear in systems without feedback loops. This is likely to be the case only in the Water velocity data where the Bay City location ($x_2$) is located downstreams of the Saginaw location ($x_1$). The bottom left graph in Figure \ref{fig:WaterVelocityCoherence} shows that Bay City indeed lags Saginaw by between $60$ ($5\cdot 12~\mathrm{minutes}$) and $240$ ($20\cdot 12~\mathrm{minutes}$) minutes, depending on frequency.
+
+\begin{figure}
+    \includegraphics[width=0.9\linewidth]{Figs/SwedTemp/SwedTempCoherenceArtfima20.pdf}
+    \caption{Posterior for the spectral density matrix in the VARTFIMA(2,0) model fitted to the Swedish temperature data. The plots on the diagonal are the marginal spectral densities for each time series. The plots above the diagonal are the squared coherence, and the plots below the diagonal are the time delays from the phase spectrum. The dashed lines in each subplot displays the posterior median and 95\% credible intervals from spectral subsampling MCMC. The shaded regions are the 95\% credible intervals from the Whittle posterior on the whole dataset.}\label{fig:SwedTempCoherence}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width=0.9\linewidth]{Figs/SthlmPollution/SthlmPollutionCoherenceArtfima20.pdf}
+    \caption{Posterior for the spectral density matrix in the VARTFIMA(2,0) model fitted to the Stockholm pollution data. The plots on the diagonal are the marginal spectral densities for each time series. The plots above the diagonal are the squared coherence, and the plots below the diagonal are the time delays from the phase spectrum. The dashed lines in each subplot displays the posterior median and 95\% credible intervals from spectral subsampling MCMC. The shaded regions are the 95\% credible intervals from the Whittle posterior on the whole dataset.}\label{fig:SthlmPollutionCoherence}
+\end{figure}
+
+
+
+\subsection{Accuracy of the Whittle posterior for the time domain posterior}
+The previous subsection shows that spectral subsampling MCMC gives very accurate approximations to the Whittle posteriors based on the full datasets. The Whittle likelihood can, however, be a poor approximation to the exact time domain likelihood \citep{contreras2006note}, at least for shorter time series. However, the original motivation for spectral subsampling MCMC is settings where the time series are very long, and this section will indeed demonstrate that the Whittle approximation is excellent in the three datasets in Section \ref{subsec:Data}.
+
+The time domain likelihood is only computationally feasible for VARMA models, and hence we illustrate these results using a $\mathrm{VARMA}(1, 1)$ model for each dataset. Figures \ref{fig:WaterVelocityKDEarma11}-\ref{fig:SthlmPollutionKDEarma11} show the kernel density estimates of the posterior distribution of a subset of the parameters. The figures show that the posteriors obtained by the Whittle likelihood are very close to those obtained using the time domain likelihood. Only for marginal posteriors in the Water velocity data in Figure \ref{fig:WaterVelocityKDEarma11} do there seem to be discrepancies, but note the scale of the horizontal axes; the differences are actually also quite small for this dataset. That the posteriors are close can be more clearly seen in Figure \ref{fig:WaterVelocityCoherenceVarma} which plots the time domain and Whittle posteriors of the spectral density matrix based on the full Water velocity dataset. In summary, we conclude from this and the previous subsection that spectral subsampling MCMC gives an accurate approximation of the posterior based on the exact time domain likelihood. 
+
+We have implemented the exact time domain likelihood for VARMA models using the state space representation in the Python package {\sf statsmodels} and fair timing comparisons with spectral subsampling MCMC are therefore difficult, but it is well known that time domain likelihoods are substantially more costly than their frequency domain (Whittle) counterparts. 
+
+\begin{figure}
+    \includegraphics[width=0.9\linewidth]{Figs/WaterVelocity/WaterVelocityKDEarma11.pdf}
+    \caption{Kernel density estimates of a subset of the marginal posterior densities for the VARMA(1,1) model fitted to the Water velocity data. The solid orange densities are from MCMC on the exact time domain posterior, the solid blue densities are from MCMC using the Whittle posterior on the whole dataset, and the dashed densities are obtained from spectral subsampling MCMC.}\label{fig:WaterVelocityKDEarma11}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width=0.9\linewidth]{Figs/SwedTemp/SwedTempKDEarma11.pdf}
+    \caption{Kernel density estimates of a subset of the marginal posterior densities for the VARMA(1,1) model fitted to the Swedish temperature data. The solid orange densities are from MCMC on the exact time domain posterior, the solid blue densities are from MCMC using the Whittle posterior on the whole dataset, and the dashed densities are obtained from spectral subsampling MCMC.}\label{fig:SwedTempKDEarma11}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width=0.9\linewidth]{Figs/SthlmPollution/SthlmPollutionKDEarma11.pdf}
+    \caption{Kernel density estimates of a subset of the marginal posterior densities for the VARMA(1,1) model fitted to the Stockholm pollution data. The solid orange densities are from MCMC on the exact time domain posterior, the solid blue densities are from MCMC using the Whittle posterior on the whole dataset, and the dashed densities are obtained from spectral subsampling MCMC.}\label{fig:SthlmPollutionKDEarma11}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width=0.9\linewidth]{Figs/WaterVelocity/WaterVelocityCoherenceVarma11.pdf}
+    \caption{Posterior for the spectral density matrix in the VARMA(1,1) model fitted to the Water velocity data. The plots on the diagonal are the marginal spectral densities for each time series. The plots above the diagonal are the squared coherence, and the plots below the diagonal are the phase spectrums. The dashed lines in each subplot displays the posterior median and 95\% credible intervals from the Whittle posterior on the whole dataset. The shaded regions are the 95\% credible intervals from MCMC on the exact time domain posterior on the whole dataset.}\label{fig:WaterVelocityCoherenceVarma}
+\end{figure}
+
+
+\section{Conclusions}\label{sec:Conclusions}
+Our paper proposes a subsampling approach for stationary multivariate time series models, and demonstrates a speed-up factor of up to two orders of magnitude on three datasets, using a measure which takes into account both computing cost and the statistical inefficiency of likelihood estimators. 
+
+We also propose a new multivariate time series model by extending the univariate ARTFIMA model to a multivariate setting and derive some of its properties, including its spectral density matrix. The tempered fractional differencing is shown to be useful in applications and the vector ARTFIMA model outperforms VARMA models in all three datasets. 
+
+Our work clearly demonstrates that spectral subsampling is a very useful approach for Bayesian inference on large time series in rather complex multivariate time series models with semi-long range dependence. However, we were not able to obtain good enough control variates for the $\mathrm{VARTFIMA}(1,1)$ model in the four-dimensional air pollution dataset. This is probably the result of the vector ARTFIMA class of models having challenging likelihood functions, but similar issues are likely to crop up for high-dimensional time series models with many parameters. Future research will tackle these issues by developing better control variates in high-dimensions and exploring the potential of alternative inference algorithms such as variational inference \citep{blei2017variational}.
+
+
+\bibliographystyle{apalike}
+\bibliography{refMultiSpectralMCMC}
+
+\appendix
+
+% \section{Additional empirical results}\label{app:additionalresults}
+
+\section{Proofs}\label{app:proofs}
+\begin{proof}[Proof of Theorem \ref{thm:stationary}]
+    Theorem 11.3.1 of \cite{brockwell1991time} shows that the condition $\Phi(z)$ for $|z| \leq 1$ implies that there exists $\epsilon>0$ such that the matrix $\Phi^{-1}(z)$ exists and has a power series expansion
+    \begin{equation*}
+        \Phi^{-1}(z) = \sum_{j=0}^\infty \mathbf{A}_j z^j, \text{ for } |z|<1+\epsilon, 
+    \end{equation*}
+    with the elements of $\mathbf{A}_j$ being absolutely summable.
+    Inverting the operator $\Delta^{\mathbf{d},\v \lambda}$ gives
+    \begin{equation*}
+        \Delta^{\mathbf{-d},\v \lambda}\mathbf{Y}_t = \Big(\Delta^{-d_1,\lambda_1}Y_{1,t},\ldots,\Delta^{-d_r,\lambda_r}Y_{r,t}\Big)^\top,
+    \end{equation*}
+    where the inverted univariate operator is defined by \citep{Sabzikar2019}
+    \begin{equation*}
+        \Delta^{-d,\lambda}Y_t = (1-e^{-\lambda}L)^{-d}Y_t = \sum_{j=0}^\infty c_j^{-d,\lambda}Y_{t-j},
+    \end{equation*}
+    with $c_j^{-d,\lambda}=(-1)^j e^{-\lambda j}\binom{-d}{j}$. 
+    Let $\Delta^{-\mathbf{d},\v \lambda}(z)$ be the $r \times r$ diagonal matrix with $k$th diagonal element equal to $(1-e^{-\lambda_k}z)^{-d_k}$.
+    Direct matrix multiplication shows that the element in row $k$, column $l$ of the matrix $\Delta^{\mathbf{-d},\v \lambda}(z)\Phi^{-1}(z)$ is the product
+    \begin{equation*}
+        \Big(\sum_{i=0}^\infty c_i^{-d_k,\lambda_k} z^i \Big)
+        \Big(\sum_{j=0}^\infty a_j^{(kl)} z^j \Big) = \sum_{v=0}^\infty b_v^{(kl)} z^v,  
+    \end{equation*}
+    where $a_j^{(kl)}$ is the element in row $k$, column $l$ of  $\mathbf{A}_j$ and $b_v^{(kl)} = \sum_{s=0}^v c_s^{-d_k,\lambda_k} a_{v-s}^{(kl)}$. \cite{Sabzikar2019}[Proof of Theorem 2.2a] show that the sequence $c_j^{-d,\lambda}$ is absolutely summable if $\lambda >0$ and $d \notin \mathbb{Z}$, and it is shown above that $\sum_{j=0}^\infty \vert a_j^{(kl)}\vert<\infty$. Since the product of two absolutely summable series is absolutely summable \citep[Ch. 4.17]{knopp1990theory}, $\sum_{v=0}^\infty b_v^{(kl)}$ is also absolutely summable for all $k,l$.
+
+    Hence, by Proposition 3.1.1 in \cite{brockwell1991time} we can apply the operator $\Delta^{\mathbf{-d},\v \lambda}\Phi^{-1}(L)$ to both sides of
+    \begin{equation}
+        \Phi(L)\Delta^{\mathbf{d},\v \lambda}(\mathbf{Y}_{t}-\v \mu)=\Theta(L) \v \varepsilon_{t}
+    \end{equation}
+    to obtain
+    \begin{equation}\label{eq:causal}
+        \mathbf{Y}_{t} = \v \mu +  \v\Psi(L)\v \varepsilon_{t},
+    \end{equation}
+    where 
+    \begin{equation*}
+        \v\Psi(z)\equiv \sum_{j=0}^\infty \v\Psi_j z^j = \Delta^{\mathbf{-d},\v \lambda}(z)\Phi^{-1}(z)\v\Theta(z),\hspace{0.5cm}\text{ for } |z|\leq 1,
+    \end{equation*}
+    and the $\{ \v\Psi_j\}_{j=0}^\infty$ are absolutely summable elementwise since $\v \Theta(z)$ is a polynomial of finite order $q$. By Proposition 3.1.2 in \cite{brockwell1991time} the VARTFIMA process is therefore causal and stationary.
+
+    The causal representation in \eqref{eq:causal} shows that $\{ \v\Psi_j\}_{j=0}^\infty$ acts as a time invariant linear filter on the iid sequence $\{ \v\varepsilon_t\}_{t=0}^\infty$. The spectral density of $\mathbf{Y}_{t}$ therefore follows from \citet[Theorem 11.8.3]{brockwell1991time} and is
+    \begin{align*}
+        f_{\mathbf{Y}}(\omega) &=  \v\Psi(e^{-i\omega})f_{\v \varepsilon}(\omega) \v\Psi(e^{-i\omega})^H \\
+        &=\frac{1}{2\pi} \Delta^{\mathbf{-d},\v \lambda}(e^{-i\omega}) \Phi^{-1}(e^{-i\omega})\Theta(e^{-i\omega}) \Sigma_{\varepsilon} \Theta^H(e^{-i\omega})  \Phi^{-H}(e^{-i\omega})  \Delta^{\mathbf{-d},\v \lambda}(e^{-i\omega})^H,
+    \end{align*}
+    where $f_{\v \varepsilon}(\omega)=\Sigma_{\varepsilon}$ is the spectral density matrix of the white noise process $\{ \v\varepsilon_t\}$ and $\Delta^{\mathbf{-d},\v \lambda}(z) = \mathrm{Diag}\big((1-e^{-\lambda_1}z)^{-d_1},\ldots,(1-e^{-\lambda_r }z)^{-d_r}\big).$
+\end{proof}
+
+\end{document}
+ 
