@@ -11,6 +11,7 @@ featured_image: /images/math.jpg
 ## arXived and submitted
 
 
+
 <table>
 <colgroup>
 <col width="20%" />
@@ -18,6 +19,14 @@ featured_image: /images/math.jpg
 </colgroup>
 
 <tbody>
+
+<tr>
+<td markdown="span"><img width = "100%" src="/images/papers/detectionlimits.png"></td>
+<td markdown="span">**Bayesian Prediction with Covariates Subject to Detection Limits**<br /> \\
+with Caroline Svahn<br /> \\
+<a href="https://arxiv.org/abs/2201.07874" class="button button--medium">arXiv</a>
+</td>
+</tr>
 
 <tr>
 <td markdown="span"><img width = "100%" src="/images/papers/connectivity.png"></td>
@@ -156,7 +165,7 @@ with Khue-Dung Dang, Matias Quiroz, Robert Kohn and Minh-Ngoc Tran<br/> \\
 
 <a href="http://jmlr.org/papers/volume20/17-452/17-452.pdf" class="button button--medium">journal</a>
 <a href="https://arxiv.org/abs/1708.00955" class="button button--medium">arXiv</a>
-<a href="http://num.pyro.ai/en/stable/mcmc.html?highlight=ecs#numpyro.infer.hmc_gibbs.HMCECS" class="button button--medium">numpyro code</a>
+<a href="http://num.pyro.ai/en/stable/mcmc.html?highlight=ecs#numpyro.infer.hmc_gibbs.HMCECS" class="button button--medium">numpyro </a>
 </td>
 </tr>
 

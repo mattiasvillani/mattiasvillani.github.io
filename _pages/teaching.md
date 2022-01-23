@@ -7,42 +7,50 @@ featured_image: /images/VillaniPresentingCropSmaller.jpg
 
 ## Current and upcoming courses 
 
+
 <table>
-
 <colgroup>
-       <col span="1" style="width: 45%;">
-       <col span="1" style="width: 55%;">
-    </colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
 
-<tr><td> <img src="/images/courses/regression.png" width = "90%" alt="Regression scatterplot"> </td><td valign="top">
-<h4>Regression and Time Series Analysis</h4>
-Basic undergraduate level, 7.5 credits <br><br>
-<a href="https://mattiasvillani.github.io/Regression/" class="button button--medium">course web page</a>  
-<a href="https://github.com/mattiasvillani/Regression" class="button button--medium">github repo</a>
-</td></tr>
+<tbody>
 
-<tr><td> <img src="/images/courses/bl.png" width = "90%" alt="Regression scatterplot"> </td><td valign="top">
-<h4>Bayesian Learning</h4>
-Masters' level, 7.5 credits<br><br>
-<a href="https://github.com/mattiasvillani/BayesLearnCourse" class="button button--medium">course web page</a>  
-<a href="https://github.com/mattiasvillani/BayesLearnCourse" class="button button--medium">github repo</a>
-</td></tr>
+<tr>
+<td markdown="span"><img width = "100%" src="/images/courses/regression.png"></td>
+<td markdown="span">**Regression and Time Series Analysis**<br /> \\
+Masters' level, 7.5 credits<br> \\
+<a href="https://mattiasvillani.github.io/Regression/" class="button button--medium">course web page</a> <a href="https://github.com/mattiasvillani/Regression" class="button button--medium">github repo</a>
+</td>
+</tr>
 
-<tr><td> <img src="/images/courses/ml.png" width = "90%" alt="Regression scatterplot"> </td><td valign="top">
-<h4>Machine Learning</h4>
-Masters' level, 7.5 credits<br><br>
-<a href="https://github.com/mattiasvillani/MLcourse" class="button button--medium">course web page</a>  
-<a href="https://github.com/mattiasvillani/MLcourse" class="button button--medium">github repo</a>
-</td></tr>
+<tr>
+<td markdown="span"><img width = "100%" src="/images/courses/bl.png"></td>
+<td markdown="span">**Bayesian Learning**<br /> \\
+Masters' level, 7.5 credits<br> \\
+<a href="https://github.com/mattiasvillani/BayesLearnCourse" class="button button--medium">course web page</a> <a href="https://github.com/mattiasvillani/BayesLearnCourse" class="button button--medium">github repo</a>
+</td>
+</tr>
 
-<tr><td> <img src="/images/courses/abl.png" width = "90%" alt="Regression scatterplot"> </td><td valign="top">
-<h4>Advanced Bayesian Learning</h4>
-PhD level, 8 credits<br><br>
-<a href="https://github.com/mattiasvillani/AdvBayesLearnCourse" class="button button--medium">course web page</a>  
-<a href="https://github.com/mattiasvillani/AdvBayesLearnCourse" class="button button--medium">github repo</a>
-</td></tr>
+<tr>
+<td markdown="span"><img width = "100%" src="/images/courses/ml.png"></td>
+<td markdown="span">**Machine Learning**<br /> \\
+Masters' level, 7.5 credits<br> \\
+<a href="https://github.com/mattiasvillani/MLcourse" class="button button--medium">course web page</a> <a href="https://github.com/mattiasvillani/MLcourse" class="button button--medium">github repo</a>
+</td>
+</tr>
 
+<tr>
+<td markdown="span"><img width = "100%" src="/images/courses/abl.png"></td>
+<td markdown="span">**Advanced Bayesian Learning**<br /> \\
+Masters' level, 8 credits<br> \\
+<a href="https://github.com/mattiasvillani/AdvBayesLearnCourse" class="button button--medium">course web page</a> <a href="https://github.com/mattiasvillani/AdvBayesLearnCourse" class="button button--medium">github repo</a>
+</td>
+</tr>
+
+</tbody>
 </table>
+
 
 
 

@@ -7,6 +7,8 @@ featured_image: /images/math.jpg
 
 ## News
 
+**Jan 20, 2022**. New paper ‘Bayesian Prediction with Covariates Subject to Detection Limits’ with Caroline Svahn. [arXiv](https://arxiv.org/abs/2201.07874).
+
 **Jan 3, 2022**. Our paper 'A Multilayered Block Network Model to Forecast Large Dynamic Transportation Graphs: an Application to US Air Transport' (with Hector Rodriguez-Deniz and Augusto Voltes-Dorta) has been accepted for publication in *Transportation Research Part C: Emerging Technologies*.
 
 **Dec 18, 2021**. Gave a talk on our paper ‘Bayesian Optimization of Hyperparameters when the Marginal Likelihood is Estimated by MCMC’ at the CFE2021 conference in London (but online). The slides for the talk are [here](https://github.com/mattiasvillani/Talks/raw/master/VillaniCFE2021.pdf).
