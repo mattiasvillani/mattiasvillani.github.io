@@ -7,6 +7,8 @@ featured_image: /images/math.jpg
 
 ## News
 
+**Jan 28, 2022**. Our paper 'Robust Real-Time Delay Predictions in a Network of High-Frequency Urban Buses' (with Hector Rodriguez-Deniz) has been accepted for publication in *IEEE Transactions on Intelligent Transportation Systems*.
+
 **Jan 20, 2022**. New paper ‘Bayesian Prediction with Covariates Subject to Detection Limits’ with Caroline Svahn. [arXiv](https://arxiv.org/abs/2201.07874).
 
 **Jan 3, 2022**. Our paper 'A Multilayered Block Network Model to Forecast Large Dynamic Transportation Graphs: an Application to US Air Transport' (with Hector Rodriguez-Deniz and Augusto Voltes-Dorta) has been accepted for publication in *Transportation Research Part C: Emerging Technologies*.

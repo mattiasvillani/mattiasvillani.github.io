@@ -53,16 +53,6 @@ with Parfait Munezero and Robert Kohn<br /> \\
 </tr>
 
 <tr>
-<td markdown="span"><img width = "100%" src="/images/papers/sthlmbuses.png"></td>
-<td markdown="span">**Robust Real-Time Delay Predictions in
-a Network of High-Frequency Urban Buses**<br /> \\
-with Hector Rodriguez-Deniz<br /> \\
-<a href="https://arxiv.org/abs/2106.13576" class="button button--medium">arXiv</a>
-</td>
-</tr>
-
-
-<tr>
 <td markdown="span"><img width = "100%" src="/images/papers/vectorsubsampling.png"></td>
 <td markdown="span">**Spectral Subsampling MCMC for Stationary Multivariate Time Series**<br /> \\
 with Matias Quiroz, Robert Kohn and Robert Salomone<br /> \\
@@ -103,6 +93,16 @@ with Oscar Oelrich, Shutong Ding, Måns Magnusson and Aki Vehtari<br /> \\
 </colgroup>
 
 <tbody>
+
+<tr>
+<td markdown="span"><img width = "100%" src="/images/papers/sthlmbuses.png"></td>
+<td markdown="span">**Robust Real-Time Delay Predictions in
+a Network of High-Frequency Urban Buses**\\
+*IEEE Transactions on Intelligent Transportation Systems, 2022*<br /> \\
+with Hector Rodriguez-Deniz<br /> \\
+<a href="https://arxiv.org/abs/2106.13576" class="button button--medium">arXiv</a>
+</td>
+</tr>
 
 <tr>
 <td markdown="span"><img width = "100%" src="/images/papers/airlinegraph.png"></td>
