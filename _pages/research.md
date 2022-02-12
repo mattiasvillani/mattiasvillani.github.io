@@ -109,6 +109,7 @@ with Hector Rodriguez-Deniz<br /> \\
 <td markdown="span">**A Multilayered Block Network Model to Forecast Large Dynamic Transportation Graphs: an Application to US Air Transport**\\
 *Transportation Research Part C: Emerging Technologies, 2022*<br/> \\
 with Hector Rodriguez-Deniz and Augusto Voltes-Dorta<br /> \\
+<a href="https://doi.org/10.1016/j.trc.2022.103556" class="button button--medium">journal</a>
 <a href="https://arxiv.org/abs/1911.13136" class="button button--medium">arXiv</a>
 </td>
 </tr>

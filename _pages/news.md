@@ -7,7 +7,9 @@ featured_image: /images/math.jpg
 
 ## News
 
-**Jan 28, 2022**. Our paper 'Robust Real-Time Delay Predictions in a Network of High-Frequency Urban Buses' (with Hector Rodriguez-Deniz) has been accepted for publication in *IEEE Transactions on Intelligent Transportation Systems*.
+**Feb 11, 2022**. Gave a guest lecture on Bayesian regression for engineering students at Royal Institute of Technology (KTH). Slides and code available [here](https://github.com/mattiasvillani/Talks/tree/master/BayesLinRegKTH2022).
+
+**Jan 28, 2022**. New publication. Our paper 'Robust Real-Time Delay Predictions in a Network of High-Frequency Urban Buses' (with Hector Rodriguez-Deniz) has been accepted for publication in *IEEE Transactions on Intelligent Transportation Systems*.
 
 **Jan 20, 2022**. New paper ‘Bayesian Prediction with Covariates Subject to Detection Limits’ with Caroline Svahn. [arXiv](https://arxiv.org/abs/2201.07874).
 
