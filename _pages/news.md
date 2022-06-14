@@ -7,6 +7,14 @@ featured_image: /images/math.jpg
 
 ## News
 
+**June 14, 2022**. Gave a seminar in the AI4Research seminar series at Uppsala University on the topic ‘Adventures in Gaussian Processes’. [slides](https://github.com/mattiasvillani/Talks/raw/master/AI4Research.pdf) and [demo video](https://www.youtube.com/watch?ab_channel=MattiasVillani&v=wyD0O5hF5tE)
+
+**June 10, 2022** Substitute in PhD grading committee for José Elias Gallegos Dago's PhD thesis [Essays in Macroeconomics](http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Asu%3Adiva-204070) in Economics at Stockholm University.
+
+**June 9, 2022**. In PhD grading committee for Osama Muhammad’s PhD thesis [Robust Machine Learning Methods](http://uu.diva-portal.org/smash/record.jsf?dswid=350&pid=diva2%3A1651294) at Uppsala University.
+
+**Spring 2022**. I am chair of the scientific committee for the bi-annual NordStat conference in Mathematical Statistics, organized by Chalmers University in Gothenburg in June 19-22, 2023.
+
 **Feb 11, 2022**. Gave a guest lecture on Bayesian regression for engineering students at Royal Institute of Technology (KTH). Slides and code available [here](https://github.com/mattiasvillani/Talks/tree/master/BayesLinRegKTH2022).
 
 **Jan 28, 2022**. New publication. Our paper 'Robust Real-Time Delay Predictions in a Network of High-Frequency Urban Buses' (with Hector Rodriguez-Deniz) has been accepted for publication in *IEEE Transactions on Intelligent Transportation Systems*.
