@@ -49,7 +49,7 @@ featured_image: /images/math.jpg
   </li>
   <li class="flex-item2">
     <strong> {{ publi.title }}</strong><br/>
-    with <em>{{ publi.authors }} </em><br/>
+    with {{ publi.authors }}<br/>
     {{ publi.display }}<br/>
     {% if publi.abstract %} <a data-bs-toggle="collapse" href="#{{publi.url}}"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}">ABSTRACT</a> {% endif %}
     {% if bibtest == true %} <a data-bs-toggle="collapse" href="#{{publi.url}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}
@@ -131,8 +131,8 @@ featured_image: /images/math.jpg
 </li>
 <li class="flex-item2">
   <strong> {{ publi.title }}</strong> <br />
-  with <em>{{ publi.authors }} </em><br />
-  {{ publi.display }} {% if publi.year %}({{publi.year}}){% endif %}<br/>
+  with {{ publi.authors }} <br />
+  <em>{{ publi.display }}</em> {% if publi.year %}<em>({{publi.year}})</em>{% endif %}<br/>
   {% if publi.abstract %} <a data-bs-toggle="collapse" href="#{{publi.url}}"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}">ABSTRACT</a> {% endif %}
   {% if bibtest == true %} <a data-bs-toggle="collapse" href="#{{publi.url}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}
   {% if pdfpresent == true %}<a href="{{ pdffile }}" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
