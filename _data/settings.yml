@@ -22,6 +22,8 @@ menu_settings:
       url: '/news'
     - title: 'Contact'
       url: '/contact'
+    - title: 'Publications'
+      url: '/publications'
 
 footer_settings:
   footer_tagline: Bayesian Beyond Belief

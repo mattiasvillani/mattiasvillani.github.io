@@ -1,0 +1,30 @@
+# ADD MSC AND BSC THESISES. AND PHD
+
+- title: "Robust Real-Time Delay Predictions in a Network of High-Frequency Urban Buses"
+  authors: Hector Rodriguez-Deniz
+  url: rodriguez2022robust
+  image: rodriguez2022robust.png
+  display: IEEE Transactions on Intelligent Transportation Systems, 2022
+  suppmat: https://www.sciencedirect.com/science/article/pii/S000368702200148X#appsec1
+  year: 2022
+  doi: 10.1109/TITS.2022.3149656
+  arxiv: 2106.13576
+  abstract: "Providing transport users and operators with accurate forecasts on travel times is challenging due to a highly stochastic traffic environment. Public transport users are particularly sensitive to unexpected waiting times, which negatively affect their perception on the system's reliability. In this paper we develop a robust model for real-time bus travel time prediction that departs from Gaussian assumptions by using Student-t errors. The proposed approach uses spatiotemporal characteristics from the route and previous bus trips to model short-term effects, and date/time variables and Gaussian processes for long-run forecasts. The model allows for flexible modeling of mean, variance and kurtosis spaces. We propose algorithms for Bayesian inference and for computing probabilistic forecast distributions. Experiments are performed using data from high-frequency buses in Stockholm, Sweden. Results show that Student-t models outperform Gaussian ones in terms of log-posterior predictive power to forecast bus delays at specific stops, which reveals the importance of accounting for predictive uncertainty in model selection. Estimated Student-t regressions capture typical temporal variability between within-day hours and different weekdays. Strong spatiotemporal effects are detected for incoming buses from immediately previous stops, which is in line with many recently developed models. We finally show how Bayesian inference naturally allows for predictive uncertainty quantification, e.g. by returning the predictive probability that the delay of an incoming bus exceeds a given threshold."
+
+- title: "Bayesian Prediction with Covariates Subject to Detection Limits"
+  authors: Caroline Svahn
+  url: svahn2022bayesian
+  image: svahn2022bayesian.png
+  display: arXived
+  arxiv: 2201.07874
+  year:
+  abstract: "Missing values in covariates due to censoring by signal interference or lack of sensitivity in the measuring devices are common in industrial problems. We propose a full Bayesian solution to the prediction problem with an efficient Markov Chain Monte Carlo (MCMC) algorithm that updates all the censored covariate values jointly in a random scan Gibbs sampler. We show that the joint updating of missing covariate values can be at least two orders of magnitude more efficient than univariate updating. This increased efficiency is shown to be crucial for quickly learning the missing covariate values and their uncertainty in a real-time decision making context, in particular when there is substantial correlation in the posterior for the missing values. The approach is evaluated on simulated data and on data from the telecom sector. Our results show that the proposed Bayesian imputation gives substantially more accurate predictions than naïve imputation, and that the use of auxiliary variables in the imputation gives additional predictive power."
+
+# - title: ""
+#   authors:
+#     Bazilinskyy, P., ...
+#   url: bazilinskyy20xx...
+#   image: dummy.jpg
+#   display: 
+#   year:
+#   abstract: ""
