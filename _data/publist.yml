@@ -8,15 +8,6 @@
   arxiv: 2201.07874
   year:
 
-- title: "Robust Real-Time Delay Predictions in a Network of High-Frequency Urban Buses"
-  authors: Hector Rodriguez-Deniz
-  url: rodriguez2022robust
-  image: rodriguez2022robust.png
-  display: IEEE Transactions on Intelligent Transportation Systems
-  year: 2022
-  doi: 10.1109/TITS.2022.3149656
-  arxiv: 2106.13576
-
 - title: "Bayesian Modeling of Effective and Functional Brain Connectivity using Hierarchical Vector Autoregressions"
   authors: Bertil Wegmann, Anders Lundquist and Anders Eklund
   url: whatevs
@@ -61,6 +52,33 @@
   display: arXived
   arxiv: 2003.04026
   year:
+
+- title: "Robust Real-Time Delay Predictions in a Network of High-Frequency Urban Buses"
+  authors: Hector Rodriguez-Deniz
+  url: rodriguez2022robust
+  image: rodriguez2022robust.png
+  display: IEEE Transactions on Intelligent Transportation Systems
+  year: 2022
+  doi: 10.1109/TITS.2022.3149656
+  arxiv: 2106.13576
+
+- title: "A Multilayered Block Network Model to Forecast Large Dynamic Transportation Graphs: an Application to US Air Transport"
+  authors: Hector Rodriguez-Deniz and Augusto Voltes-Dorta
+  image: airlinegraph.png
+  display: Transportation Research Part C - Emerging Technologies
+  year: 2022
+  doi: 10.1016/j.trc.2022.103556
+  arxiv: 1911.13136'
+
+- title: "Spatial 3D Matérn priors for fast whole-brain fMRI analysis"
+  authors: Per Sidén, Finn Lindgren, David Bolin and Anders Eklund
+  image: matern.png
+  display: Bayesian Analysis
+  year: 2021
+  doi: 10.1214/21-BA1283
+  arxiv: 1906.10591
+  code: https://github.com/psiden/BFAST3D
+
 # - title: ""
 #   authors:
 #     Bazilinskyy, P., ...
