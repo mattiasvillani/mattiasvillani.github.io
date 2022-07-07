@@ -77,7 +77,77 @@
   year: 2021
   doi: 10.1214/21-BA1283
   arxiv: 1906.10591
+  suppmat: https://doi.org/10.1214/21-BA1283SUPP
   code: https://github.com/psiden/BFAST3D
+
+- title: "The block-Poisson estimator for optimally tuned exact subsampling MCMC"
+  authors: Matias Quiroz, Minh-Ngoc Tran, Robert Kohn and Khue-Dung Dang
+  image: blockpoisson.png
+  display: Journal of Computational and Graphical Statistics
+  year: 2021
+  doi: 10.1080/10618600.2021.1917420
+  arxiv: 1603.08232
+  suppmat: https://www.tandfonline.com/doi/suppl/10.1080/10618600.2021.1917420?scroll=top
+  code: https://www.tandfonline.com/doi/suppl/10.1080/10618600.2021.1917420?scroll=top
+
+- title: "Physiological Gaussian Process Priors for the Hemodynamics in fMRI Analysis"
+  authors: Josef Wilzén and Anders Eklund
+  image: gpbold2.png
+  display: Journal of Neuroscience Methods
+  year: 2020
+  doi: 10.1016/j.jneumeth.2020.108778
+  arxiv: 1708.06152
+
+- title: "DOLDA - a regularized supervised topic model for high-dimensional multi-class regression"
+  authors: Måns Magnusson and Leif Jonsson
+  image: dolda2.png
+  display: Computational Statistics
+  year: 2020
+  doi: https://doi.org/10.1007/s00180-019-00891-1
+  arxiv: 1602.00260
+
+- title: "Hamiltonian Monte Carlo with Energy Conserving Subsampling"
+  authors: Khue-Dung Dang, Matias Quiroz, Robert Kohn and Minh-Ngoc Tran
+  image: hmcecs.png
+  display: Journal of Machine Learning Research
+  year: 2019
+  doi: http://jmlr.org/papers/volume20/17-452/17-452.pdf
+  arxiv: 1708.00955
+  code: http://num.pyro.ai/en/stable/mcmc.html?highlight=ecs#numpyro.infer.hmc_gibbs.HMCECS
+
+- title: "Speeding Up MCMC by Efficient Data Subsampling"
+  authors: Matias Quiroz, Robert Kohn and Minh Ngoc Tran
+  image: speedingupjasa.png
+  display: Journal of the American Statistical Association
+  year: 2019
+  doi: 10.1080/01621459.2018.1448827
+  arxiv: 1404.4178
+
+- title: "Sparse Partially Collapsed MCMC for Parallel Inference in Topic Models"
+  authors: Måns Magnusson, Leif Jonsson and David Broman
+  image: pclda2.png
+  display: Journal of Computational and Graphical Statistics
+  year: 2019
+  doi: 10.1080/10618600.2017.1366913
+  arxiv: 1506.03784
+  code: https://github.com/lejon/PartiallyCollapsedLDA
+
+- title: "Speeding Up MCMC by Delayed Acceptance and Data Subsampling"
+  authors: Matias Quiroz, Minh Ngoc Tran and Robert Kohn
+  image: DAsubsampling2.png
+  display: Journal of Computational and Graphical Statistics
+  year: 2019
+  doi: 10.1080/10618600.2017.1307117
+  arxiv: 1507.06110
+
+- title: "Efficient Covariance Approximations for Large Sparse Precision Matrices"
+  authors: Per Sidén, Finn Lindgren and David Bolin
+  image: LargeSparse2.png
+  display: Journal of Computational and Graphical Statistics
+  year: 2018
+  doi: 10.1080/10618600.2018.1473782
+  arxiv: 1705.08656
+  code: https://github.com/psiden/CovApprox
 
 # - title: ""
 #   authors:

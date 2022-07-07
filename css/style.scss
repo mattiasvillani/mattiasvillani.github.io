@@ -165,7 +165,7 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
     width: 85%;
   }
   
-  img { margin-bottom: 15px;
+  img { margin-bottom: 5px;
        margin-top: 5px;
       border-radius:2%;
   }
@@ -237,7 +237,7 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 }
 
 .well-sm {
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 figcaption {
