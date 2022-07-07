@@ -1,7 +1,6 @@
 ---
 title: "Publications"
 subtitle: My papers for download.
-sitemap: false
 permalink: /publications/
 featured_image: /images/math.jpg
 ---
@@ -14,7 +13,7 @@ featured_image: /images/math.jpg
 {% endfor %}
 
 {% if yeartest == false %}
-## arXived and submitted
+## arXived
 {% endif %}
 
 {% for publi in site.data.publist %}
