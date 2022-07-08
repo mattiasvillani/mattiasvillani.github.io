@@ -7,7 +7,7 @@
   display: arXived
   arxiv: 2201.07874
   year:
-
+  
 - title: "Bayesian Modeling of Effective and Functional Brain Connectivity using Hierarchical Vector Autoregressions"
   authors: Bertil Wegmann, Anders Lundquist and Anders Eklund
   url: whatevs
@@ -41,7 +41,7 @@
 
 - title: "Bayesian Optimization of Hyperparameters when the Marginal Likelihood is Estimated by MCMC"
   authors: Oskar Gustafsson and Pär Stockhammar
-  image: boop.png
+  image: boop.jpg
   display: arXived
   arxiv: 2004.10092
   year:
@@ -53,6 +53,8 @@
   arxiv: 2003.04026
   year:
 
+  # Journal articles
+
 - title: "Robust Real-Time Delay Predictions in a Network of High-Frequency Urban Buses"
   authors: Hector Rodriguez-Deniz
   url: rodriguez2022robust
@@ -61,6 +63,7 @@
   year: 2022
   doi: 10.1109/TITS.2022.3149656
   arxiv: 2106.13576
+  journal: true
 
 - title: "A Multilayered Block Network Model to Forecast Large Dynamic Transportation Graphs: an Application to US Air Transport"
   authors: Hector Rodriguez-Deniz and Augusto Voltes-Dorta
@@ -69,6 +72,7 @@
   year: 2022
   doi: 10.1016/j.trc.2022.103556
   arxiv: 1911.13136'
+  journal: true
 
 - title: "Spatial 3D Matérn priors for fast whole-brain fMRI analysis"
   authors: Per Sidén, Finn Lindgren, David Bolin and Anders Eklund
@@ -79,6 +83,7 @@
   arxiv: 1906.10591
   suppmat: https://doi.org/10.1214/21-BA1283SUPP
   code: https://github.com/psiden/BFAST3D
+  journal: true
 
 - title: "The block-Poisson estimator for optimally tuned exact subsampling MCMC"
   authors: Matias Quiroz, Minh-Ngoc Tran, Robert Kohn and Khue-Dung Dang
@@ -89,6 +94,7 @@
   arxiv: 1603.08232
   suppmat: https://www.tandfonline.com/doi/suppl/10.1080/10618600.2021.1917420?scroll=top
   code: https://www.tandfonline.com/doi/suppl/10.1080/10618600.2021.1917420?scroll=top
+  journal: true
 
 - title: "Physiological Gaussian Process Priors for the Hemodynamics in fMRI Analysis"
   authors: Josef Wilzén and Anders Eklund
@@ -97,6 +103,7 @@
   year: 2020
   doi: 10.1016/j.jneumeth.2020.108778
   arxiv: 1708.06152
+  journal: true
 
 - title: "DOLDA - a regularized supervised topic model for high-dimensional multi-class regression"
   authors: Måns Magnusson and Leif Jonsson
@@ -105,6 +112,7 @@
   year: 2020
   doi: https://doi.org/10.1007/s00180-019-00891-1
   arxiv: 1602.00260
+  journal: true
 
 - title: "Hamiltonian Monte Carlo with Energy Conserving Subsampling"
   authors: Khue-Dung Dang, Matias Quiroz, Robert Kohn and Minh-Ngoc Tran
@@ -114,6 +122,7 @@
   doi: http://jmlr.org/papers/volume20/17-452/17-452.pdf
   arxiv: 1708.00955
   code: http://num.pyro.ai/en/stable/mcmc.html?highlight=ecs#numpyro.infer.hmc_gibbs.HMCECS
+  journal: true
 
 - title: "Speeding Up MCMC by Efficient Data Subsampling"
   authors: Matias Quiroz, Robert Kohn and Minh Ngoc Tran
@@ -122,6 +131,7 @@
   year: 2019
   doi: 10.1080/01621459.2018.1448827
   arxiv: 1404.4178
+  journal: true
 
 - title: "Sparse Partially Collapsed MCMC for Parallel Inference in Topic Models"
   authors: Måns Magnusson, Leif Jonsson and David Broman
@@ -131,6 +141,7 @@
   doi: 10.1080/10618600.2017.1366913
   arxiv: 1506.03784
   code: https://github.com/lejon/PartiallyCollapsedLDA
+  journal: true
 
 - title: "Speeding Up MCMC by Delayed Acceptance and Data Subsampling"
   authors: Matias Quiroz, Minh Ngoc Tran and Robert Kohn
@@ -139,6 +150,7 @@
   year: 2019
   doi: 10.1080/10618600.2017.1307117
   arxiv: 1507.06110
+  journal: true
 
 - title: "Efficient Covariance Approximations for Large Sparse Precision Matrices"
   authors: Per Sidén, Finn Lindgren and David Bolin
@@ -148,6 +160,480 @@
   doi: 10.1080/10618600.2018.1473782
   arxiv: 1705.08656
   code: https://github.com/psiden/CovApprox
+  journal: true
+
+- title: "Tree Ensembles with Rule Structured Horseshoe Regularization"
+  authors: Malte Nalenz
+  image: HorseRule.png
+  display: Annals of Applied Statistics
+  year: 2018
+  doi: 10.1214/18-AOAS1157
+  arxiv: 1702.05008
+  code: https://cran.r-project.org/web/packages/horserule/index.html
+  journal: true
+
+- title: "Subsampling MCMC - An Introduction for the Survey Statistician"
+  authors: Matias Quiroz, Robert Kohn, Minh-Ngoc Tran and Khue-Dung Dang
+  image: sankhyaa.png
+  display: Sankhya A
+  year: 2018
+  doi: https://link.springer.com/article/10.1007/s13171-018-0153-7
+  arxiv: 1807.08409
+  journal: true
+
+- title: "Invited discussion of “Bayesian Spatiotemporal Modeling Using Hierarchical Spatial Priors, with Applications to fMRI”"
+  authors: Per Sidén
+  image: BAdiscussion.png
+  display: Bayesian Analysis
+  year: 2018
+  doi: https://projecteuclid.org/download/pdfview_1/euclid.ba/1525766415
+  code: https://bitbucket.org/psiden/BAdiscussion2018
+  journal: true
+
+- title: "Fast Bayesian Whole-Brain fMRI Analysis with Spatial 3D Priors"
+  authors: Per Sidén, Anders Eklund and David Bolin
+  image: Fast3DNeuroimage.png
+  display: NeuroImage
+  year: 2017
+  arxiv: 1606.00980
+  doi: 10.1016/j.neuroimage.2016.11.040
+  code: https://github.com/psiden/BFAST3D
+  journal: true
+
+- title: "A Bayesian Heteroscedastic GLM with Application to fMRI Data with Motion Spikes"
+  authors: Anders Eklund and Martin A. Lindquist
+  image: heterofmri.png
+  display: NeuroImage
+  year: 2017
+  arxiv: 1612.00690
+  doi: 10.1016/j.neuroimage.2017.04.069
+  code: https://github.com/wanderine/HeteroscedasticfMRI
+  journal: true
+
+- title: "Bayesian Rician Regression for Neuroimaging"
+  authors: Bertil Wegmann and Anders Eklund
+  image: RiceFrontiers.png
+  display: Frontiers in Neuroscience
+  year: 2017
+  arxiv: 1612.07034
+  doi: 10.3389/fnins.2017.00586
+  journal: true
+
+- title: "BROCCOLI: Software for Fast fMRI Analysis on Many-Core CPUs and GPUs"
+  authors: Anders Eklund, Paul Dufort and Stephen LaConte
+  image: Broccoli.png
+  display: Frontiers in Neuroinformatics
+  year: 2014
+  doi: 10.3389/fninf.2014.00024
+  code: https://github.com/wanderine/BROCCOLI
+  journal: true
+
+- title: "Taking the Twists into Account: Predicting Firm Bankruptcy Risk with Splines of Financial Ratios"
+  authors: Paolo Giordani, Tor Jacobson and Erik von Schedvin
+  image: JFQA.png
+  display: Journal of Financial and Quantitative Analysis
+  year: 2014
+  doi: 10.1017/S0022109014000623
+  arxiv: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1972884
+  journal: true
+
+- title: "Harnessing Graphics Processing Units for Improved Neuroimaging Statistics"
+  authors: Anders Eklund and Stephen LaConte
+  image: CABNgpu.png
+  display: Cognitive, Affective, & Behavioral Neuroscience
+  year: 2013
+  doi: 10.3758/s13415-013-0165-7
+  journal: true
+
+- title: "Efficient Bayesian Multivariate Surface Regression"
+  authors: Feng Li
+  image: MoveKnots.png
+  display: Scandinavian Journal of Statistics
+  year: 2013
+  doi: 10.1111/sjos.12022
+  arxiv: 1110.3689
+  code: https://github.com/feng-li/movingknots
+  journal: true
+
+- title: "Regression Density Estimation With Variational Methods and Stochastic Approximation"
+  authors: David Nott, Siew Li Tan and Robert Kohn
+  image: JCGS_VB_Nott.png
+  display: Journal of Computational and Graphical Statistics
+  year: 2012
+  doi: https://doi.org/10.1080/10618600.2012.679897
+  journal: true
+
+- title: "Generalized Smooth Finite Mixtures"
+  authors: David Nott and Robert Kohn
+  image: GSM.png
+  display: Journal of Econometrics
+  year: 2012
+  doi: 10.1016/j.jeconom.2012.06.012
+  journal: true
+
+- title: "Bayesian Inference in Structural Second-Price Common Value Auctions"
+  authors: Bertil Wegmann
+  image: auctionsjbes.png
+  display: Journal of Business and Economic Statistics
+  year: 2011
+  doi: 10.1198/jbes.2011.08289
+  journal: true
+
+- title: "Flexible Modeling of Conditional Distributions using Smooth Mixtures of Asymmetric Student t Densities"
+  authors:  Feng Li and Robert Kohn
+  image: jspi2010.png
+  display: Journal of Statistical Planning and Inference
+  year: 2010
+  doi: 10.1016/j.jspi.2010.04.031
+  arxiv: https://dx.doi.org/10.2139/ssrn.1551195
+  journal: true
+
+- title: "Forecasting Macroeconomic Time Series with Locally Adaptive Signal Extraction"
+  authors:  Feng Li and Robert Kohn
+  image: LASER.png
+  display: International Journal of Forecasting
+  year: 2010
+  doi: 10.1016/j.ijforecast.2009.12.011
+  arxiv: https://dx.doi.org/10.2139/ssrn.1551203
+  journal: true
+
+- title: "Steady-State Priors for Vector Autoregressions"
+  authors:  Mattias Villani
+  image: steadystateprior.png
+  display: Journal of Applied Econometrics
+  year: 2009
+  doi: 10.1002/jae.1065
+  journal: true
+
+- title: "Regression Density Estimation using Smooth Adaptive Gaussian Mixtures"
+  authors:  Robert Kohn and Paolo Giordani
+  image: SAGM.png
+  display: Journal of Econometrics
+  year: 2009
+  doi: 10.1016/j.jeconom.2009.05.004
+  journal: true
+
+- title: "Evaluating an Estimated New Keynesian Small Open Economy Model"
+  authors:  Malin Adolfson, Stefan Laséen and Jesper Lindé
+  image: jedc.png
+  display: Journal of Economic Dynamics and Control
+  year: 2008
+  doi: 10.1016/j.jedc.2007.09.012
+  arxiv: https://dx.doi.org/10.2139/ssrn.1022021
+  suppmat: https://ars-els-cdn-com.ezp.sub.su.se/content/image/1-s2.0-S0165188907002114-mmc1.pdf
+  journal: true
+
+- title: "Empirical Properties of Closed and Open Economy DSGE Models of the Euro Area"
+  authors:  Malin Adolfson, Stefan Laséen and Jesper Lindé
+  image: macDyn.png
+  display: Macroeconomic Dynamics
+  year: 2008
+  doi: 10.1017/S1365100507070101
+  arxiv: https://www.newyorkfed.org/medialibrary/media/research/conference/2005/quantitative/empirical_properties.pdf
+  journal: true
+
+- title: "Modern Forecasting Models in Action: Improving Macroeconomic Analyses at Central Banks"
+  authors:  Malin Adolfson, Michael K. Andersson, Jesper Lindé and Anders Vredin
+  image: IJCB.png
+  display: International Journal of Central Banking
+  year: 2007
+  doi: https://www.ijcb.org/journal/ijcb07q4a4.pdf
+  journal: true
+
+- title: "Bayesian Estimation of an Open Economy DSGE Model with Incomplete Pass-Through"
+  authors:  Malin Adolfson, Stefan Laséen and Jesper Lindé
+  image: JIE.png
+  display: Journal of International Economics
+  year: 2007
+  doi: 10.1016/j.jinteco.2007.01.003
+  arxiv: https://dx.doi.org/10.2139/ssrn.938699
+  suppmat: https://dx.doi.org/10.2139/ssrn.938699
+  journal: true
+
+- title: "Bayesian Analysis of DSGE Models — Some Comments"
+  authors:  Malin Adolfson and Jesper Lindé
+  image: ERcomment.png
+  display: Econometric Reviews
+  year: 2007
+  doi: 10.1080/07474930701220121
+  journal: true
+
+- title: "Forecasting Performance of an Open Economy DSGE Model"
+  authors:  Malin Adolfson and Jesper Lindé
+  image: ForecastER.png
+  display: Econometric Reviews
+  year: 2007
+  doi: 10.1080/07474930701220543
+  arxiv: http://archive.riksbank.se/Upload/WorkingPapers/wp_190revised.pdf
+  journal: true
+
+- title: "Bayesian Point Estimation of the Cointegration Space"
+  authors: Mattias Villani
+  image: CointSpace.png
+  display: Journal of Econometrics
+  year: 2006
+  doi: 10.1016/j.jeconom.2005.07.008
+  journal: true
+
+- title: "The Multivariate Split Normal Distribution and Asymmetric Principal Components Analysis"
+  authors: Rolf Larsson
+  image: SplitNormal.png
+  display: Communications in Statistics - Theory and Methods
+  year: 2006
+  doi: 10.1080/03610920600672252
+  journal: true
+
+- title: "A Bayesian Approach to Modelling Graphical Vector Autoregressions"
+  authors: Jukka Corander
+  image: graphvar.png
+  display: Journal of Time Series Analysis
+  year: 2006
+  doi: 10.1111/j.1467-9892.2005.00460.x
+  journal: true
+
+- title: "The Role of Sticky Prices in an Open Economy Dsge Model: A Bayesian Investigation"
+  authors:  Malin Adolfson, Stefan Laséen and Jesper Lindé
+  image: JEEA.png
+  display: Journal of the European Economic Association
+  year: 2005
+  doi: 10.1162/jeea.2005.3.2-3.444
+  journal: true
+
+- title: "Are Constant Interest Rate Forecasts Modest Policy Interventions? Evidence from a Dynamic Open-Economy Model"
+  authors:  Malin Adolfson, Stefan Laséen and Jesper Lindé
+  image: ConstantModest.png
+  display: International Finance
+  year: 2005
+  doi: 10.1111/j.1468-2362.2005.00168.x
+  journal: true
+
+- title: "Bayesian Reference Analysis of Cointegration"
+  authors:  Mattias Villani
+  image: Grassman.png
+  display: Econometric Theory
+  year: 2005
+  doi: 10.1017/S026646660505019X
+  journal: true
+
+- title: "Bayesian Assessment of Dimensionality in Reduced Rank Regression"
+  authors:  Jukka Corander
+  image: statneer.png
+  display: Statistica Neerlandica
+  year: 2005
+  doi: 10.1111/j.1467-9574.2004.00108.x
+  journal: true
+
+- title: "Bayesian Prediction with Cointegrated Vector Autoregressions"
+  authors: Mattias Villani
+  image: IJF.png
+  display: International Journal of Forecasting
+  year: 2001
+  doi: 10.1016/S0169-2070(01)00082-6
+  journal: true
+
+- title: "Fractional Bayesian Lag Length Inference in Multivariate Autoregressive Processes"
+  authors: Mattias Villani
+  image: JTSA2001.png
+  display: Journal of Time Series Analysis
+  year: 2001
+  doi: 10.1111/1467-9892.00212
+  journal: true
+  
+- title: "A Distance Measure Between Cointegration Spaces"
+  authors: Rolf Larsson
+  image: dist.png
+  display: Journal of Time Series Analysis
+  year: 2001
+  doi: 10.1016/S0165-1765(00)00349-9
+  journal: true
+
+
+## CONFERENCES
+- title: "Spectral Subsampling MCMC for Stationary Time Series"
+  authors: Robert Salomone, Matias Quiroz, Robert Kohn and Minh-Ngoc Tran
+  image: icml2020.png
+  display: International Conference on Machine Learning (ICML)
+  year: 2020
+  doi: https://proceedings.mlr.press/v119/salomone20a.html
+  arxiv: 1910.13627
+  conference: true
+
+- title: "Anatomically Informed Bayesian Spatial Priors for fMRI analysis"
+  authors: David Abramian, Per Sidén, Hans Knutsson and Anders Eklund
+  image: isbi2020.png
+  display: IEEE International Symposium on Biomedical Imaging (ISBI)
+  year: 2020
+  doi: https://ieeexplore.ieee.org/document/9098342
+  arxiv: 1910.08415
+  conference: true
+
+- title: "Real-Time Robotic Search using Hierarchical Spatial Point Processes"
+  authors: Olov Andersson, Per Sidén, Johan Dahlin and Patrick Doherty
+  image: UAI2019.png
+  display: Uncertainty in Artificial Intelligence (UAI)
+  year: 2019
+  doi: http://auai.org/uai2019/proceedings/papers/368.pdf
+  arxiv: 1903.10443
+  suppmat: https://www.youtube.com/watch?v=wyD0O5hF5tE&ab_channel=MattiasVillani
+  conference: true
+
+- title: "Urban Network Travel Time Prediction via Online Multi-Output Gaussian Process Regression"
+  authors: Hector Rodriguez-Deniz and Erik Jenelius
+  image: UrbanTrafficPred.png
+  display: IEEE International Conference on Intelligent Transportation Systems (ITSC)
+  year: 2017
+  doi: https://doi.org/10.1109/ITSC.2017.8317796
+  conference: true
+
+- title: "Bayesian Diffusion Tensor Estimation with Spatial Priors"
+  authors: Xuan Gu, Per Sidén, Bertil Wegmann, Anders Eklund and Hans Knutsson
+  image: CAIP2017.png
+  display: Computer Analysis of Images and Patterns (CAIP)
+  year: 2017
+  doi: https://doi.org/10.1007/978-3-319-64689-3_30
+  conference: true
+
+- title: "Intrusion-Damage Assessment and Mitigation in Cyber-Physical Systems for Control Applications"
+  authors: Rouhollah Mahfouzi, Amir Aminifar, Petru Eles, and Zebo Peng
+  image: mitigation.png
+  display: International Conference on Real-Time Networks and Systems (RTNS)
+  year: 2016
+  doi: https://doi.org/10.1145/2997465.2997478
+  conference: true
+
+- title: "Automatic Localization of Bugs to Faulty Components in Large Scale Software Systems Using Bayesian Classification"
+  authors: Leif Jonsson, David Broman, Måns Magnusson, Kristian Sandahl and Sigrid Eldh
+  image: LocalizeBugs.png
+  display: IEEE International Conference on Software Quality, Reliability and Security (QRS)
+  year: 2016
+  doi: https://doi.org/10.1109/QRS.2016.54
+  conference: true
+
+- title: "Perception-Aware Power Management for Mobile Games via Dynamic Resolution Scaling"
+  authors: Arian Maghazeh, Unmesh D. Bordoloi, Petru Eles and Zebo Peng
+  image: ScreenResArian.png
+  display: IEEE/ACM International Conference on Computer-Aided Design (ICCAD)
+  year: 2015
+  doi: https://doi.org/10.1109/ICCAD.2015.7372626
+  conference: true
+
+- title: "Statistical Analysis of Process Variation based on Indirect Measurements for Electronic System Design"
+  authors: Ivan Ukhov, Petru Eles and Zebo Peng
+  image: UkhovPaper.png
+  display: IEEE/ACM ASP-DAC Design Automation Conference
+  year: 2014
+  doi: https://doi.org/10.1109/ASPDAC.2014.6742930
+  conference: true
+
+# BOOK CHAPTERS
+
+- title: "Bayesian Heteroscedastic Regression for Diffusion Tensor Imaging"
+  authors: Bertil Wegmann and Anders Eklund
+  image: DiffusionBookChapter.png
+  display: In 'Modeling, Analysis, and Visualization of Anisotropy' (Schultz, Özarslan and Hotz eds.), Springer
+  year: 2017
+  doi: https://doi.org/10.1007/978-3-319-61358-1_11
+  bookchapter: true
+
+- title: "Modelling Conditional Densities Using Finite Smooth Mixtures"
+  authors: Feng Li and Robert Kohn
+  image: LiVillaniKohnBookChapter.png
+  display: In 'Mixture models - Estimation and Applications (Robert, Mengerson and Titterington, eds), Wiley
+  year: 2011
+  doi: https://doi.org/10.1002/9781119995678.ch6
+  bookchapter: true
+
+- title: "Bayesian Approaches to Cointegration"
+  authors: Gary Koop, Rodney Strachan and Herman van Dijk
+  image: Palgrave.png
+  display: In 'Palgrave Handbook of Econometrics, Vol 1, Econometric Theory'
+  year: 2006
+  doi: https://strathprints.strath.ac.uk/7750/
+  bookchapter: true
+
+# BOOKS
+
+- title: "Official Statistics – Methodology and Applications in Honour of Daniel Thorburn"
+  authors: Michael Carlson and Hans Nyquist (editors)
+  image: OfficialStats.png
+  year: 2006
+  doi: https://officialstatistics.wordpress.com/
+  book: true
+
+# OTHER
+
+- title: "The Riksbank’s communication of macroeconomic uncertainty"
+  authors: David Kjellberg
+  image: PoV2010.png
+  display: Sveriges Riksbank Economic Review
+  year: 2010
+  doi: http://archive.riksbank.se/Upload/Dokument_riksbank/Kat_publicerat/PoV_sve/eng/2010/er_2010_1.pdf
+  other: true
+
+- title: "RAMSES – a new general equilibrium model for monetary policy analysis"
+  authors: Malin Adolfson, Stefan Laseén and Jesper Lindé
+  image: PoV2007Ramses.png
+  display: Sveriges Riksbank Economic Review
+  year: 2007
+  doi: https://archive.riksbank.se/Upload/Dokument_riksbank/Kat_publicerat/PoV_sve/eng/2007/er2007_2.pdf
+  other: true
+
+- title: "Aspects of Bayesian Cointegration"
+  authors: Mattias Villani
+  image: Thesis.png
+  display: PhD thesis in Statistics, Stockholm University
+  year: 2007
+  other: true
+
+# Older working papers
+- title: "Modeling Text Complexity using a Multi-Scale Probit"
+  authors: Johan Falkenjack and Arne Jönsson
+  image: ModelingTextComplexity.jpg
+  year: 2018
+  arxiv: 1811.04653
+  wp: true
+
+- title: "The Block Pseudo-Marginal Sampler"
+  authors: Minh-Ngoc Tran, Robert Kohn and Matias Quiroz
+  image: blocksampler.png
+  year: 2017
+  arxiv: 1603.02485
+  wp: true
+
+- title: "Dynamic Mixture-of-Experts Models for Longitudinal and Discrete-Time Survival Data"
+  authors: Matias Quiroz
+  image: DynMix.png
+  year: 2013
+  arxiv: https://github.com/mattiasvillani/Papers/raw/master/DynamicMixture.pdf
+  wp: true
+
+- title: "Bayesian optimisation for fast approximate inference in state-space models with intractable likelihoods"
+  authors: Johan Dahlin and Thomas Schön
+  image: SMCABCGPO.png
+  year: 2015
+  arxiv: https://arxiv.org/abs/1506.06975
+  wp: true
+
+- title: "Monetary Policy Analysis in a Small Open Economy Using Bayesian Cointegrated Structural VARs"
+  authors: Anders Warne
+  image: WarnePaper.png
+  year: 2014
+  arxiv: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=487477
+  wp: true
+
+- title: "Bayesian Inference of General Linear Restrictions on the Cointegration Space"
+  authors: Mattias Villani
+  image: CointRestrictions.png
+  year: 2005
+  arxiv: https://archive.riksbank.se/Upload/WorkingPapers/WP_189.pdf
+  wp: true
+
+- title: "Panel Regression with Unobserved Classes"
+  authors: Mickael Bäckman
+  image: salabasis.png
+  year: 2000
+  arxiv: https://swopec.hhs.se/hastef/papers/hastef0353.pdf
+  wp: true
 
 # - title: ""
 #   authors:

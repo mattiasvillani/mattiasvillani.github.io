@@ -1,7 +1,10 @@
-site: Personal Jekyll Theme
-
-url: ""
+# Site settings
+title: Mattias Villani
+email: mattias.villani@gmail.com
+description: Personal webpage of Mattias Villani
 baseurl: ""
+url: ""
+affiliation: I am Professor of Statistics at <a href="https://www.su.se" target="_blank">Stockholm University</a>.
 
 collections:
   pages:
@@ -41,9 +44,17 @@ defaults:
 
 markdown: kramdown
 
+# Markdown Processing
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
   
 sass:
   style: compressed

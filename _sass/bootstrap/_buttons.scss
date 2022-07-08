@@ -100,7 +100,7 @@
   border: 0px solid transparent;
   white-space: nowrap;
   color: $gray-lighter;
-  background-color: $btn-info-bg;
+  background-color: $btn-warning-bg;
   @include button-size($padding-base-vertical*0.3, $padding-base-horizontal, $font-size-small, $line-height-base, $btn-border-radius-base);
   @include user-select(none);
 
