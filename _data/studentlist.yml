@@ -1,0 +1,80 @@
+- name: "Anna Fagerberg"
+  image: female.png
+  phddate: PhD student in Statistics, Stockholm University
+  topic: Bayesian inference for spatiotemporal processes
+  position: PhD candidate at Dept. of Statistics, Stockholm University 
+  current: true
+
+- name: "Oscar Oelrich"
+  image: oscar.jpeg
+  phddate: PhD student in Statistics, Stockholm University
+  topic: Bayesian inference for local predictive ability
+  position: PhD candidate at Dept. of Statistics, Stockholm University 
+  web: https://www.su.se/english/profiles/ooelr-1.342298
+  current: true
+
+- name: "Hector Rodriguez-Deniz"
+  image: hector.jpeg
+  phddate: PhD student in Statistics, Linköping University
+  topic: Spatiotemporal models for transportation
+  position: PhD candidate at Dept. of Statistics and Machine Learning, Linköping University 
+  web: https://liu.se/en/employee/hecro15
+  current: true
+
+- name: "Josef Wilzén"
+  image: josef.jpeg
+  phddate: PhD student in Statistics, Linköping University
+  topic: Flexible Bayesian models for neuroimaging
+  position: PhD candidate at Dept. of Statistics and Machine Learning, Linköping University 
+  web: https://www.su.se/english/profiles/ooelr-1.342298
+  current: true
+
+- name: "Per Sidén"
+  image: siden.jpeg
+  phddate: PhD in Statistics, Linköping University, 2020
+  thesis: Scalable Bayesian spatial analysis with Gaussian Markov random fields
+  position: Industrial post doc at Arriver and Linköping University 
+  web: https://liu.se/en/employee/persi28
+  current: false
+
+- name: "Parfait Munezero"
+  image: parfait.jpeg
+  phddate: PhD in Statistics, Stockholm University, 2020
+  thesis: Bayesian Sequential Inference for Dynamic Regression Models
+  position: Statistician at Ericsson
+  web: https://www.linkedin.com/in/parfait-munezero-71418b91/
+  current: false
+
+- name: "Måns Magnusson"
+  image: mans.png
+  phddate: PhD in Statistics, Linköping University, 2018
+  thesis: Scalable and Efficient Probabilistic Topic Model Inference for Textual Data
+  award: Cramér prize for best thesis in Statistics and Mathematical Statistics
+  position: Senior lecturer at Uppsala University
+  web: https://katalog.uu.se/empinfo/?id=N20-1227
+  current: false
+
+- name: "Matias Quiroz"
+  image: quiroz.jpg
+  phddate: PhD in Statistics, Stockholm University, 2015
+  thesis: Bayesian Inference for Large Data Problems
+  position: Senior lecturer at Stockholm University
+  web: https://matiasquiroz.com/
+  current: false
+
+- name: "Feng Li"
+  image: feng.png
+  phddate: PhD in Statistics, Stockholm University, 2013
+  thesis: Bayesian Modeling of Conditional Densities
+  award: Cramér prize for best thesis in Statistics and Mathematical Statistics
+  position: Associate Dean at Central University of Finance and Economics, Beijing
+  web: https://feng.li
+  current: false
+
+- name: "Bertil Wegmann"
+  image: wegmann.jpeg
+  phddate: PhD in Statistics, Stockholm University, 2011 
+  thesis: Bayesian Inference in Structural Second-Price Auction
+  position: Senior Lecturer, Linköping University
+  web: https://liu.se/en/employee/berwe48
+  current: false

@@ -1,89 +1,84 @@
 ---
-title: Teaching
-subtitle: A list of my courses and links to course material.
-description: List of my research papers with download links.
-featured_image: /images/VillaniPresentingCropSmaller.jpg
+title: "Teaching"
+subtitle: my courses
+permalink: /teaching/
+featured_image: /images/VillaniPresenting.jpg
 ---
 
-## Current and upcoming courses 
+## Current courses
+
+{% for course in site.data.courselist %}
+
+{% if course.current == true %}
 
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="80%" />
-</colgroup>
-
-<tbody>
-
-<tr>
-<td markdown="span"><img width = "100%" src="/images/courses/regression.png"></td>
-<td markdown="span">**Regression and Time Series Analysis**<br /> \\
-Masters' level, 7.5 credits<br> \\
-<a href="https://mattiasvillani.github.io/Regression/" class="button button--medium">course web page</a> <a href="https://github.com/mattiasvillani/Regression" class="button button--medium">github repo</a>
-</td>
-</tr>
-
-<tr>
-<td markdown="span"><img width = "100%" src="/images/courses/bl.png"></td>
-<td markdown="span">**Bayesian Learning**<br /> \\
-Masters' level, 7.5 credits<br> \\
-<a href="https://github.com/mattiasvillani/BayesLearnCourse" class="button button--medium">course web page</a> <a href="https://github.com/mattiasvillani/BayesLearnCourse" class="button button--medium">github repo</a>
-</td>
-</tr>
-
-<tr>
-<td markdown="span"><img width = "100%" src="/images/courses/ml.png"></td>
-<td markdown="span">**Machine Learning**<br /> \\
-Masters' level, 7.5 credits<br> \\
-<a href="https://github.com/mattiasvillani/MLcourse" class="button button--medium">course web page</a> <a href="https://github.com/mattiasvillani/MLcourse" class="button button--medium">github repo</a>
-</td>
-</tr>
-
-<tr>
-<td markdown="span"><img width = "100%" src="/images/courses/abl.png"></td>
-<td markdown="span">**Advanced Bayesian Learning**<br /> \\
-Masters' level, 8 credits<br> \\
-<a href="https://github.com/mattiasvillani/AdvBayesLearnCourse" class="button button--medium">course web page</a> <a href="https://github.com/mattiasvillani/AdvBayesLearnCourse" class="button button--medium">github repo</a>
-</td>
-</tr>
-
-</tbody>
-</table>
+  <div class="well-paper publication-entry" style = "background-color: #ffffff">
+  <ul class="flex-container">
+  <li class="flex-item1">
+    {% if course.image %}
+     <img src="{{ site.url }}{{ site.baseurl }}/images/courses/{{ course.image }}" class="img-responsive"/>
+    {% endif %}
+  </li>
+  <li class="flex-item2">
+    <strong> {{ course.title }}</strong><br/>
+    {{ course.display }}<br/>
+    Given next time in {{ course.semester}}<br/>
+    {% if course.abstract %} <a data-bs-toggle="collapse" href="#{{course.url}}"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{course.url}}">COURSE INFO</a> {% endif %}
+    {% if course.courseweb %}<a href="{{ course.courseweb }}" target="_blank"><button class="btn-doi">WEB PAGE</button></a> {% endif %}
+    {% if course.gitrepo %}<a href="{{ course.gitrepo }}" target="_blank"><button class="btn-arxiv">GIT REPO</button></a> {% endif %}
+    {% if course.code %}<a href="{{ course.code }}" target="_blank"><button class="btn-code">CODE</button></a> {% endif %}
+    {% if course.suppmat %}<a href="{{ course.suppmat }}" target="_blank"><button class="btn-suppmat">OTHER MATERIAL</button></a> {% endif %}
 
 
+  {% if course.abstract %}
+  <div class="collapse" id="{{course.url}}"><div class="well-abstract">
+   {{course.abstract}}
+  </div></div>
+  {% endif %}
+
+  </li>
+  </ul>
+  </div>
+
+  {% endif %}
+  
+{% endfor %}
+
+## Past Courses
+
+{% for course in site.data.courselist %}
+
+{% if course.current == false %}
 
 
-## Past courses
+  <div class="well-paper publication-entry" style = "background-color: #ffffff">
+  <ul class="flex-container">
+  <li class="flex-item1">
+    {% if course.image %}
+     <img src="{{ site.url }}{{ site.baseurl }}/images/courses/{{ course.image }}" class="img-responsive"/>
+    {% endif %}
+  </li>
+  <li class="flex-item2">
+    <strong> {{ course.title }}</strong><br/>
+    {{ course.display }}<br/>
+    {{ course.semester}}<br/>
+    {% if course.abstract %} <a data-bs-toggle="collapse" href="#{{course.url}}"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{course.url}}">COURSE INFO</a> {% endif %}
+    {% if course.courseweb %}<a href="{{ course.courseweb }}" target="_blank"><button class="btn-doi">WEB PAGE</button></a> {% endif %}
+    {% if course.gitrepo %}<a href="{{ course.gitrepo }}" target="_blank"><button class="btn-arxiv">GIT REPO</button></a> {% endif %}
+    {% if course.code %}<a href="{{ course.code }}" target="_blank"><button class="btn-code">CODE</button></a> {% endif %}
+    {% if course.suppmat %}<a href="{{ course.suppmat }}" target="_blank"><button class="btn-suppmat">OTHER MATERIAL</button></a> {% endif %}
 
-<table>
 
-<tr><td> <img src="/images/courses/regression.png" alt="Regression scatterplot"> </td><td>
-<h4>Regression and Time Series Analysis, 7.5 credits</h4>
-Basic undergraduate level <br><br>
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--medium">course web page</a>  
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--medium">github repo</a>
-</td></tr>
+  {% if course.abstract %}
+  <div class="collapse" id="{{course.url}}"><div class="well-abstract">
+   {{course.abstract}}
+  </div></div>
+  {% endif %}
 
-<tr><td> <img src="/images/courses/regression.png" alt="Regression scatterplot"> </td><td>
-<h4>Regression and Time Series Analysis, 7.5 credits</h4>
-Basic undergraduate level <br><br>
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--medium">course web page</a>  
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--medium">github repo</a>
-</td></tr>
+  </li>
+  </ul>
+  </div>
 
-<tr><td> <img src="/images/courses/regression.png" alt="Regression scatterplot"> </td><td>
-<h4>Regression and Time Series Analysis, 7.5 credits</h4>
-Basic undergraduate level <br><br>
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--medium">course web page</a>  
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--medium">github repo</a>
-</td></tr>
-
-<tr><td> <img src="/images/courses/regression.png" alt="Regression scatterplot"> </td><td>
-<h4>Regression and Time Series Analysis, 7.5 credits</h4>
-Basic undergraduate level <br><br>
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--medium">course web page</a>  
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--medium">github repo</a>
-</td></tr>
-
-</table>
+  {% endif %}
+  
+{% endfor %}

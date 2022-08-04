@@ -16,14 +16,10 @@ menu_settings:
       url: '/teaching'
     - title: 'Students'
       url: '/students'
-    - title: 'Code'
-      url: '/code'
     - title: 'News'
       url: '/news'
     - title: 'Contact'
       url: '/contact'
-    - title: 'Publications'
-      url: '/publications'
 
 footer_settings:
   footer_tagline: Bayesian Beyond Belief

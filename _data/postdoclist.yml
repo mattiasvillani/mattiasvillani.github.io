@@ -1,0 +1,24 @@
+- name: "Oskar Gustafsson"
+  image: gustafsson.jpeg
+  topic: Bayesian inference for temporal processes
+  position: Post doc at Dept. of Statistics, Stockholm University 
+  current: true
+
+- name: "Matias Quiroz"
+  image: quiroz.jpg
+  topic: Bayesian inference for large data problems
+  position: Senior lecturer at Dept. of Statistics, Stockholm University 
+  current: false
+
+- name: "Johan Dahlin"
+  image: dahlin.jpeg
+  topic: Robotic search using hierarchical spatial processes
+  position: Head of Product, AgriOpt AB
+  current: false
+
+- name: "Shutong Ding"
+  image: avatar.png
+  topic: Bayesian model comparison
+  position: International Labour Organization, Geneva. 
+  current: false
+

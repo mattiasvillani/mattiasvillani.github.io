@@ -40,6 +40,21 @@
   }
 }
 
+.well-paper {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 6px;
+  border-radius: 7px;
+  min-height: 1px;
+  margin-bottom: 10px;
+  background-color: $well-bg;
+  blockquote {
+    border-color: #ddd;
+    border-color: rgba(0,0,0,.15);
+  }
+}
+
 
 .well-md {
   padding-left: 20px;
