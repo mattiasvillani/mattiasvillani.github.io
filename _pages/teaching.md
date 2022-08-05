@@ -27,7 +27,7 @@ featured_image: /images/VillaniPresenting.jpg
     {% if course.courseweb %}<a href="{{ course.courseweb }}" target="_blank"><button class="btn-doi">WEB PAGE</button></a> {% endif %}
     {% if course.gitrepo %}<a href="{{ course.gitrepo }}" target="_blank"><button class="btn-arxiv">GIT REPO</button></a> {% endif %}
     {% if course.code %}<a href="{{ course.code }}" target="_blank"><button class="btn-code">CODE</button></a> {% endif %}
-    {% if course.suppmat %}<a href="{{ course.suppmat }}" target="_blank"><button class="btn-suppmat">OTHER MATERIAL</button></a> {% endif %}
+    {% if course.suppmat %}<a href="{{ course.suppmat }}" target="_blank"><button class="btn-code">COURSE MATERIAL</button></a> {% endif %}
 
 
   {% if course.abstract %}
@@ -66,7 +66,7 @@ featured_image: /images/VillaniPresenting.jpg
     {% if course.courseweb %}<a href="{{ course.courseweb }}" target="_blank"><button class="btn-doi">WEB PAGE</button></a> {% endif %}
     {% if course.gitrepo %}<a href="{{ course.gitrepo }}" target="_blank"><button class="btn-arxiv">GIT REPO</button></a> {% endif %}
     {% if course.code %}<a href="{{ course.code }}" target="_blank"><button class="btn-code">CODE</button></a> {% endif %}
-    {% if course.suppmat %}<a href="{{ course.suppmat }}" target="_blank"><button class="btn-suppmat">OTHER MATERIAL</button></a> {% endif %}
+    {% if course.suppmat %}<a href="{{ course.suppmat }}" target="_blank"><button class="btn-code">COURSE MATERIAL</button></a> {% endif %}
 
 
   {% if course.abstract %}

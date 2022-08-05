@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Research"
 subtitle: my publications
 permalink: /research/
@@ -11,6 +12,7 @@ featured_image: /images/math.jpg
    {% assign yeartest = false %}
   {% endif %}
 {% endfor %}
+
 
 {% if yeartest == false %}
 ## arXived

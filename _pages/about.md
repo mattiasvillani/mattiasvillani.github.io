@@ -14,3 +14,7 @@ I have been Professor of Statistics at Linköping University since 2011, where I
 I am currently back at my alma mater at Stockholm University, now as Professor Statistics (2018-). 
 
 I serve as associate editor for [Bayesian Analysis](https://projecteuclid.org/journals/bayesian-analysis) (2020-) and [Econometrics & Statistics](https://www.journals.elsevier.com/econometrics-and-statistics) (2015-).
+
+I enjoy programming and my language evolution is:
+
+<img src="images/../../images/programming_evolution.png" alt="Programming language evolution" width="70%">
