@@ -18,3 +18,7 @@ I serve as associate editor for [Bayesian Analysis](https://projecteuclid.org/jo
 I enjoy programming and my language evolution is:
 
 <img src="images/../../images/programming_evolution.png" alt="Programming language evolution" width="70%">
+
+---
+
+This website is hosted on [Github pages]() and was made with Jekyll-Liquid-Bootstrap using the [Spencer Bryngelson's academic theme](https://github.com/ethan-pickering/sbryngelson.github.io) with modifications by [Pavlo Bazilinskyy](https://bazilinskyy.github.io/).
