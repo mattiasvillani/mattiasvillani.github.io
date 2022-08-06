@@ -21,4 +21,4 @@ I enjoy programming and my language evolution is:
 
 ---
 
-This website is hosted on [Github pages]() and was made with Jekyll-Liquid-Bootstrap using the [Spencer Bryngelson's academic theme](https://github.com/ethan-pickering/sbryngelson.github.io) with modifications by [Pavlo Bazilinskyy](https://bazilinskyy.github.io/).
+This website is hosted on [Github pages](https://pages.github.com/) and was made with a Jekyll-Liquid-Bootstrap framework using [Spencer Bryngelson's academic theme](https://github.com/ethan-pickering/sbryngelson.github.io) with modifications by [Pavlo Bazilinskyy](https://bazilinskyy.github.io/).
