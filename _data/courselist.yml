@@ -109,8 +109,69 @@
 
 - title: "Probability Theory"
   url: https://www.ida.liu.se/~732A64/info/courseinfo.en.shtml
-  image: masterthesiscrop.jpg
+  image: randomnew.png
   display: master level, 6 credits
   courseweb: https://www.ida.liu.se/~732A64/info/courseinfo.en.shtml
   semester: 2011-2018
+  suppmat: https://github.com/mattiasvillani/TeachingMaterial/tree/master/ProbTheory
+  current: false
+
+- title: "Statistical Analysis of Complex Data (in Swedish)"
+  url: https://studieinfo.liu.se/kurs/732G34
+  image: ComplexData.png
+  display: undergraduate level, 7.5 credits (spatial and longitudinal data)
+  courseweb: https://studieinfo.liu.se/kurs/732G34
+  semester: 2012-2014 and 2019
+  suppmat: https://github.com/mattiasvillani/Talks/tree/master/ComplexDataCourseLiU
+  current: false
+
+- title: "Programming in R (in Swedish)"
+  url: https://studieinfo.liu.se/kurs/732G34
+  image: rcode.png
+  display: basic undergraduate level, 7.5 credits
+  semester: 2012-2014 and 2019
+  current: false
+
+- title: "Theory of Statistics"
+  url: https://studieinfo.liu.se/kurs/732G20
+  image: TheoryStat.png
+  display: undergraduate level, 7.5 credits
+  semester: 2011
+  current: false
+
+- title: "Statistical Methods"
+  image: StatMethodsNew.png
+  display: master level, 7.5 credits (nonparametric reg and model selection)
+  semester: 2010
+  suppmat: https://github.com/mattiasvillani/TeachingMaterial/tree/master/StatMethods
+  current: false
+
+- title: "Decision making"
+  image: DecisionBasic.png
+  display: basic undergraduate level, 30 credits
+  semester: 2002
+  current: false
+
+- title: "Decision theory"
+  image: DecisionAdv.png
+  display: master level, 7.5 credits
+  semester: 2001
+  current: false
+
+- title: "Bayesian Statistics I"
+  image: BayesStatOLD.png
+  display: master level, 7.5 credits
+  semester: 2005-2011
+  current: false
+
+- title: "Statistical theory"
+  image: StatTheory2001.png
+  display: undergraduate level, 7.5 credits
+  semester: 2001
+  current: false
+
+- title: "Bayesian Statistics II"
+  image: BayesPhD.png
+  display: master and PhD level, 7.5 credits
+  semester: 2000
   current: false
