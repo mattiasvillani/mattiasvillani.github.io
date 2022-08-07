@@ -15,10 +15,8 @@ I am currently back at my alma mater Stockholm University, now as Professor (201
 
 I serve as associate editor for [Bayesian Analysis](https://projecteuclid.org/journals/bayesian-analysis) (2020-) and [Econometrics & Statistics](https://www.journals.elsevier.com/econometrics-and-statistics) (2015-).
 
-I enjoy programming and my language evolution is:
-
-<img src="images/../../images/programming_evolution.png" alt="Programming language evolution" width="70%">
+I enjoy programming, especially when I get to use the [Julia](https://julialang.org/) programming language.
 
 ---
 
-This website is hosted on [Github pages](https://pages.github.com/) and was made with a Jekyll-Liquid-Bootstrap framework using [Spencer Bryngelson's academic theme](https://github.com/ethan-pickering/sbryngelson.github.io) with modifications by [Pavlo Bazilinskyy](https://bazilinskyy.github.io/).
+<small>This website is hosted on [Github pages](https://pages.github.com/) and was made with a Jekyll-Liquid-Bootstrap framework using [Spencer Bryngelson's academic theme](https://github.com/ethan-pickering/sbryngelson.github.io) with modifications by [Pavlo Bazilinskyy](https://bazilinskyy.github.io/).</small>

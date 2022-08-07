@@ -6,7 +6,6 @@
   image: svahn2022bayesian.png
   display: arXived
   arxiv: 2201.07874
-  abstract: this is the abstract
   year:
   
 - title: "Bayesian Modeling of Effective and Functional Brain Connectivity using Hierarchical Vector Autoregressions"

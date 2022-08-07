@@ -169,8 +169,47 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
        margin-top: 5px;
       border-radius:2%;
   }
-  
-  
+
+
+  /* Top navigation bar */
+
+
+p.byline {
+	text-align: center;
+	font-size: 18px;
+	line-height: 36px;
+	margin-top: -24px;
+	margin-bottom: 48px;
+}
+
+
+pubtit {
+	font-weight: bold;
+}
+
+firstp {
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px; /* or 950px */
+}
+
+/* Home, News */
+#newsid p {
+	text-align: left;
+}
+
+#homeidtmp h1 {
+	text-align: center;
+}
+
+#newsid img {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
   
 
 /* Team & Publications */
