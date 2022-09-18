@@ -33,6 +33,8 @@ featured_image: /images/newspaper_desk_crop.jpg
 
 **Sept 23, 2021**. New paper: ‘Dynamic Mixture of Experts Models for Online Prediction’ (with Parfait Munezero and Robert Kohn). [arXiv](https://arxiv.org/abs/2109.11449)
 
+**Sept 24, 2021**. In PhD grading committee for Samuel Wiquist’s PhD thesis [Simulation-based Inference: From Approximate Bayesian Computation and Particle Methods to Neural Density Estimation](https://portal.research.lu.se/en/publications/simulation-based-inference-from-approximate-bayesian-computation-) at Mathematical Statistics, Lund University.
+
 **June 27, 2021**. New publication: ‘Spatial 3D Matérn priors for fast whole-brain fMRI analysis’ (with Per Sidén, Finn Lindgren, David Bolin and Anders Eklund) has been accepted by Bayesian Analysis. [arXiv](https://arxiv.org/abs/1906.10591)
 
 **June 25, 2021**. New paper: ‘Robust Real-Time Delay Predictions in a Network of High-Frequency Urban Buses’ (with Hector Rodriguez-Deniz). [arXiv](https://arxiv.org/abs/2106.13576)
