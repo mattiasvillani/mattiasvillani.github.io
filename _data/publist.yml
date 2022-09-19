@@ -28,9 +28,10 @@
   authors: Parfait Munezero and Robert Kohn
   url: whatevs
   image: onlinemixtures.png
-  display: arXived
+  display: Technometrics
   arxiv: 2109.11449
-  year: 
+  year: 2022
+  journal: true
 
 - title: "Spectral Subsampling MCMC for Stationary Multivariate Time Series"
   authors: Matias Quiroz, Robert Kohn and Robert Salomone
