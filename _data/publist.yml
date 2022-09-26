@@ -1,4 +1,4 @@
-# ADD MSC AND BSC THESISES. AND PHD
+# arXiv in submission
 
 - title: "Bayesian Prediction with Covariates Subject to Detection Limits"
   authors: Caroline Svahn
@@ -24,22 +24,6 @@
   arxiv: 2112.09073
   year: 
 
-- title: "Dynamic Mixture of Experts Models for Online Prediction"
-  authors: Parfait Munezero and Robert Kohn
-  url: whatevs
-  image: onlinemixtures.png
-  display: Technometrics
-  arxiv: 2109.11449
-  year: 2022
-  journal: true
-
-- title: "Spectral Subsampling MCMC for Stationary Multivariate Time Series"
-  authors: Matias Quiroz, Robert Kohn and Robert Salomone
-  image: vectorsubsampling.png
-  display: arXived
-  arxiv: 2104.02134
-  year:
-
 - title: "Bayesian Optimization of Hyperparameters when the Marginal Likelihood is Estimated by MCMC"
   authors: Oskar Gustafsson and Pär Stockhammar
   image: boop.jpg
@@ -55,6 +39,24 @@
   year:
 
   # Journal articles
+
+  - title: "Dynamic Mixture of Experts Models for Online Prediction"
+  authors: Parfait Munezero and Robert Kohn
+  url: whatevs
+  image: onlinemixtures.png
+  display: Technometrics
+  arxiv: 2109.11449
+  year: 2022
+  journal: true
+
+- title: "Spectral Subsampling MCMC for Stationary Multivariate Time Series with
+Applications to Vector ARTFIMA Processes"
+  authors: Matias Quiroz, Robert Kohn and Robert Salomone
+  image: vectorsubsampling.png
+  display: Econometrics & Statistics - Part B Statistics.
+  arxiv: 2104.02134
+  year: 2022
+  journal: true
 
 - title: "Robust Real-Time Delay Predictions in a Network of High-Frequency Urban Buses"
   authors: Hector Rodriguez-Deniz

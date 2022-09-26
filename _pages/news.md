@@ -7,6 +7,9 @@ featured_image: /images/newspaper_desk_crop.jpg
 
 ## News
 
+**September 26, 2022**. New publication. Our paper 'Spectral Subsampling MCMC for Stationary Multivariate Time Series with
+Applications to Vector ARTFIMA Processes' (with Matias Quiroz, Robert Kohn and Robert Salomone) has been accepted for publication in *Econometrics & Statistics*.
+
 **September 19, 2022**. New publication. Our paper 'Dynamic Mixture of Experts Models for Online Prediction' (with Parfait Munezero and Robert Kohn) has been accepted for publication in *Technometrics*.
 
 **June 14, 2022**. Gave a seminar in the AI4Research seminar series at Uppsala University on the topic ‘Adventures in Gaussian Processes’. [slides](https://github.com/mattiasvillani/Talks/raw/master/AI4Research.pdf) and [demo video](https://www.youtube.com/watch?ab_channel=MattiasVillani&v=wyD0O5hF5tE)
