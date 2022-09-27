@@ -24,7 +24,7 @@
   arxiv: 2112.09073
   year: 
 
-- title: "Bayesian Optimization of Hyperparameters when the Marginal Likelihood is Estimated by MCMC"
+- title: "Bayesian Optimization of Hyperparameters from Noisy Marginal Likelihood Estimates"
   authors: Oskar Gustafsson and Pär Stockhammar
   image: boop.jpg
   display: arXived
@@ -37,10 +37,9 @@
   display: arXived
   arxiv: 2003.04026
   year:
-
-  # Journal articles
-
-  - title: "Dynamic Mixture of Experts Models for Online Prediction"
+  
+# Journal articles
+- title: "Dynamic Mixture of Experts Models for Online Prediction"
   authors: Parfait Munezero and Robert Kohn
   url: whatevs
   image: onlinemixtures.png
