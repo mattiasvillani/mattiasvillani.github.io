@@ -69,7 +69,7 @@
   display: master level, 6 credits (gaussian processes and state-space models)
   courseweb: https://www.ida.liu.se/~732A96/info/courseinfo.en.shtml
   semester: 2016-2017
-  suppmat: https://github.com/mattiasvillani/TeachingMaterial/raw/master/AdvML/
+  suppmat: https://github.com/mattiasvillani/TeachingMaterial/raw/master/AdvML/ | https://github.com/mattiasvillani/StateSpaceModels
   current: false
 
 - title: "Introduction to Machine Learning"
