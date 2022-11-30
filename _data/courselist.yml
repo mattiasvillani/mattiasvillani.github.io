@@ -1,8 +1,9 @@
 
-- title: "Statistical Data Analysis I (in Swedish)"
+- title: "Statistics and Data Analysis I (in Swedish)"
   url: https://statisticssu.github.io/SDA1/
   image: regression.png
   display: basic undergraduate level, 7.5 credits
+  courseweb: https://statisticssu.github.io/SDA1/
   semester: Spring 2023
   current: true
 
