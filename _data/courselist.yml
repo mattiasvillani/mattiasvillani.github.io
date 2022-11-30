@@ -1,4 +1,11 @@
 
+- title: "Statistical Data Analysis I (in Swedish)"
+  url: https://statisticssu.github.io/SDA1/
+  image: regression.png
+  display: basic undergraduate level, 7.5 credits
+  semester: Spring 2023
+  current: true
+
 - title: "Bayesian Learning"
   url: https://github.com/mattiasvillani/BayesLearnCourse
   image: bl.png
@@ -12,14 +19,7 @@
   image: abl.png
   display: PhD level, 8 credits
   courseweb: https://github.com/mattiasvillani/AdvBayesLearnCourse
-  semester: probably Fall 2023
-  current: true
-
-- title: "Statistical Data Analysis I (in Swedish)"
-  url: https://mattiasvillani.github.io/Regression/
-  image: regression.png
-  display: basic undergraduate level, 7.5 credits
-  semester: Spring 2023
+  semester: Fall 2023 (probably)
   current: true
 
 - title: "Regression and Time Series Analysis (in Swedish)"
@@ -28,8 +28,8 @@
   display: basic undergraduate level, 7.5 credits
   courseweb: https://mattiasvillani.github.io/Regression/
   gitrepo: https://github.com/mattiasvillani/Regression
-  semester: Fall 2022
-  current: true
+  semester: Fall 2021, Spring 2022, Fall 2022
+  current: false
 
 - title: "Machine Learning"
   url: https://mattiasvillani.github.io/MLcourse/
