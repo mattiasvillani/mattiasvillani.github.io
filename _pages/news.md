@@ -7,6 +7,10 @@ featured_image: /images/newspaper_desk_crop.jpg
 
 ## News
 
+**November, 25, 2022**. In the PhD grading committee for Erik Spånberg's thesis in Statistics 'Variational Inference of Dynamic Factor Models' at Stockholm University.
+
+**October, 31, 2022**. In the PhD grading committee for Prakash Borpatra Gohain's thesis in Electrical Engineering 'The Quest for Robust Model Selection Methods in Linear Regression' at KTH Royal Institute for Technology.
+
 **September 26, 2022**. New publication. Our paper 'Spectral Subsampling MCMC for Stationary Multivariate Time Series with
 Applications to Vector ARTFIMA Processes' (with Matias Quiroz, Robert Kohn and Robert Salomone) has been accepted for publication in *Econometrics & Statistics*.
 
