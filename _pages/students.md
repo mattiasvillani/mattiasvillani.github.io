@@ -10,7 +10,7 @@ featured_image: /images/HermanMattiasCrop.jpg
 The [Mathematics Genealogy project](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=104187) keeps tracks of mathematicians in the world. \\
 Here is part of my academic family tree: 
 
-<img src="/images/VillaniGenealogy.jpg" alt="Geneaology">
+<img src="/images/VillaniGenealogy.png" alt="Geneaology">
 
 
 ## Current PhD students - main supervisor
