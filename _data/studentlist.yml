@@ -5,14 +5,6 @@
   position: PhD candidate at Dept. of Statistics, Stockholm University 
   current: true
 
-- name: "Oscar Oelrich"
-  image: oscar.jpeg
-  phddate: PhD student in Statistics, Stockholm University
-  topic: Bayesian inference for local predictive ability
-  position: PhD candidate at Dept. of Statistics, Stockholm University 
-  web: https://www.su.se/english/profiles/ooelr-1.342298
-  current: true
-
 - name: "Hector Rodriguez-Deniz"
   image: hector.jpeg
   phddate: PhD student in Statistics, Linköping University
@@ -28,6 +20,14 @@
   position: PhD candidate at Dept. of Statistics and Machine Learning, Linköping University 
   web: https://www.su.se/english/profiles/ooelr-1.342298
   current: true
+
+- name: "Oscar Oelrich"
+  image: oscar.jpeg
+  phddate: PhD in Statistics, Stockholm University
+  thesis: Learning Local Predictive Accuracy for Expert Evaluation and Forecast Combination
+  position: Lecturer at Dept. of Statistics, Stockholm University 
+  web: https://www.su.se/english/profiles/ooelr-1.342298
+  current: false
 
 - name: "Per Sidén"
   image: siden.jpeg

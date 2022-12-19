@@ -27,9 +27,10 @@
 - title: "Bayesian Optimization of Hyperparameters from Noisy Marginal Likelihood Estimates"
   authors: Oskar Gustafsson and Pär Stockhammar
   image: boop.jpg
-  display: arXived
+  display: Journal of Applied Econometrics
   arxiv: 2004.10092
-  year:
+  year: 2023
+  journal: true
 
 - title: "When are Bayesian model probabilities overconfident?"
   authors: Oscar Oelrich, Shutong Ding, Måns Magnusson and Aki Vehtari

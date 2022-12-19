@@ -7,6 +7,10 @@ featured_image: /images/newspaper_desk_crop.jpg
 
 ## News
 
+**December, 19, 2022** My student **Oscar Oelrich** successfully defended his PhD thesis *Learning Local Predictive Accuracy for Expert Evaluation and Forecast Combination* in Statistics at Stockholm University. [Francesco Ravazzolo](http://www.francescoravazzolo.com/) was faculty opponent.
+
+**December, 12, 2022** New publication. Our paper 'Bayesian Optimization of Hyperparameters from Noisy Marginal Likelihood Estimates' (with Oskar Gustafsson and Pär Stockhammar) has been accepted for publication in *Journal of Applied Econometrics*
+
 **November, 25, 2022**. In the PhD grading committee for Erik Spånberg's thesis in Statistics 'Variational Inference of Dynamic Factor Models' at Stockholm University.
 
 **October, 31, 2022**. In the PhD grading committee for Prakash Borpatra Gohain's thesis in Electrical Engineering 'The Quest for Robust Model Selection Methods in Linear Regression' at KTH Royal Institute for Technology.
