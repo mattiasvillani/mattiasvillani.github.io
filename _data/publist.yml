@@ -24,14 +24,6 @@
   arxiv: 2112.09073
   year: 
 
-- title: "Bayesian Optimization of Hyperparameters from Noisy Marginal Likelihood Estimates"
-  authors: Oskar Gustafsson and Pär Stockhammar
-  image: boop.jpg
-  display: Journal of Applied Econometrics
-  arxiv: 2004.10092
-  year: 2023
-  journal: true
-
 - title: "When are Bayesian model probabilities overconfident?"
   authors: Oscar Oelrich, Shutong Ding, Måns Magnusson and Aki Vehtari
   image: overconf.png
@@ -40,11 +32,22 @@
   year:
   
 # Journal articles
+
+- title: "Bayesian Optimization of Hyperparameters from Noisy Marginal Likelihood Estimates"
+  authors: Oskar Gustafsson and Pär Stockhammar
+  image: boop.jpg
+  display: Journal of Applied Econometrics
+  doi: https://doi.org/10.1002/jae.2961
+  arxiv: 2004.10092
+  year: 2023
+  journal: true
+
 - title: "Dynamic Mixture of Experts Models for Online Prediction"
   authors: Parfait Munezero and Robert Kohn
   url: whatevs
   image: onlinemixtures.png
   display: Technometrics
+  doi: https://doi.org/10.1080/00401706.2022.2146755
   arxiv: 2109.11449
   year: 2022
   journal: true
@@ -54,6 +57,7 @@ Applications to Vector ARTFIMA Processes"
   authors: Matias Quiroz, Robert Kohn and Robert Salomone
   image: vectorsubsampling.png
   display: Econometrics & Statistics - Part B Statistics.
+  doi: https://doi.org/10.1016/j.ecosta.2022.10.001
   arxiv: 2104.02134
   year: 2022
   journal: true
