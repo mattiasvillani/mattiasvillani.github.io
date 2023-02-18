@@ -7,7 +7,7 @@ featured_image: /images/newspaper_desk_crop.jpg
 
 ## News
 
-**February 17, 2023**. My PhD student Héctor Rodriguez Déniz successfully defended his PhD thesis in Statistics at Linköping University. [thesis](https://www.diva-portal.org/smash/get/diva2:1729371/FULLTEXT01.pdf).
+**February 17, 2023**. My PhD student Héctor Rodriguez Déniz successfully defended his PhD thesis in Statistics at Linköping University. [thesis](https://www.diva-portal.org/smash/get/diva2:1729371/FULLTEXT01.pdf). [Yusak Susilo](https://scholar.google.com/citations?user=1cqT1aoAAAAJ&hl=en) was faculty opponent.
 
 **February 16, 2023**. Guest lecture on Bayesian regression at KTH Royal Institute for Technology. [slides](https://github.com/mattiasvillani/Talks/raw/master/GuestLectureKTH2023.pdf)
 
