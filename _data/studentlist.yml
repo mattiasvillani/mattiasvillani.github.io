@@ -5,14 +5,6 @@
   position: PhD candidate at Dept. of Statistics, Stockholm University 
   current: true
 
-- name: "Hector Rodriguez-Deniz"
-  image: hector.jpeg
-  phddate: PhD student in Statistics, Linköping University
-  topic: Spatiotemporal models for transportation
-  position: PhD candidate at Dept. of Statistics and Machine Learning, Linköping University 
-  web: https://liu.se/en/employee/hecro15
-  current: true
-
 - name: "Josef Wilzén"
   image: josef.jpeg
   phddate: PhD student in Statistics, Linköping University
@@ -20,6 +12,13 @@
   position: PhD candidate at Dept. of Statistics and Machine Learning, Linköping University 
   web: https://www.su.se/english/profiles/ooelr-1.342298
   current: true
+
+- name: "Héctor Rodriguez-Déniz"
+  image: hector.jpeg
+  phddate: PhD student in Statistics, Linköping University
+  thesis: Bayesian Models for Spatiotemporal Data from Transportation Networks
+  web: https://liu.se/en/employee/hecro15
+  current: false
 
 - name: "Oscar Oelrich"
   image: oscar.jpeg

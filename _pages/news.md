@@ -7,18 +7,24 @@ featured_image: /images/newspaper_desk_crop.jpg
 
 ## News
 
-**December, 19, 2022**. My student **Oscar Oelrich** successfully defended his PhD thesis *Learning Local Predictive Accuracy for Expert Evaluation and Forecast Combination* in Statistics at Stockholm University. [Francesco Ravazzolo](http://www.francescoravazzolo.com/) was faculty opponent.
+**February 17, 2023**. My PhD student Héctor Rodriguez Déniz successfully defended his PhD thesis in Statistics at Linköping University. [thesis](https://www.diva-portal.org/smash/get/diva2:1729371/FULLTEXT01.pdf).
 
-**December, 12, 2022**. New publication. Our paper 'Bayesian Optimization of Hyperparameters from Noisy Marginal Likelihood Estimates' (with Oskar Gustafsson and Pär Stockhammar) has been accepted for publication in *Journal of Applied Econometrics*
+**February 16, 2023**. Guest lecture on Bayesian regression at KTH Royal Institute for Technology. [slides](https://github.com/mattiasvillani/Talks/raw/master/GuestLectureKTH2023.pdf)
 
-**November, 25, 2022**. In the PhD grading committee for Erik Spånberg's thesis in Statistics 'Variational Inference of Dynamic Factor Models' at Stockholm University.
+**February-March, 2023**. Teaching a newly developed basic course in Statistics 'Statistik och dataanalys, 15 hp' at Stockholm University. [Public webpage with all material](https://statisticssu.github.io/SDA1/).
 
-**October, 31, 2022**. In the PhD grading committee for Prakash Borpatra Gohain's thesis in Electrical Engineering 'The Quest for Robust Model Selection Methods in Linear Regression' at KTH Royal Institute for Technology.
+**December 19, 2022**. My student **Oscar Oelrich** successfully defended his PhD thesis *Learning Local Predictive Accuracy for Expert Evaluation and Forecast Combination* in Statistics at Stockholm University. [Francesco Ravazzolo](http://www.francescoravazzolo.com/) was faculty opponent.
+
+**December 12, 2022**. New publication. Our paper 'Bayesian Optimization of Hyperparameters from Noisy Marginal Likelihood Estimates' (with Oskar Gustafsson and Pär Stockhammar) has been accepted for publication in *Journal of Applied Econometrics*
+
+**November 25, 2022**. In the PhD grading committee for Erik Spånberg's thesis in Statistics 'Variational Inference of Dynamic Factor Models' at Stockholm University.
+
+**October 31, 2022**. In the PhD grading committee for Prakash Borpatra Gohain's thesis in Electrical Engineering 'The Quest for Robust Model Selection Methods in Linear Regression' at KTH Royal Institute for Technology.
 
 **September 26, 2022**. New publication. Our paper 'Spectral Subsampling MCMC for Stationary Multivariate Time Series with
 Applications to Vector ARTFIMA Processes' (with Matias Quiroz, Robert Kohn and Robert Salomone) has been accepted for publication in *Econometrics & Statistics*.
 
-**September 19, 2022**. New publication. Our paper 'Dynamic Mixture of Experts Models for Online Prediction' (with Parfait Munezero and Robert Kohn) has been accepted for publication in *Technometrics*.
+**September 19m 2022**. New publication. Our paper 'Dynamic Mixture of Experts Models for Online Prediction' (with Parfait Munezero and Robert Kohn) has been accepted for publication in *Technometrics*.
 
 **June 14, 2022**. Gave a seminar in the AI4Research seminar series at Uppsala University on the topic ‘Adventures in Gaussian Processes’. [slides](https://github.com/mattiasvillani/Talks/raw/master/AI4Research.pdf) and [demo video](https://www.youtube.com/watch?ab_channel=MattiasVillani&v=wyD0O5hF5tE)
 
