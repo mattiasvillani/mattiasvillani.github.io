@@ -7,6 +7,8 @@ featured_image: /images/newspaper_desk_crop.jpg
 
 ## News
 
+**June 14, 2023**. Giving a seminar on "Spectral Subsampling MCMC for Stationary Multivariate Time Series" at Mathematical Statistics, Dept of Mathematics, Stockholm University. [slides](https://github.com/mattiasvillani/Talks/raw/master/VillaniMatStatSU2023.pdf)
+
 **May 16, 2023**. Giving a seminar on "Bayesian Hyperparameter Learning" at BI Norwegian Business School. [slides](https://github.com/mattiasvillani/Talks/raw/master/BI2023/BIOslo2023.pdf)
 
 **February 17, 2023**. My PhD student Héctor Rodriguez Déniz successfully defended his PhD thesis in Statistics at Linköping University. [thesis](https://www.diva-portal.org/smash/get/diva2:1729371/FULLTEXT01.pdf). [Yusak Susilo](https://scholar.google.com/citations?user=1cqT1aoAAAAJ&hl=en) was faculty opponent.
