@@ -1,6 +1,6 @@
 ---
 title: News
-subtitle: a personal diary for a fading mind
+subtitle: more of a personal diary, really
 description: News.
 featured_image: /images/newspaper_desk_crop.jpg
 ---
