@@ -7,6 +7,10 @@ featured_image: /images/newspaper_desk_crop.jpg
 
 ## News
 
+**Aug, 7, 2023**. Giving a lecture on Bayesian uncertainty quantification and decision making at the CEDAS-NORBIS summer school in Bergen, Norway. [slides](https://github.com/mattiasvillani/Talks/raw/master/CEDASNorbisBergen2023/CEDASBergen2023Villani.pdf)
+
+**Aug 3, 2023**. Organized the session 'Large-scale Bayesian inference' at Ecosta2023 in Tokyo.
+
 **June 14, 2023**. Giving a seminar on "Spectral Subsampling MCMC for Stationary Multivariate Time Series" at Mathematical Statistics, Dept of Mathematics, Stockholm University. [slides](https://github.com/mattiasvillani/Talks/raw/master/VillaniMatStatSU2023.pdf)
 
 **May 16, 2023**. Giving a seminar on "Bayesian Hyperparameter Learning" at BI Norwegian Business School. [slides](https://github.com/mattiasvillani/Talks/raw/master/BI2023/BIOslo2023.pdf)
