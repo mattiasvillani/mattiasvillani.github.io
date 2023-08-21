@@ -3,7 +3,7 @@
 - title: "Bayesian Prediction with Covariates Subject to Detection Limits"
   authors: Caroline Svahn
   url: svahn2022bayesian
-  image: svahn2022bayesian.png
+  image: linocut_detection.png
   display: arXived
   arxiv: 2201.07874
   year:
@@ -11,31 +11,32 @@
 - title: "Bayesian Modeling of Effective and Functional Brain Connectivity using Hierarchical Vector Autoregressions"
   authors: Bertil Wegmann, Anders Lundquist and Anders Eklund
   url: whatevs
-  image: connectivity.png
+  image: linocut_connectivity.png
   display: arXived
   arxiv: 2112.04249
   year:
 
-- title: "Local Prediction Pools"
-  authors: Oscar Oelrich and Sebastian Ankargren
-  url: whatevs
-  image: localpools.png
-  display: arXived
-  arxiv: 2112.09073
-  year: 
-
 - title: "When are Bayesian model probabilities overconfident?"
   authors: Oscar Oelrich, Shutong Ding, Måns Magnusson and Aki Vehtari
-  image: overconf.png
+  image: linocut_overconf.png
   display: arXived
   arxiv: 2003.04026
   year:
   
 # Journal articles
 
+- title: "Local Prediction Pools"
+  authors: Oscar Oelrich and Sebastian Ankargren
+  url: whatevs
+  image: linocut_localpools.png
+  display: Journal of Forecasting
+  arxiv: 2112.09073
+  year: 2023
+  journal: true
+
 - title: "Bayesian Optimization of Hyperparameters from Noisy Marginal Likelihood Estimates"
   authors: Oskar Gustafsson and Pär Stockhammar
-  image: boop.jpg
+  image: linocut_boop.png
   display: Journal of Applied Econometrics
   doi: https://doi.org/10.1002/jae.2961
   arxiv: 2004.10092
@@ -45,7 +46,7 @@
 - title: "Dynamic Mixture of Experts Models for Online Prediction"
   authors: Parfait Munezero and Robert Kohn
   url: whatevs
-  image: onlinemixtures.png
+  image: linocut_dynmoe.png
   display: Technometrics
   doi: https://doi.org/10.1080/00401706.2022.2146755
   arxiv: 2109.11449
@@ -55,7 +56,7 @@
 - title: "Spectral Subsampling MCMC for Stationary Multivariate Time Series with
 Applications to Vector ARTFIMA Processes"
   authors: Matias Quiroz, Robert Kohn and Robert Salomone
-  image: vectorsubsampling.png
+  image: linocut_ecosta.png
   display: Econometrics & Statistics - Part B Statistics.
   doi: https://doi.org/10.1016/j.ecosta.2022.10.001
   arxiv: 2104.02134
@@ -65,7 +66,7 @@ Applications to Vector ARTFIMA Processes"
 - title: "Robust Real-Time Delay Predictions in a Network of High-Frequency Urban Buses"
   authors: Hector Rodriguez-Deniz
   url: rodriguez2022robust
-  image: rodriguez2022robust.png
+  image: linocut_bus.png
   display: IEEE Transactions on Intelligent Transportation Systems
   year: 2022
   doi: 10.1109/TITS.2022.3149656
@@ -74,7 +75,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "A Multilayered Block Network Model to Forecast Large Dynamic Transportation Graphs: an Application to US Air Transport"
   authors: Hector Rodriguez-Deniz and Augusto Voltes-Dorta
-  image: airlinegraph.png
+  image: linocut_airline.png
   display: Transportation Research Part C - Emerging Technologies
   year: 2022
   doi: 10.1016/j.trc.2022.103556
@@ -83,7 +84,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Spatial 3D Matérn priors for fast whole-brain fMRI analysis"
   authors: Per Sidén, Finn Lindgren, David Bolin and Anders Eklund
-  image: matern.png
+  image: linocut_matern.png
   display: Bayesian Analysis
   year: 2021
   doi: 10.1214/21-BA1283
@@ -94,7 +95,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "The block-Poisson estimator for optimally tuned exact subsampling MCMC"
   authors: Matias Quiroz, Minh-Ngoc Tran, Robert Kohn and Khue-Dung Dang
-  image: blockpoisson.png
+  image: linocut_blockpoisson.png
   display: Journal of Computational and Graphical Statistics
   year: 2021
   doi: 10.1080/10618600.2021.1917420
@@ -105,7 +106,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Physiological Gaussian Process Priors for the Hemodynamics in fMRI Analysis"
   authors: Josef Wilzén and Anders Eklund
-  image: gpbold2.png
+  image: linocut_gpbold.png
   display: Journal of Neuroscience Methods
   year: 2020
   doi: 10.1016/j.jneumeth.2020.108778
@@ -114,7 +115,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "DOLDA - a regularized supervised topic model for high-dimensional multi-class regression"
   authors: Måns Magnusson and Leif Jonsson
-  image: dolda2.png
+  image: linocut_dolda.png
   display: Computational Statistics
   year: 2020
   doi: https://doi.org/10.1007/s00180-019-00891-1
@@ -123,7 +124,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Hamiltonian Monte Carlo with Energy Conserving Subsampling"
   authors: Khue-Dung Dang, Matias Quiroz, Robert Kohn and Minh-Ngoc Tran
-  image: hmcecs.png
+  image: linocut_hmc.png
   display: Journal of Machine Learning Research
   year: 2019
   doi: http://jmlr.org/papers/volume20/17-452/17-452.pdf
@@ -133,7 +134,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Speeding Up MCMC by Efficient Data Subsampling"
   authors: Matias Quiroz, Robert Kohn and Minh Ngoc Tran
-  image: speedingupjasa.png
+  image: linocut_jasa.png
   display: Journal of the American Statistical Association
   year: 2019
   doi: 10.1080/01621459.2018.1448827
@@ -142,7 +143,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Sparse Partially Collapsed MCMC for Parallel Inference in Topic Models"
   authors: Måns Magnusson, Leif Jonsson and David Broman
-  image: pclda2.png
+  image: linocut_pclda.png
   display: Journal of Computational and Graphical Statistics
   year: 2019
   doi: 10.1080/10618600.2017.1366913
@@ -152,7 +153,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Speeding Up MCMC by Delayed Acceptance and Data Subsampling"
   authors: Matias Quiroz, Minh Ngoc Tran and Robert Kohn
-  image: DAsubsampling2.png
+  image: linocut_da.png
   display: Journal of Computational and Graphical Statistics
   year: 2019
   doi: 10.1080/10618600.2017.1307117
@@ -161,7 +162,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Efficient Covariance Approximations for Large Sparse Precision Matrices"
   authors: Per Sidén, Finn Lindgren and David Bolin
-  image: LargeSparse2.png
+  image: linocut_sparse.png
   display: Journal of Computational and Graphical Statistics
   year: 2018
   doi: 10.1080/10618600.2018.1473782
@@ -171,7 +172,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Tree Ensembles with Rule Structured Horseshoe Regularization"
   authors: Malte Nalenz
-  image: HorseRule.png
+  image: linocut_horserule.png
   display: Annals of Applied Statistics
   year: 2018
   doi: 10.1214/18-AOAS1157
@@ -181,7 +182,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Subsampling MCMC - An Introduction for the Survey Statistician"
   authors: Matias Quiroz, Robert Kohn, Minh-Ngoc Tran and Khue-Dung Dang
-  image: sankhyaa.png
+  image: sankhya_linocut.png
   display: Sankhya A
   year: 2018
   doi: https://link.springer.com/article/10.1007/s13171-018-0153-7
@@ -190,7 +191,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Invited discussion of “Bayesian Spatiotemporal Modeling Using Hierarchical Spatial Priors, with Applications to fMRI”"
   authors: Per Sidén
-  image: BAdiscussion.png
+  image: linocut_badiscussion.png
   display: Bayesian Analysis
   year: 2018
   doi: https://projecteuclid.org/download/pdfview_1/euclid.ba/1525766415
@@ -199,7 +200,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Fast Bayesian Whole-Brain fMRI Analysis with Spatial 3D Priors"
   authors: Per Sidén, Anders Eklund and David Bolin
-  image: Fast3DNeuroimage.png
+  image: linocut_3dfast.png
   display: NeuroImage
   year: 2017
   arxiv: 1606.00980
@@ -209,7 +210,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "A Bayesian Heteroscedastic GLM with Application to fMRI Data with Motion Spikes"
   authors: Anders Eklund and Martin A. Lindquist
-  image: heterofmri.png
+  image: linocut_heterofmri.png
   display: NeuroImage
   year: 2017
   arxiv: 1612.00690
@@ -219,7 +220,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Bayesian Rician Regression for Neuroimaging"
   authors: Bertil Wegmann and Anders Eklund
-  image: RiceFrontiers.png
+  image: linocut_dtifrontiers.png
   display: Frontiers in Neuroscience
   year: 2017
   arxiv: 1612.07034
@@ -228,7 +229,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "BROCCOLI: Software for Fast fMRI Analysis on Many-Core CPUs and GPUs"
   authors: Anders Eklund, Paul Dufort and Stephen LaConte
-  image: Broccoli.png
+  image: linocut_broccoli.png
   display: Frontiers in Neuroinformatics
   year: 2014
   doi: 10.3389/fninf.2014.00024
@@ -237,7 +238,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Taking the Twists into Account: Predicting Firm Bankruptcy Risk with Splines of Financial Ratios"
   authors: Paolo Giordani, Tor Jacobson and Erik von Schedvin
-  image: JFQA.png
+  image: linocut_jfqa.png
   display: Journal of Financial and Quantitative Analysis
   year: 2014
   doi: 10.1017/S0022109014000623
@@ -246,7 +247,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Harnessing Graphics Processing Units for Improved Neuroimaging Statistics"
   authors: Anders Eklund and Stephen LaConte
-  image: CABNgpu.png
+  image: linocut_cabn.png
   display: Cognitive, Affective, & Behavioral Neuroscience
   year: 2013
   doi: 10.3758/s13415-013-0165-7
@@ -254,7 +255,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Efficient Bayesian Multivariate Surface Regression"
   authors: Feng Li
-  image: MoveKnots.png
+  image: linocut_moveknots.png
   display: Scandinavian Journal of Statistics
   year: 2013
   doi: 10.1111/sjos.12022
@@ -264,7 +265,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Regression Density Estimation With Variational Methods and Stochastic Approximation"
   authors: David Nott, Siew Li Tan and Robert Kohn
-  image: JCGS_VB_Nott.png
+  image: linocut_jcgsnott.png
   display: Journal of Computational and Graphical Statistics
   year: 2012
   doi: https://doi.org/10.1080/10618600.2012.679897
@@ -272,7 +273,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Generalized Smooth Finite Mixtures"
   authors: David Nott and Robert Kohn
-  image: GSM.png
+  image: linocut_gsm.png
   display: Journal of Econometrics
   year: 2012
   doi: 10.1016/j.jeconom.2012.06.012
@@ -280,7 +281,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Bayesian Inference in Structural Second-Price Common Value Auctions"
   authors: Bertil Wegmann
-  image: auctionsjbes.png
+  image: linocut_jbes.png
   display: Journal of Business and Economic Statistics
   year: 2011
   doi: 10.1198/jbes.2011.08289
@@ -288,7 +289,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Flexible Modeling of Conditional Distributions using Smooth Mixtures of Asymmetric Student t Densities"
   authors:  Feng Li and Robert Kohn
-  image: jspi2010.png
+  image: linocut_jspi.png
   display: Journal of Statistical Planning and Inference
   year: 2010
   doi: 10.1016/j.jspi.2010.04.031
@@ -297,7 +298,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Forecasting Macroeconomic Time Series with Locally Adaptive Signal Extraction"
   authors:  Feng Li and Robert Kohn
-  image: LASER.png
+  image: linocut_laser.png
   display: International Journal of Forecasting
   year: 2010
   doi: 10.1016/j.ijforecast.2009.12.011
@@ -306,7 +307,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Steady-State Priors for Vector Autoregressions"
   authors:  Mattias Villani
-  image: steadystateprior.png
+  image: linocut_steady.png
   display: Journal of Applied Econometrics
   year: 2009
   doi: 10.1002/jae.1065
@@ -314,7 +315,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Regression Density Estimation using Smooth Adaptive Gaussian Mixtures"
   authors:  Robert Kohn and Paolo Giordani
-  image: SAGM.png
+  image: linocut_sagm.png
   display: Journal of Econometrics
   year: 2009
   doi: 10.1016/j.jeconom.2009.05.004
@@ -322,7 +323,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Evaluating an Estimated New Keynesian Small Open Economy Model"
   authors:  Malin Adolfson, Stefan Laséen and Jesper Lindé
-  image: jedc.png
+  image: linocut_jedc.png
   display: Journal of Economic Dynamics and Control
   year: 2008
   doi: 10.1016/j.jedc.2007.09.012
@@ -332,7 +333,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Empirical Properties of Closed and Open Economy DSGE Models of the Euro Area"
   authors:  Malin Adolfson, Stefan Laséen and Jesper Lindé
-  image: macDyn.png
+  image: linocut_macdyn.png
   display: Macroeconomic Dynamics
   year: 2008
   doi: 10.1017/S1365100507070101
@@ -341,7 +342,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Modern Forecasting Models in Action: Improving Macroeconomic Analyses at Central Banks"
   authors:  Malin Adolfson, Michael K. Andersson, Jesper Lindé and Anders Vredin
-  image: IJCB.png
+  image: linocut_ijcb.png
   display: International Journal of Central Banking
   year: 2007
   doi: https://www.ijcb.org/journal/ijcb07q4a4.pdf
@@ -349,7 +350,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Bayesian Estimation of an Open Economy DSGE Model with Incomplete Pass-Through"
   authors:  Malin Adolfson, Stefan Laséen and Jesper Lindé
-  image: JIE.png
+  image: linocut_jie.png
   display: Journal of International Economics
   year: 2007
   doi: 10.1016/j.jinteco.2007.01.003
@@ -359,7 +360,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Bayesian Analysis of DSGE Models — Some Comments"
   authors:  Malin Adolfson and Jesper Lindé
-  image: ERcomment.png
+  image: linocut_ercomment.png
   display: Econometric Reviews
   year: 2007
   doi: 10.1080/07474930701220121
@@ -367,7 +368,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Forecasting Performance of an Open Economy DSGE Model"
   authors:  Malin Adolfson and Jesper Lindé
-  image: ForecastER.png
+  image: linocut_erforecast.png
   display: Econometric Reviews
   year: 2007
   doi: 10.1080/07474930701220543
@@ -376,7 +377,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Bayesian Point Estimation of the Cointegration Space"
   authors: Mattias Villani
-  image: CointSpace.png
+  image: linocut_cointspace.png
   display: Journal of Econometrics
   year: 2006
   doi: 10.1016/j.jeconom.2005.07.008
@@ -384,7 +385,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "The Multivariate Split Normal Distribution and Asymmetric Principal Components Analysis"
   authors: Rolf Larsson
-  image: SplitNormal.png
+  image: linocut_split.png
   display: Communications in Statistics - Theory and Methods
   year: 2006
   doi: 10.1080/03610920600672252
@@ -392,7 +393,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "A Bayesian Approach to Modelling Graphical Vector Autoregressions"
   authors: Jukka Corander
-  image: graphvar.png
+  image: linocut_graphvar.png
   display: Journal of Time Series Analysis
   year: 2006
   doi: 10.1111/j.1467-9892.2005.00460.x
@@ -400,7 +401,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "The Role of Sticky Prices in an Open Economy Dsge Model: A Bayesian Investigation"
   authors:  Malin Adolfson, Stefan Laséen and Jesper Lindé
-  image: JEEA.png
+  image: linocut_jeea.png
   display: Journal of the European Economic Association
   year: 2005
   doi: 10.1162/jeea.2005.3.2-3.444
@@ -408,7 +409,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Are Constant Interest Rate Forecasts Modest Policy Interventions? Evidence from a Dynamic Open-Economy Model"
   authors:  Malin Adolfson, Stefan Laséen and Jesper Lindé
-  image: ConstantModest.png
+  image: linocut_modest.png
   display: International Finance
   year: 2005
   doi: 10.1111/j.1468-2362.2005.00168.x
@@ -416,7 +417,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Bayesian Reference Analysis of Cointegration"
   authors:  Mattias Villani
-  image: Grassman.png
+  image: linocut_grassman.png
   display: Econometric Theory
   year: 2005
   doi: 10.1017/S026646660505019X
@@ -424,7 +425,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Bayesian Assessment of Dimensionality in Reduced Rank Regression"
   authors:  Jukka Corander
-  image: statneer.png
+  image: linocut_statneer.png
   display: Statistica Neerlandica
   year: 2005
   doi: 10.1111/j.1467-9574.2004.00108.x
@@ -432,7 +433,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Bayesian Prediction with Cointegrated Vector Autoregressions"
   authors: Mattias Villani
-  image: IJF.png
+  image: linocut_ijf.png
   display: International Journal of Forecasting
   year: 2001
   doi: 10.1016/S0169-2070(01)00082-6
@@ -440,7 +441,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Fractional Bayesian Lag Length Inference in Multivariate Autoregressive Processes"
   authors: Mattias Villani
-  image: JTSA2001.png
+  image: linocut_fractional.png
   display: Journal of Time Series Analysis
   year: 2001
   doi: 10.1111/1467-9892.00212
@@ -448,7 +449,7 @@ Applications to Vector ARTFIMA Processes"
   
 - title: "A Distance Measure Between Cointegration Spaces"
   authors: Rolf Larsson
-  image: dist.png
+  image: linocut_dist.png
   display: Journal of Time Series Analysis
   year: 2001
   doi: 10.1016/S0165-1765(00)00349-9
@@ -458,7 +459,7 @@ Applications to Vector ARTFIMA Processes"
 ## CONFERENCES
 - title: "Spectral Subsampling MCMC for Stationary Time Series"
   authors: Robert Salomone, Matias Quiroz, Robert Kohn and Minh-Ngoc Tran
-  image: icml2020.png
+  image: linocut_icml.png
   display: International Conference on Machine Learning (ICML)
   year: 2020
   doi: https://proceedings.mlr.press/v119/salomone20a.html
@@ -467,7 +468,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Anatomically Informed Bayesian Spatial Priors for fMRI analysis"
   authors: David Abramian, Per Sidén, Hans Knutsson and Anders Eklund
-  image: isbi2020.png
+  image: linocut_isbi.png
   display: IEEE International Symposium on Biomedical Imaging (ISBI)
   year: 2020
   doi: https://ieeexplore.ieee.org/document/9098342
@@ -476,7 +477,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Real-Time Robotic Search using Hierarchical Spatial Point Processes"
   authors: Olov Andersson, Per Sidén, Johan Dahlin and Patrick Doherty
-  image: UAI2019.png
+  image: linocut_aui.png
   display: Uncertainty in Artificial Intelligence (UAI)
   year: 2019
   doi: http://auai.org/uai2019/proceedings/papers/368.pdf
@@ -486,7 +487,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Urban Network Travel Time Prediction via Online Multi-Output Gaussian Process Regression"
   authors: Hector Rodriguez-Deniz and Erik Jenelius
-  image: UrbanTrafficPred.png
+  image: linocut_ITSC.png
   display: IEEE International Conference on Intelligent Transportation Systems (ITSC)
   year: 2017
   doi: https://doi.org/10.1109/ITSC.2017.8317796
@@ -494,7 +495,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Bayesian Diffusion Tensor Estimation with Spatial Priors"
   authors: Xuan Gu, Per Sidén, Bertil Wegmann, Anders Eklund and Hans Knutsson
-  image: CAIP2017.png
+  image: linocut_CAIP.png
   display: Computer Analysis of Images and Patterns (CAIP)
   year: 2017
   doi: https://doi.org/10.1007/978-3-319-64689-3_30
@@ -502,7 +503,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Intrusion-Damage Assessment and Mitigation in Cyber-Physical Systems for Control Applications"
   authors: Rouhollah Mahfouzi, Amir Aminifar, Petru Eles, and Zebo Peng
-  image: mitigation.png
+  image: linocut_mitigation.png
   display: International Conference on Real-Time Networks and Systems (RTNS)
   year: 2016
   doi: https://doi.org/10.1145/2997465.2997478
@@ -510,7 +511,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Automatic Localization of Bugs to Faulty Components in Large Scale Software Systems Using Bayesian Classification"
   authors: Leif Jonsson, David Broman, Måns Magnusson, Kristian Sandahl and Sigrid Eldh
-  image: LocalizeBugs.png
+  image: linocut_bug.png
   display: IEEE International Conference on Software Quality, Reliability and Security (QRS)
   year: 2016
   doi: https://doi.org/10.1109/QRS.2016.54
@@ -518,7 +519,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Perception-Aware Power Management for Mobile Games via Dynamic Resolution Scaling"
   authors: Arian Maghazeh, Unmesh D. Bordoloi, Petru Eles and Zebo Peng
-  image: ScreenResArian.png
+  image: linocut_arian.png
   display: IEEE/ACM International Conference on Computer-Aided Design (ICCAD)
   year: 2015
   doi: https://doi.org/10.1109/ICCAD.2015.7372626
@@ -526,7 +527,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Statistical Analysis of Process Variation based on Indirect Measurements for Electronic System Design"
   authors: Ivan Ukhov, Petru Eles and Zebo Peng
-  image: UkhovPaper.png
+  image: linocut_ukhov.png
   display: IEEE/ACM ASP-DAC Design Automation Conference
   year: 2014
   doi: https://doi.org/10.1109/ASPDAC.2014.6742930
@@ -536,7 +537,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Bayesian Heteroscedastic Regression for Diffusion Tensor Imaging"
   authors: Bertil Wegmann and Anders Eklund
-  image: DiffusionBookChapter.png
+  image: linocut_diffusionchapter.png
   display: In 'Modeling, Analysis, and Visualization of Anisotropy' (Schultz, Özarslan and Hotz eds.), Springer
   year: 2017
   doi: https://doi.org/10.1007/978-3-319-61358-1_11
@@ -544,7 +545,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Modelling Conditional Densities Using Finite Smooth Mixtures"
   authors: Feng Li and Robert Kohn
-  image: LiVillaniKohnBookChapter.png
+  image: linocut_libook.png
   display: In 'Mixture models - Estimation and Applications (Robert, Mengerson and Titterington, eds), Wiley
   year: 2011
   doi: https://doi.org/10.1002/9781119995678.ch6
@@ -552,7 +553,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Bayesian Approaches to Cointegration"
   authors: Gary Koop, Rodney Strachan and Herman van Dijk
-  image: Palgrave.png
+  image: linocut_palgrave.png
   display: In 'Palgrave Handbook of Econometrics, Vol 1, Econometric Theory'
   year: 2006
   doi: https://strathprints.strath.ac.uk/7750/
@@ -562,7 +563,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Official Statistics – Methodology and Applications in Honour of Daniel Thorburn"
   authors: Michael Carlson and Hans Nyquist (editors)
-  image: OfficialStats.png
+  image: linocut_daniel.png
   year: 2006
   doi: https://officialstatistics.wordpress.com/
   book: true
@@ -571,7 +572,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "The Riksbank’s communication of macroeconomic uncertainty"
   authors: David Kjellberg
-  image: PoV2010.png
+  image: linocut_kjellberg.png
   display: Sveriges Riksbank Economic Review
   year: 2010
   doi: http://archive.riksbank.se/Upload/Dokument_riksbank/Kat_publicerat/PoV_sve/eng/2010/er_2010_1.pdf
@@ -579,7 +580,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "RAMSES – a new general equilibrium model for monetary policy analysis"
   authors: Malin Adolfson, Stefan Laseén and Jesper Lindé
-  image: PoV2007Ramses.png
+  image: linocut_ramses.png
   display: Sveriges Riksbank Economic Review
   year: 2007
   doi: https://archive.riksbank.se/Upload/Dokument_riksbank/Kat_publicerat/PoV_sve/eng/2007/er2007_2.pdf
@@ -587,7 +588,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Aspects of Bayesian Cointegration"
   authors: Mattias Villani
-  image: Thesis.png
+  image: linocut_thesis.png
   display: PhD thesis in Statistics, Stockholm University
   year: 2007
   other: true
@@ -595,49 +596,49 @@ Applications to Vector ARTFIMA Processes"
 # Older working papers
 - title: "Modeling Text Complexity using a Multi-Scale Probit"
   authors: Johan Falkenjack and Arne Jönsson
-  image: ModelingTextComplexity.jpg
+  image: linocut_falkenjack.png
   year: 2018
   arxiv: 1811.04653
   wp: true
 
 - title: "The Block Pseudo-Marginal Sampler"
   authors: Minh-Ngoc Tran, Robert Kohn and Matias Quiroz
-  image: blocksampler.png
+  image: linocut_blocking.png
   year: 2017
   arxiv: 1603.02485
   wp: true
 
 - title: "Dynamic Mixture-of-Experts Models for Longitudinal and Discrete-Time Survival Data"
   authors: Matias Quiroz
-  image: DynMix.png
+  image: linocut_dynmixquiroz.png
   year: 2013
   arxiv: https://github.com/mattiasvillani/Papers/raw/master/DynamicMixture.pdf
   wp: true
 
 - title: "Bayesian optimisation for fast approximate inference in state-space models with intractable likelihoods"
   authors: Johan Dahlin and Thomas Schön
-  image: SMCABCGPO.png
+  image: linocut_abcgpo.png
   year: 2015
   arxiv: https://arxiv.org/abs/1506.06975
   wp: true
 
 - title: "Monetary Policy Analysis in a Small Open Economy Using Bayesian Cointegrated Structural VARs"
   authors: Anders Warne
-  image: WarnePaper.png
+  image: linocut_warne.png
   year: 2014
   arxiv: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=487477
   wp: true
 
 - title: "Bayesian Inference of General Linear Restrictions on the Cointegration Space"
   authors: Mattias Villani
-  image: CointRestrictions.png
+  image: linocut_cointrestr.png
   year: 2005
   arxiv: https://archive.riksbank.se/Upload/WorkingPapers/WP_189.pdf
   wp: true
 
 - title: "Panel Regression with Unobserved Classes"
   authors: Mickael Bäckman
-  image: salabasis.png
+  image: linocut_salabasis.png
   year: 2000
   arxiv: https://swopec.hhs.se/hastef/papers/hastef0353.pdf
   wp: true

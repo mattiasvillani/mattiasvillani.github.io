@@ -6,6 +6,8 @@ permalink: /research/
 featured_image: /images/linocut_retrocomputer.png
 ---
 
+The image for each paper is an AI-generated modification of an original image in the paper.
+
 {% assign yeartest = true %}
 {% for publi in site.data.publist %}
   {% if publi.year %}{% else %}
