@@ -2,7 +2,7 @@
 title: "About"
 subtitle: a little something about my professional life
 permalink: /about/
-featured_image: /images/mantypewriter.jpg
+featured_image: /images/linocut_me.png
 ---
 
 I got my PhD in Statistics in 2000 from [Stockholm University](https://www.su.se/department-of-statistics/) on the topic Bayesian Cointegration with the brilliant Daniel Thorburn as supervisor. 

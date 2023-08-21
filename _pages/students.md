@@ -2,7 +2,7 @@
 title: Students
 subtitle: my academic family
 description: My students.
-featured_image: /images/HermanMattiasCrop.jpg
+featured_image: /images/linocut_students.png
 ---
 
 ## Genealogy

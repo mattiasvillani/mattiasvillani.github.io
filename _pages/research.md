@@ -3,7 +3,7 @@ layout: page
 title: "Research"
 subtitle: my publications
 permalink: /research/
-featured_image: /images/math.jpg
+featured_image: /images/linocut_retrocomputer.png
 ---
 
 {% assign yeartest = true %}

@@ -2,7 +2,7 @@
 title: News
 subtitle: more of a personal diary, really
 description: News.
-featured_image: /images/newspaper_desk_crop.jpg
+featured_image: /images/linocut_newspaper.png
 ---
 
 ## News
