@@ -1,18 +1,18 @@
 
 - title: "Statistics and Data Analysis I (in Swedish)"
   url: https://statisticssu.github.io/SDA1/
-  image: regression.png
+  image: linocut_sda1new.png
   display: basic undergraduate level, 7.5 credits
   courseweb: https://statisticssu.github.io/SDA1/
-  semester: Spring 2023
+  semester: Fall 2023
   current: true
 
 - title: "Bayesian Learning"
   url: https://github.com/mattiasvillani/BayesLearnCourse
-  image: bl.png
+  image: linocut_blsu.png
   display: master level, 7.5 credits
   courseweb: https://github.com/mattiasvillani/BayesLearnCourse
-  semester: Spring 2023
+  semester: Spring 2024
   current: true
 
 - title: "Advanced Bayesian Learning"
@@ -25,7 +25,7 @@
 
 - title: "Regression and Time Series Analysis (in Swedish)"
   url: https://mattiasvillani.github.io/Regression/
-  image: regression.png
+  image: linocut_ru.png
   display: basic undergraduate level, 7.5 credits
   courseweb: https://mattiasvillani.github.io/Regression/
   gitrepo: https://github.com/mattiasvillani/Regression
@@ -34,7 +34,7 @@
 
 - title: "Machine Learning"
   url: https://mattiasvillani.github.io/MLcourse/
-  image: ml.png
+  image: linocut_ml.png
   display: master level, 7.5 credits
   courseweb: https://github.com/mattiasvillani/Regression
   semester: Spring 2021
@@ -42,7 +42,7 @@
 
 - title: "Bayesian Learning"
   url: https://github.com/STIMALiU/BayesLearnCourse
-  image: bl.png
+  image: linocut_bayesliu.png
   display: master level, 6 credits
   courseweb: https://github.com/mattiasvillani/BayesLearnCourse
   semester: 2012-2020
@@ -50,7 +50,7 @@
 
 - title: "Machine Learning for Industry"
   url: https://github.com/STIMALiU/ml4industry
-  image: ML4Industry.png
+  image: linocut_industryml.png
   display: AI competence Sweden course for employees in industry, 6 credits
   courseweb: https://github.com/STIMALiU/ml4industry
   semester: nov-dec 2019
@@ -58,7 +58,7 @@
 
 - title: "Basic Time Series Analysis"
   url: https://github.com/STIMALiU/ml4industry
-  image: timeseries.png
+  image: linocut_timeseries.png
   display: undergraduate level (in Swedish), 7.5 credits
   courseweb: https://studieinfo.liu.se/en/kurs/732G42/vt-2023
   semester: Fall 2017
@@ -66,7 +66,7 @@
 
 - title: "Advanced Machine Learning"
   url: https://www.ida.liu.se/~732A96/info/courseinfo.en.shtml
-  image: GPs.png
+  image: linocut_aml.png
   display: master level, 6 credits (gaussian processes and state-space models)
   courseweb: https://www.ida.liu.se/~732A96/info/courseinfo.en.shtml
   semester: 2016-2017
@@ -75,7 +75,7 @@
 
 - title: "Introduction to Machine Learning"
   url: https://liu.se/utbildning/kurs/732a68
-  image: PalmerPenguinsDataCrop.png
+  image: linocut_mlintro.png
   display: master level, 9 credits (intro, mixtures and high-dimensional ML)
   courseweb: https://liu.se/utbildning/kurs/732a68
   semester: 2015
@@ -84,7 +84,7 @@
 
 - title: "Text Mining"
   url: https://www.ida.liu.se/~732A92/courseinfo.en.shtml
-  image: nlp.png
+  image: linocut_nlp.png
   display: master level, 6 credits (intro, python, stats for text data)
   courseweb: https://www.ida.liu.se/~732A92/courseinfo.en.shtml
   semester: 2013-2016
@@ -93,7 +93,7 @@
 
 - title: "Probability and Statistics"
   url: https://www.ida.liu.se/~TDAB01/info/courseinfo.sv.shtml
-  image: ProbStatUNew.png
+  image: linocut_prob.png
   display: basic undergraduate engineering, 6 credits
   courseweb: https://www.ida.liu.se/~TDAB01/info/courseinfo.sv.shtml
   semester: 2015-2017
@@ -102,7 +102,7 @@
 
 - title: "Master Thesis Course"
   url: https://www.ida.liu.se/~732A64/info/courseinfo.en.shtml
-  image: masterthesiscrop.jpg
+  image: linocut_thesis.png
   display: master level, 30 credits
   courseweb: https://www.ida.liu.se/~732A64/info/courseinfo.en.shtml
   semester: 2011-2018
@@ -110,7 +110,7 @@
 
 - title: "Probability Theory"
   url: https://www.ida.liu.se/~732A64/info/courseinfo.en.shtml
-  image: randomnew.png
+  image: linocut_probability.png
   display: master level, 6 credits
   courseweb: https://www.ida.liu.se/~732A64/info/courseinfo.en.shtml
   semester: 2011-2018
@@ -119,7 +119,7 @@
 
 - title: "Statistical Analysis of Complex Data (in Swedish)"
   url: https://studieinfo.liu.se/kurs/732G34
-  image: ComplexData.png
+  image: linocut_complex.png
   display: undergraduate level, 7.5 credits (spatial and longitudinal data)
   courseweb: https://studieinfo.liu.se/kurs/732G34
   semester: 2012-2014 and 2019
@@ -128,51 +128,51 @@
 
 - title: "Programming in R (in Swedish)"
   url: https://studieinfo.liu.se/kurs/732G34
-  image: rcode.png
+  image: linocut_r.png
   display: basic undergraduate level, 7.5 credits
   semester: 2012-2014 and 2019
   current: false
 
 - title: "Theory of Statistics"
   url: https://studieinfo.liu.se/kurs/732G20
-  image: TheoryStat.png
+  image: linocut_stattheory2.png
   display: undergraduate level, 7.5 credits
   semester: 2011
   current: false
 
 - title: "Statistical Methods"
-  image: StatMethodsNew.png
+  image: linocut_statmethods.png
   display: master level, 7.5 credits (nonparametric reg and model selection)
   semester: 2010
   suppmat: https://github.com/mattiasvillani/TeachingMaterial/tree/master/StatMethods
   current: false
 
 - title: "Decision making"
-  image: DecisionBasic.png
+  image: linocut_decisionbasic.png
   display: basic undergraduate level, 30 credits
   semester: 2002
   current: false
 
 - title: "Decision theory"
-  image: DecisionAdv.png
+  image: linocut_decisionadv.png
   display: master level, 7.5 credits
   semester: 2001
   current: false
 
 - title: "Bayesian Statistics I"
-  image: BayesStatOLD.png
+  image: linocut_bayesold2.png
   display: master level, 7.5 credits
   semester: 2005-2011
   current: false
 
 - title: "Statistical theory"
-  image: StatTheory2001.png
+  image: linocut_stattheory.png
   display: undergraduate level, 7.5 credits
   semester: 2001
   current: false
 
 - title: "Bayesian Statistics II"
-  image: BayesPhD.png
+  image: linocut_bayesfirst.png
   display: master and PhD level, 7.5 credits
   semester: 2000
   current: false

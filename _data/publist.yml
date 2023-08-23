@@ -182,7 +182,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Subsampling MCMC - An Introduction for the Survey Statistician"
   authors: Matias Quiroz, Robert Kohn, Minh-Ngoc Tran and Khue-Dung Dang
-  image: sankhya_linocut.png
+  image: linocut_sankhya.png
   display: Sankhya A
   year: 2018
   doi: https://link.springer.com/article/10.1007/s13171-018-0153-7
@@ -511,7 +511,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Automatic Localization of Bugs to Faulty Components in Large Scale Software Systems Using Bayesian Classification"
   authors: Leif Jonsson, David Broman, Måns Magnusson, Kristian Sandahl and Sigrid Eldh
-  image: linocut_bug.png
+  image: linocut_buglocalize.png
   display: IEEE International Conference on Software Quality, Reliability and Security (QRS)
   year: 2016
   doi: https://doi.org/10.1109/QRS.2016.54
@@ -588,7 +588,7 @@ Applications to Vector ARTFIMA Processes"
 
 - title: "Aspects of Bayesian Cointegration"
   authors: Mattias Villani
-  image: linocut_thesis.png
+  image: linocut_phdthesis.png
   display: PhD thesis in Statistics, Stockholm University
   year: 2007
   other: true
