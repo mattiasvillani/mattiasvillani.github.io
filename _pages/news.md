@@ -7,6 +7,8 @@ featured_image: /images/linocut_newspaper.png
 
 ## News
 
+**Sept, 22, 2023**. In the PhD grading committee for Lina Palmborg's thesis in Mathematical Statistics 'Modern developments in insurance mathematics' at Stockholm University.
+
 **Aug, 7, 2023**. Gave a lecture on Bayesian uncertainty quantification and decision making at the CEDAS-NORBIS summer school in Bergen, Norway. [slides](https://github.com/mattiasvillani/Talks/raw/master/CEDASNorbisBergen2023/CEDASBergen2023Villani.pdf) [git repo](https://github.com/mattiasvillani/CEDAS_NORBIS2023)
 
 **Aug 3, 2023**. Organized the session 'Large-scale Bayesian inference' at Ecosta2023 in Tokyo.
