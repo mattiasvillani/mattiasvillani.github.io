@@ -1,11 +1,4 @@
 
-- title: "Statistics and Data Analysis I (in Swedish)"
-  url: https://statisticssu.github.io/SDA1/
-  image: linocut_sda1new.png
-  display: basic undergraduate level, 7.5 credits
-  courseweb: https://statisticssu.github.io/SDA1/
-  semester: Fall 2023
-  current: true
 
 - title: "Bayesian Learning"
   url: https://github.com/mattiasvillani/BayesLearnCourse
@@ -22,6 +15,22 @@
   courseweb: https://github.com/mattiasvillani/AdvBayesLearnCourse
   semester: Early May - Mid June 2024
   current: true
+
+- title: "Statistical Theory and Modeling"
+  url: https://statisticssu.github.io/STM/
+  image: stm_course.png
+  display: master level in computer and systems sciences, 7.5 credits
+  courseweb: https://statisticssu.github.io/STM/
+  semester: Fall 2024
+  current: true
+
+- title: "Statistics and Data Analysis I (in Swedish)"
+  url: https://statisticssu.github.io/SDA1/
+  image: linocut_sda1new.png
+  display: basic undergraduate level, 7.5 credits
+  courseweb: https://statisticssu.github.io/SDA1/
+  semester: Spring 2023, Fall 2023
+  current: false
 
 - title: "Regression and Time Series Analysis (in Swedish)"
   url: https://mattiasvillani.github.io/Regression/
