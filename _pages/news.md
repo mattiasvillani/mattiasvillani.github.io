@@ -8,7 +8,9 @@ featured_image: /images/linocut_newspaper.png
 
 ## News
 
-**Nov 6, 2023**. Giving a talk at *Workshop on Financial Econometrics 2023* at Örebro University on 'Learning Hyperparameters using Bayesian Optimization with Optimized Precision'. [slides](https://github.com/mattiasvillani/Talks/raw/master/OrebroWorkshop2023.pdf)
+**Nov 17, 2023**.  Gave a talk on 'Developing a research culture in teaching-dominated environments' for the Social Science faculty at Stockholm University. [slides](https://mattiasvillani.com/ResearchCulture/ResearchCultureTalk.html)
+
+**Nov 6, 2023**. Gave a talk at *Workshop on Financial Econometrics 2023* at Örebro University on 'Learning Hyperparameters using Bayesian Optimization with Optimized Precision'. [slides](https://github.com/mattiasvillani/Talks/raw/master/OrebroWorkshop2023.pdf)
 
 **Sept 22, 2023**. In the PhD grading committee for Lina Palmborg's thesis in Mathematical Statistics 'Modern developments in insurance mathematics' at Stockholm University.
 
