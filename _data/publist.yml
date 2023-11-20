@@ -30,8 +30,9 @@
   url: whatevs
   image: linocut_localpools.png
   display: Journal of Forecasting
+  doi: https://doi.org/10.1002/for.3030
   arxiv: 2112.09073
-  year: 2023
+  year: 2024
   journal: true
 
 - title: "Bayesian Optimization of Hyperparameters from Noisy Marginal Likelihood Estimates"
@@ -462,7 +463,7 @@ Applications to Vector ARTFIMA Processes"
   image: linocut_icml.png
   display: International Conference on Machine Learning (ICML)
   year: 2020
-  doi: https://proceedings.mlr.press/v119/salomone20a.html
+  doi: https://proceedings.mlr.press/v119/salomone20a
   arxiv: 1910.13627
   conference: true
 
