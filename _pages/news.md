@@ -8,11 +8,13 @@ featured_image: /images/linocut_newspaper.png
 
 ## News
 
+**Nov 24, 2023**. In the grading committee for Zed Lee's PhD thesis in Computer and Systems Sciences 'Z-series - mining and learning from complex sequential data' at Stockholm University.
+
 **Nov 17, 2023**.  Gave a talk on 'Developing a research culture in teaching-dominated environments' for the Social Science faculty at Stockholm University. [slides](https://mattiasvillani.com/ResearchCulture/ResearchCultureTalk.html)
 
 **Nov 6, 2023**. Gave a talk at *Workshop on Financial Econometrics 2023* at Örebro University on 'Learning Hyperparameters using Bayesian Optimization with Optimized Precision'. [slides](https://github.com/mattiasvillani/Talks/raw/master/OrebroWorkshop2023.pdf)
 
-**Sept 22, 2023**. In the PhD grading committee for Lina Palmborg's thesis in Mathematical Statistics 'Modern developments in insurance mathematics' at Stockholm University.
+**Sept 22, 2023**. In the grading committee for Lina Palmborg's PhD thesis in Mathematical Statistics 'Modern developments in insurance mathematics' at Stockholm University.
 
 **Aug 19, 2023**. New publication. Our paper 'Local Prediction Pools' (with Oscar Oelrich and Sebastian Ankargren) has been accepted for publication in *Journal of Forecasting* [open access journal version](https://doi.org/10.1002/for.3030)
 
