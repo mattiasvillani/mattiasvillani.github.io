@@ -1,5 +1,14 @@
 # arXiv in submission
 
+- title: "Modeling local predictive ability using power-transformed Gaussian processes
+"
+  authors: Oscar Oelrich, Mattias Villani
+  url: whatevs
+  image: linocut_powerGP.png
+  display: arXived
+  arxiv: 2402.02068
+  year:
+
 - title: "Bayesian Prediction with Covariates Subject to Detection Limits"
   authors: Caroline Svahn
   url: svahn2022bayesian
@@ -481,7 +490,7 @@ Applications to Vector ARTFIMA Processes"
   image: linocut_aui.png
   display: Uncertainty in Artificial Intelligence (UAI)
   year: 2019
-  doi: http://auai.org/uai2019/proceedings/papers/368.pdf
+  doi: http://proceedings.mlr.press/v115/andersson20a/andersson20a.pdf
   arxiv: 1903.10443
   suppmat: https://www.youtube.com/watch?v=wyD0O5hF5tE&ab_channel=MattiasVillani
   conference: true
