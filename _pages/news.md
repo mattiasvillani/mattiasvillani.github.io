@@ -7,6 +7,9 @@ featured_image: /images/linocut_newspaper.png
 
 
 ## News
+
+**February 15, 2024**. Guest lecture on Bayesian regression at KTH Royal Institute for Technology. [slides](https://github.com/mattiasvillani/Talks/raw/master/GuestLectureKTH2024.pdf)
+
 **Dec 7, 2023**. Giving a seminar on "Spectral Subsampling MCMC for Stationary Multivariate Time Series" at Örebro University. [slides](https://github.com/mattiasvillani/Talks/raw/master/VillaniOrebroDec2023.pdf)
 
 **Nov 24, 2023**. In the grading committee for Zed Lee's PhD thesis in Computer and Systems Sciences 'Z-series - mining and learning from complex sequential data' at Stockholm University.

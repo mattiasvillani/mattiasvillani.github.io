@@ -1,5 +1,13 @@
 # arXiv in submission
 
+- title: "Joint estimation of the predictive ability of experts using a multi-output Gaussian process"
+  authors: Oscar Oelrich, Mattias Villani
+  url: whatevs
+  image: linocut_multioutput.png
+  display: arXived
+  arxiv: 2402.07439
+  year:
+
 - title: "Modeling local predictive ability using power-transformed Gaussian processes
 "
   authors: Oscar Oelrich, Mattias Villani
