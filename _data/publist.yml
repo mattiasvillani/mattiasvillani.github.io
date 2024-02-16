@@ -24,14 +24,6 @@
   display: arXived
   arxiv: 2201.07874
   year:
-  
-- title: "Bayesian Modeling of Effective and Functional Brain Connectivity using Hierarchical Vector Autoregressions"
-  authors: Bertil Wegmann, Anders Lundquist and Anders Eklund
-  url: whatevs
-  image: linocut_connectivity.png
-  display: arXived
-  arxiv: 2112.04249
-  year:
 
 - title: "When are Bayesian model probabilities overconfident?"
   authors: Oscar Oelrich, Shutong Ding, Måns Magnusson and Aki Vehtari
@@ -41,6 +33,15 @@
   year:
   
 # Journal articles
+
+- title: "Bayesian Modeling of Effective and Functional Brain Connectivity using Hierarchical Vector Autoregressions"
+  authors: Bertil Wegmann, Anders Lundquist and Anders Eklund
+  url: whatevs
+  image: linocut_connectivity.png
+  display: Journal of the Royal Statistical Society, Series C.
+  arxiv: 2112.04249
+  year: 2024
+  journal: true
 
 - title: "Local Prediction Pools"
   authors: Oscar Oelrich and Sebastian Ankargren
