@@ -8,6 +8,8 @@ featured_image: /images/linocut_newspaper.png
 
 ## News
 
+**March 18, 2024**. Giving a seminar on "Spectral Subsampling MCMC for Stationary Multivariate Time Series" at KTH Royal Institute for Technology. [slides](https://github.com/mattiasvillani/Talks/raw/master/VillaniKTHMarch2024.pdf)
+
 **February 16, 2024**. New publication. Our paper 'Bayesian Modeling of Effective and Functional Brain Connectivity using Hierarchical Vector Autoregressions' (with Bertil Wegmann, Anders Lundquist and Anders Eklund) has been accepted for publication in *Journal of the Royal Statistical Society, Series C* [arXiv version](https://arxiv.org/abs/2112.04249)
 
 **February 15, 2024**. Guest lecture on Bayesian regression at KTH Royal Institute for Technology. [slides](https://github.com/mattiasvillani/Talks/raw/master/GuestLectureKTH2024.pdf)
