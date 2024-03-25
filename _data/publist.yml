@@ -481,7 +481,7 @@ Applications to Vector ARTFIMA Processes"
   image: linocut_icml.png
   display: International Conference on Machine Learning (ICML)
   year: 2020
-  doi: https://proceedings.mlr.press/v119/salomone20a
+  doi: https://proceedings.mlr.press/v119/salomone20a/salomone20a.pdf
   arxiv: 1910.13627
   conference: true
 
@@ -499,7 +499,7 @@ Applications to Vector ARTFIMA Processes"
   image: linocut_aui.png
   display: Uncertainty in Artificial Intelligence (UAI)
   year: 2019
-  doi: http://proceedings.mlr.press/v115/andersson20a/andersson20a.pdf
+  doi: http://auai.org/uai2019/proceedings/papers/368.pdf
   arxiv: 1903.10443
   suppmat: https://www.youtube.com/watch?v=wyD0O5hF5tE&ab_channel=MattiasVillani
   conference: true
