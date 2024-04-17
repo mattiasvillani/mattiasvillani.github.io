@@ -8,7 +8,11 @@ featured_image: /images/linocut_newspaper.png
 
 ## News
 
-**March 27, 2024**. Giving a seminar on "Bayesian modeling of effective and functional brain connectivity - an exercise in probabilistic programming" at Stockholm University. [slides](https://github.com/mattiasvillani/Talks/raw/master/VillaniStatSUMarch2024.pdf)
+**April 12, 2024**. Gave a short presentation about Statistics to prospective students at Folkets Hus in Rinkeby, a suburb in Northern Stockholm. [slides](https://github.com/mattiasvillani/Talks/raw/master/VillaniRinkebyApril2024.pdf)
+
+**April 12, 2024**. In the grading committee for Henning Zakrisson's PhD thesis in Mathematical Statistics 'Tree-based machine learning methods with non-life insurance applications' at Stockholm University. 
+
+**March 27, 2024**. Gave a seminar on "Bayesian modeling of effective and functional brain connectivity - an exercise in probabilistic programming" at Stockholm University. [slides](https://github.com/mattiasvillani/Talks/raw/master/VillaniStatSUMarch2024.pdf)
 
 **March 18, 2024**. Giving a seminar on "Spectral Subsampling MCMC for Stationary Multivariate Time Series" at KTH Royal Institute for Technology. [slides](https://github.com/mattiasvillani/Talks/raw/master/VillaniKTHMarch2024.pdf)
 
