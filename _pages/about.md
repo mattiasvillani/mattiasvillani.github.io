@@ -19,4 +19,4 @@ I enjoy programming, especially when I get to use the [Julia](https://julialang.
 
 ---
 
-<small>This website is hosted on [Github pages](https://pages.github.com/) and was made with a Jekyll-Liquid-Bootstrap framework using [Spencer Bryngelson's academic theme](https://github.com/ethan-pickering/sbryngelson.github.io) with modifications by [Pavlo Bazilinskyy](https://bazilinskyy.github.io/).</small>
+<small>This website is hosted on [Github pages](https://pages.github.com/) and was made with a Jekyll-Liquid-Bootstrap framework originally using [Spencer Bryngelson's academic theme](https://github.com/ethan-pickering/sbryngelson.github.io) with modifications by [Pavlo Bazilinskyy](https://bazilinskyy.github.io/).</small>
