@@ -8,6 +8,8 @@ featured_image: /images/linocut_newspaper.png
 
 ## News
 
+**May 30, 2024**.  Gave another round of the talk on 'Developing a research culture in teaching-dominated environments' at the so called *Deans' café* at Stockholm University. [slides](https://mattiasvillani.com/ResearchCulture/ResearchCultureTalk.html)
+
 **April 12, 2024**. Gave a short presentation about Statistics to prospective students at Folkets Hus in Rinkeby, a suburb in Northern Stockholm. [slides](https://github.com/mattiasvillani/Talks/raw/master/VillaniRinkebyApril2024.pdf)
 
 **April 12, 2024**. In the grading committee for Henning Zakrisson's PhD thesis in Mathematical Statistics 'Tree-based machine learning methods with non-life insurance applications' at Stockholm University. 
