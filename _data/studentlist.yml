@@ -1,7 +1,14 @@
+- name: "Yijie Niu"
+  image: female.png
+  phddate: PhD student in Statistics, Stockholm University
+  topic: Bayesian inference for spatiotemporal data
+  position: PhD candidate at Dept. of Statistics, Stockholm University 
+  current: true
+
 - name: "Anna Fagerberg"
   image: female.png
   phddate: PhD student in Statistics, Stockholm University
-  topic: Bayesian inference for spatiotemporal processes
+  topic: Bayesian inference for locally stationary processes
   position: PhD candidate at Dept. of Statistics, Stockholm University 
   current: true
 
