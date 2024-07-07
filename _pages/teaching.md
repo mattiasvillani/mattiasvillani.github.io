@@ -2,7 +2,7 @@
 title: "Teaching"
 subtitle: my courses
 permalink: /teaching/
-featured_image: /images/linocut_teaching2.png
+featured_image: /images/linocut_teaching2.jpg
 ---
 
 ## Current courses
