@@ -8,9 +8,9 @@ featured_image: /images/linocut_newspaper.jpg
 
 ## News
 
-**July 20, 2024**.  Gave a talk on time-varying parameter models at Beihang University.
+**July 20, 2024**.  Gave a talk on time-varying parameter models at Beihang University in Beijing, China.
 
-**July 18, 2024**.  Gave a talk 'Bayesian models for locally stationary time series' at the 7th International Conference on Econometrics and Statistics (EcoSta2024) at Beijing Normal University.
+**July 18, 2024**.  Gave a talk 'Bayesian models for locally stationary time series' at the 7th International Conference on Econometrics and Statistics (EcoSta2024) at Beijing Normal University in China.
 
 **May 30, 2024**.  Gave another round of the talk on 'Developing a research culture in teaching-dominated environments' at the so called *Deans' café* at Stockholm University. [slides](https://mattiasvillani.com/ResearchCulture/ResearchCultureTalk.html)
 
