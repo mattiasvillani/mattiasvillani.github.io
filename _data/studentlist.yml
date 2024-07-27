@@ -22,7 +22,7 @@
 
 - name: "Héctor Rodriguez-Déniz"
   image: hector.jpeg
-  phddate: PhD student in Statistics, Linköping University
+  phddate: Post doc at Columbia University, U.S.A.
   thesis: Bayesian Models for Spatiotemporal Data from Transportation Networks
   web: https://liu.se/en/employee/hecro15
   current: false
@@ -39,7 +39,7 @@
   image: siden.jpeg
   phddate: PhD in Statistics, Linköping University, 2020
   thesis: Scalable Bayesian spatial analysis with Gaussian Markov random fields
-  position: Industrial post doc at Arriver and Linköping University 
+  position: Senior Engineer at Qualcomm 
   web: https://liu.se/en/employee/persi28
   current: false
 
@@ -56,7 +56,7 @@
   phddate: PhD in Statistics, Linköping University, 2018
   thesis: Scalable and Efficient Probabilistic Topic Model Inference for Textual Data
   award: Cramér prize for best thesis in Statistics and Mathematical Statistics
-  position: Senior lecturer at Uppsala University
+  position: Senior lecturer at Dept. of Statistics, Uppsala University
   web: https://katalog.uu.se/empinfo/?id=N20-1227
   current: false
 
@@ -64,7 +64,7 @@
   image: quiroz.jpg
   phddate: PhD in Statistics, Stockholm University, 2015
   thesis: Bayesian Inference for Large Data Problems
-  position: Senior lecturer at Stockholm University
+  position: Lecturer at School of Mathematical and Physical Sciences, University of Technology Sydney
   web: https://matiasquiroz.com/
   current: false
 
@@ -73,7 +73,7 @@
   phddate: PhD in Statistics, Stockholm University, 2013
   thesis: Bayesian Modeling of Conditional Densities
   award: Cramér prize for best thesis in Statistics and Mathematical Statistics
-  position: Associate Dean at Central University of Finance and Economics, Beijing
+  position: Associate Professor at Guanghua School of Management, Peking University, Beijing
   web: https://feng.li
   current: false
 
