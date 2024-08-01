@@ -3,6 +3,7 @@
   phddate: PhD student in Statistics, Stockholm University
   topic: Bayesian inference for spatiotemporal data
   position: PhD candidate at Dept. of Statistics, Stockholm University 
+  web: https://www.su.se/english/profiles/yini1451-1.661216
   current: true
 
 - name: "Anna Fagerberg"
@@ -10,6 +11,7 @@
   phddate: PhD student in Statistics, Stockholm University
   topic: Bayesian inference for locally stationary processes
   position: PhD candidate at Dept. of Statistics, Stockholm University 
+  web: https://www.su.se/english/profiles/gafa0035-1.341902
   current: true
 
 - name: "Josef Wilzén"
@@ -17,7 +19,7 @@
   phddate: PhD student in Statistics, Linköping University
   topic: Flexible Bayesian models for neuroimaging
   position: PhD candidate at Dept. of Statistics and Machine Learning, Linköping University 
-  web: https://www.su.se/english/profiles/ooelr-1.342298
+  web: https://liu.se/en/employee/joswi05
   current: true
 
 - name: "Héctor Rodriguez-Déniz"
