@@ -7,6 +7,7 @@ featured_image: /images/linocut_newspaper.jpg
 
 
 ## News
+**August, 23**. Gave an invited talk on 'Locally Stable Time-Varying Multi-Seasonal AR Models' at European Seminars on Bayesian Econometrics (ESOBE) 2024 in Örebro, Sweden. [slides](https://github.com/mattiasvillani/Talks/raw/master/ESOBE2024Villani.pdf)
 
 **July 20, 2024**.  Gave a talk on time-varying parameter models at Beihang University in Beijing, China.
 
