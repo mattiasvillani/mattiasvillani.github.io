@@ -51,6 +51,16 @@
   year: 2024
   journal: true
 
+- title: "Spectral Subsampling MCMC for Stationary Multivariate Time Series with
+Applications to Vector ARTFIMA Processes"
+  authors: Matias Quiroz, Robert Kohn and Robert Salomone
+  image: linocut_ecosta.jpg
+  display: Econometrics & Statistics - Part B Statistics.
+  doi: https://doi.org/10.1016/j.ecosta.2022.10.001
+  arxiv: 2104.02134
+  year: 2024
+  journal: true
+
 - title: "Local Prediction Pools"
   authors: Oscar Oelrich and Sebastian Ankargren
   url: whatevs
@@ -77,16 +87,6 @@
   display: Technometrics
   doi: https://doi.org/10.1080/00401706.2022.2146755
   arxiv: 2109.11449
-  year: 2022
-  journal: true
-
-- title: "Spectral Subsampling MCMC for Stationary Multivariate Time Series with
-Applications to Vector ARTFIMA Processes"
-  authors: Matias Quiroz, Robert Kohn and Robert Salomone
-  image: linocut_ecosta.jpg
-  display: Econometrics & Statistics - Part B Statistics.
-  doi: https://doi.org/10.1016/j.ecosta.2022.10.001
-  arxiv: 2104.02134
   year: 2022
   journal: true
 
