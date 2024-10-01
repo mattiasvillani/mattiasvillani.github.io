@@ -8,7 +8,9 @@ featured_image: /images/linocut_newspaper.jpg
 
 ## News
 
-**September 2, 2024**. Gave an introductory presentation of Statistics for new students at the Department of Statistics, Stockholm University. [slides](https://github.com/mattiasvillani/Talks/raw/master/IntroLectureSDA1ht2024.pdf)
+**September 30, 2024**. New paper 'Time-Varying Multi-Seasonal AR Models' with Ganna Fagerberg and Robert Kohn. [arXiv](https://arxiv.org/abs/2409.18640)
+
+**September 2, 2024**. Gave an introductory presentation of Statistics for first year students at the Department of Statistics, Stockholm University. [slides](https://github.com/mattiasvillani/Talks/raw/master/IntroLectureSDA1ht2024.pdf)
 
 **August 23, 2024**. Gave an invited talk on 'Locally Stable Time-Varying Multi-Seasonal AR Models' at European Seminars on Bayesian Econometrics (ESOBE) 2024 in Örebro, Sweden. [slides](https://github.com/mattiasvillani/Talks/raw/master/ESOBE2024Villani.pdf)
 
