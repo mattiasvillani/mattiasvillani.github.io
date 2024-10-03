@@ -8,6 +8,8 @@ featured_image: /images/linocut_newspaper.jpg
 
 ## News
 
+**October 3, 2024**. Giving an intro to Bayes talk at Karolinska Institutet, Stockholm. [slides](https://github.com/mattiasvillani/Talks/raw/master/KIBayesVillani.pdf)
+
 **September 30, 2024**. New paper 'Time-Varying Multi-Seasonal AR Models' with Ganna Fagerberg and Robert Kohn. [arXiv](https://arxiv.org/abs/2409.18640)
 
 **September 2, 2024**. Gave an introductory presentation of Statistics for first year students at the Department of Statistics, Stockholm University. [slides](https://github.com/mattiasvillani/Talks/raw/master/IntroLectureSDA1ht2024.pdf)
