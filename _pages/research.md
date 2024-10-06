@@ -3,7 +3,7 @@ layout: page
 title: "Research"
 subtitle: my publications
 permalink: /research/
-featured_image: /images/retrocomputer.png
+featured_image: /images/prof_research.png
 ---
 
 The image for each paper is an AI-generated modification of an original image in the paper.
