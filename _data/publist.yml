@@ -5,7 +5,7 @@
   url: whatevs
   image: linocut_seasonal_sar.png
   display: arXived
-  arxiv: 2409.18640
+  arxiv: 2409.18640 
   year:
 
 - title: "Joint estimation of the predictive ability of experts using a multi-output Gaussian process"
@@ -477,7 +477,7 @@ Applications to Vector ARTFIMA Processes"
 - title: "A Distance Measure Between Cointegration Spaces"
   authors: Rolf Larsson
   image: linocut_dist.jpg
-  display: Journal of Time Series Analysis
+  display: Economics Letters
   year: 2001
   doi: 10.1016/S0165-1765(00)00349-9
   journal: true
@@ -489,7 +489,7 @@ Applications to Vector ARTFIMA Processes"
   image: linocut_icml.jpg
   display: International Conference on Machine Learning (ICML)
   year: 2020
-  doi: https://proceedings.mlr.press/v119/salomone20a/salomone20a.pdf
+  url: https://proceedings.mlr.press/v119/salomone20a/salomone20a.pdf
   arxiv: 1910.13627
   conference: true
 
@@ -498,7 +498,7 @@ Applications to Vector ARTFIMA Processes"
   image: linocut_isbi.jpg
   display: IEEE International Symposium on Biomedical Imaging (ISBI)
   year: 2020
-  doi: https://ieeexplore.ieee.org/document/9098342
+  doi: https://doi.org/10.1109/ISBI45749.2020.9098342
   arxiv: 1910.08415
   conference: true
 
