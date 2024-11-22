@@ -1,5 +1,13 @@
 # arXiv in submission
 
+- title: "Spectral domain likelihoods for Bayesian inference in time-varying parameter models"
+  authors: Oskar Gustafsson and Robert Kohn
+  url: whatevs
+  image: linocut_spectral_chapter.png
+  display: arXived
+  arxiv: 2411.14010
+  year: 
+
 - title: "Time-Varying Multi-Seasonal AR Models"
   authors: Ganna Fagerberg and Robert Kohn
   url: whatevs

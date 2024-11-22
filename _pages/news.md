@@ -8,6 +8,8 @@ featured_image: /images/linocut_newspaper.jpg
 
 ## News
 
+**November 22, 2024**. New paper 'Spectral domain likelihoods for Bayesian inference in time-varying parameter models' with Oskar Gustafsson and Robert Kohn. [arXiv](https://arxiv.org/abs/2411.14010)
+
 **October 3, 2024**. Gave an 'Introduction to Bayesian Statistics' seminar at Karolinska Institutet, Stockholm. [slides](https://github.com/mattiasvillani/Talks/raw/master/KIBayesVillani.pdf)
 
 **September 30, 2024**. New paper 'Time-Varying Multi-Seasonal AR Models' with Ganna Fagerberg and Robert Kohn. [arXiv](https://arxiv.org/abs/2409.18640)
