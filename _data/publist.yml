@@ -5,7 +5,7 @@
   url: whatevs
   image: linocut_spectral_chapter.png
   display: arXived
-  arxiv: https://arxiv.org/abs/2411.14010
+  arxiv: 2411.14010
   year: 
 
 - title: "Time-Varying Multi-Seasonal AR Models"
@@ -13,7 +13,7 @@
   url: whatevs
   image: linocut_seasonal_sar.png
   display: arXived
-  arxiv: https://arxiv.org/abs/2409.18640 
+  url: https://arxiv.org/abs/2409.18640 
   year:
 
 - title: "Joint estimation of the predictive ability of experts using a multi-output Gaussian process"
