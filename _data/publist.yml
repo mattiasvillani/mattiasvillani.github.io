@@ -5,7 +5,7 @@
   url: whatevs
   image: linocut_spectral_chapter.png
   display: arXived
-  arxiv: 2411.14010
+  arxiv: "2411.14010"
   year: 
 
 - title: "Time-Varying Multi-Seasonal AR Models"
