@@ -33,14 +33,6 @@
   arxiv: "2402.02068"
   year:
 
-- title: "Bayesian Prediction with Covariates Subject to Detection Limits"
-  authors: Caroline Svahn
-  url: svahn2022bayesian
-  image: linocut_detection.jpg
-  display: arXived
-  arxiv: "2201.07874"
-  year:
-
 - title: "When are Bayesian model probabilities overconfident?"
   authors: Oscar Oelrich, Shutong Ding, Måns Magnusson and Aki Vehtari
   image: linocut_overconf.jpg
@@ -629,6 +621,15 @@ Applications to Vector ARTFIMA Processes"
   other: true
 
 # Older working papers
+
+- title: "Bayesian Prediction with Covariates Subject to Detection Limits"
+  authors: Caroline Svahn
+  url: svahn2022bayesian
+  image: linocut_detection.jpg
+  arxiv: "2201.07874"
+  year: 2022
+  wp: true
+
 - title: "Modeling Text Complexity using a Multi-Scale Probit"
   authors: Johan Falkenjack and Arne Jönsson
   image: linocut_falkenjack.jpg
