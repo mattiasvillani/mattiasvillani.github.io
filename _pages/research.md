@@ -21,7 +21,6 @@ The image for each paper is an AI-generated modification of an original image in
 {% endif %}
 
 {% for publi in site.data.publist %}
-
   
   {% assign pdfpresent = false %}
   {% if publi.url %}
@@ -63,7 +62,7 @@ The image for each paper is an AI-generated modification of an original image in
     {% if bibtest == true %} <a data-bs-toggle="collapse" href="#{{publi.url}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}
     {% if pdfpresent == true %}<a href="{{ pdffile }}" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
     {% if publi.doi %}<a href="http://doi.org/{{ publi.doi }}" target="_blank"><button class="btn-doi">JOURNAL</button></a> {% endif %}
-    {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv | string }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
+    {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv  }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
     {% if publi.suppmat %}<a href="{{ publi.suppmat }}" target="_blank"><button class="btn-suppmat">SUPPLEMENTARY MATERIAL</button></a> {% endif %}
     {% if publi.code %}<a href="{{ publi.code }}" target="_blank"><button class="btn-code">CODE</button></a> {% endif %}
 
@@ -148,7 +147,7 @@ The image for each paper is an AI-generated modification of an original image in
   {% if bibtest == true %} <a data-bs-toggle="collapse" href="#{{publi.url}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}
   {% if pdfpresent == true %}<a href="{{ pdffile }}" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
   {% if publi.doi %}<a href="http://doi.org/{{ publi.doi }}" target="_blank"><button class="btn-doi">JOURNAL</button></a> {% endif %}
-  {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv | string }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
+  {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv  }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
   {% if publi.suppmat %}<a href="{{ publi.suppmat }}" target="_blank"><button class="btn-suppmat">SUPPLEMENTARY MATERIAL</button></a> {% endif %}
   {% if publi.code %}<a href="{{ publi.code }}" target="_blank"><button class="btn-code">CODE</button></a> {% endif %}
 
@@ -238,7 +237,7 @@ The image for each paper is an AI-generated modification of an original image in
   {% if bibtest == true %} <a data-bs-toggle="collapse" href="#{{publi.url}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}
   {% if pdfpresent == true %}<a href="{{ pdffile }}" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
   {% if publi.doi %}<a href="http://doi.org/{{ publi.doi }}" target="_blank"><button class="btn-doi">PROCEEDINGS</button></a> {% endif %}
-  {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv | string }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
+  {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv  }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
   {% if publi.suppmat %}<a href="{{ publi.suppmat }}" target="_blank"><button class="btn-suppmat">SUPPLEMENTARY MATERIAL</button></a> {% endif %}
   {% if publi.code %}<a href="{{ publi.code }}" target="_blank"><button class="btn-code">CODE</button></a> {% endif %}
 
@@ -333,7 +332,7 @@ The image for each paper is an AI-generated modification of an original image in
   {% if bibtest == true %} <a data-bs-toggle="collapse" href="#{{publi.url}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}
   {% if pdfpresent == true %}<a href="{{ pdffile }}" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
   {% if publi.doi %}<a href="http://doi.org/{{ publi.doi }}" target="_blank"><button class="btn-doi">BOOK CHAPTER</button></a> {% endif %}
-  {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv | string }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
+  {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv  }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
   {% if publi.suppmat %}<a href="{{ publi.suppmat }}" target="_blank"><button class="btn-suppmat">SUPPLEMENTARY MATERIAL</button></a> {% endif %}
   {% if publi.code %}<a href="{{ publi.code }}" target="_blank"><button class="btn-code">CODE</button></a> {% endif %}
 
@@ -421,7 +420,7 @@ The image for each paper is an AI-generated modification of an original image in
   {% if bibtest == true %} <a data-bs-toggle="collapse" href="#{{publi.url}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}
   {% if pdfpresent == true %}<a href="{{ pdffile }}" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
   {% if publi.doi %}<a href="http://doi.org/{{ publi.doi }}" target="_blank"><button class="btn-doi">BOOK WEBSITE</button></a> {% endif %}
-  {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv | string }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
+  {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv  }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
   {% if publi.suppmat %}<a href="{{ publi.suppmat }}" target="_blank"><button class="btn-suppmat">SUPPLEMENTARY MATERIAL</button></a> {% endif %}
   {% if publi.code %}<a href="{{ publi.code }}" target="_blank"><button class="btn-code">CODE</button></a> {% endif %}
 
@@ -511,7 +510,7 @@ The image for each paper is an AI-generated modification of an original image in
   {% if bibtest == true %} <a data-bs-toggle="collapse" href="#{{publi.url}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}
   {% if pdfpresent == true %}<a href="{{ pdffile }}" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
   {% if publi.doi %}<a href="http://doi.org/{{ publi.doi }}" target="_blank"><button class="btn-doi">JOURNAL</button></a> {% endif %}
-  {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv | string }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
+  {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv  }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
   {% if publi.suppmat %}<a href="{{ publi.suppmat }}" target="_blank"><button class="btn-suppmat">SUPPLEMENTARY MATERIAL</button></a> {% endif %}
   {% if publi.code %}<a href="{{ publi.code }}" target="_blank"><button class="btn-code">CODE</button></a> {% endif %}
 
@@ -605,7 +604,7 @@ The image for each paper is an AI-generated modification of an original image in
   {% if bibtest == true %} <a data-bs-toggle="collapse" href="#{{publi.url}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}
   {% if pdfpresent == true %}<a href="{{ pdffile }}" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
   {% if publi.doi %}<a href="http://doi.org/{{ publi.doi }}" target="_blank"><button class="btn-doi">JOURNAL</button></a> {% endif %}
-  {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv | string }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
+  {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv  }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
   {% if publi.suppmat %}<a href="{{ publi.suppmat }}" target="_blank"><button class="btn-suppmat">SUPPLEMENTARY MATERIAL</button></a> {% endif %}
   {% if publi.code %}<a href="{{ publi.code }}" target="_blank"><button class="btn-code">CODE</button></a> {% endif %}
 

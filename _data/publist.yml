@@ -13,7 +13,7 @@
   url: whatevs
   image: linocut_seasonal_sar.png
   display: arXived
-  url: https://arxiv.org/abs/2409.18640 
+  url: "2409.18640" 
   year:
 
 - title: "Joint estimation of the predictive ability of experts using a multi-output Gaussian process"
@@ -21,7 +21,7 @@
   url: whatevs
   image: linocut_multioutput.jpg
   display: arXived
-  arxiv: 2402.07439
+  arxiv: "2402.07439"
   year:
 
 - title: "Modeling local predictive ability using power-transformed Gaussian processes
@@ -30,7 +30,7 @@
   url: whatevs
   image: linocut_powerGP.jpg
   display: arXived
-  arxiv: 2402.02068
+  arxiv: "2402.02068"
   year:
 
 - title: "Bayesian Prediction with Covariates Subject to Detection Limits"
@@ -38,14 +38,14 @@
   url: svahn2022bayesian
   image: linocut_detection.jpg
   display: arXived
-  arxiv: 2201.07874
+  arxiv: "2201.07874"
   year:
 
 - title: "When are Bayesian model probabilities overconfident?"
   authors: Oscar Oelrich, Shutong Ding, Måns Magnusson and Aki Vehtari
   image: linocut_overconf.jpg
   display: arXived
-  arxiv: 2003.04026
+  arxiv: "2003.04026"
   year:
   
 # Journal articles
@@ -55,7 +55,7 @@
   url: whatevs
   image: linocut_connectivity.jpg
   display: Journal of the Royal Statistical Society, Series C.
-  arxiv: 2112.04249
+  arxiv: "2112.04249"
   year: 2024
   journal: true
 
@@ -65,7 +65,7 @@ Applications to Vector ARTFIMA Processes"
   image: linocut_ecosta.jpg
   display: Econometrics & Statistics - Part B Statistics.
   doi: https://doi.org/10.1016/j.ecosta.2022.10.001
-  arxiv: 2104.02134
+  arxiv: "2104.02134"
   year: 2024
   journal: true
 
@@ -75,7 +75,7 @@ Applications to Vector ARTFIMA Processes"
   image: linocut_localpools.jpg
   display: Journal of Forecasting
   doi: https://doi.org/10.1002/for.3030
-  arxiv: 2112.09073
+  arxiv: "2112.09073"
   year: 2024
   journal: true
 
@@ -154,7 +154,7 @@ Applications to Vector ARTFIMA Processes"
   display: Computational Statistics
   year: 2020
   doi: https://doi.org/10.1007/s00180-019-00891-1
-  arxiv: 1602.00260
+  arxiv: "1602.00260"
   journal: true
 
 - title: "Hamiltonian Monte Carlo with Energy Conserving Subsampling"
@@ -192,7 +192,7 @@ Applications to Vector ARTFIMA Processes"
   display: Journal of Computational and Graphical Statistics
   year: 2019
   doi: 10.1080/10618600.2017.1307117
-  arxiv: 1507.06110
+  arxiv: "1507.06110"
   journal: true
 
 - title: "Efficient Covariance Approximations for Large Sparse Precision Matrices"
@@ -238,7 +238,7 @@ Applications to Vector ARTFIMA Processes"
   image: linocut_3dfast.jpg
   display: NeuroImage
   year: 2017
-  arxiv: 1606.00980
+  arxiv: "1606.00980"
   doi: 10.1016/j.neuroimage.2016.11.040
   code: https://github.com/psiden/BFAST3D
   journal: true
@@ -248,7 +248,7 @@ Applications to Vector ARTFIMA Processes"
   image: linocut_heterofmri.jpg
   display: NeuroImage
   year: 2017
-  arxiv: 1612.00690
+  arxiv: "1612.00690"
   doi: 10.1016/j.neuroimage.2017.04.069
   code: https://github.com/wanderine/HeteroscedasticfMRI
   journal: true
@@ -654,7 +654,7 @@ Applications to Vector ARTFIMA Processes"
   authors: Johan Dahlin and Thomas Schön
   image: linocut_abcgpo.jpg
   year: 2015
-  arxiv: https://arxiv.org/abs/1506.06975
+  arxiv: "1506.06975"
   wp: true
 
 - title: "Monetary Policy Analysis in a Small Open Economy Using Bayesian Cointegrated Structural VARs"
