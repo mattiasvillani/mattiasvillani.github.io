@@ -4,7 +4,6 @@
   authors: Oskar Gustafsson and Robert Kohn
   url: whatevs
   image: linocut_spectral_chapter.png
-  display: arXived
   arxiv: "2411.14010"
   year: 
 
@@ -12,8 +11,7 @@
   authors: Ganna Fagerberg and Robert Kohn
   url: whatevs
   image: linocut_seasonal_sar.png
-  display: arXived
-  url: "2409.18640" 
+  arxiv: "2409.18640" 
   year:
 
 - title: "Modeling local predictive ability using power-transformed Gaussian processes
@@ -21,14 +19,12 @@
   authors: Oscar Oelrich
   url: whatevs
   image: linocut_powerGP.jpg
-  display: arXived
   arxiv: "2402.02068"
   year:
 
 - title: "When are Bayesian model probabilities overconfident?"
   authors: Oscar Oelrich, Shutong Ding, Måns Magnusson and Aki Vehtari
   image: linocut_overconf.jpg
-  display: arXived
   arxiv: "2003.04026"
   year:
   
