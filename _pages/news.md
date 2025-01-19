@@ -16,7 +16,7 @@ featured_image: /images/linocut_newspaper.jpg
 
 **September 30, 2024**. New paper 'Time-Varying Multi-Seasonal AR Models' with Ganna Fagerberg and Robert Kohn. [arXiv](https://arxiv.org/abs/2409.18640)
 
-**September 2, 2024**. Gave an introductory presentation of Statistics for first year students at the Department of Statistics, Stockholm University. [slides](https://github.com/mattiasvillani/Talks/raw/master/IntroLectureSDA1ht2024.pdf)
+**September 2, 2024**. Gave an introductory presentation of Statistics for first year students at the Department of Statistics, Stockholm University. [slides](https://github.com/mattiasvillani/Talks/raw/master/IntroLectureSDA1.pdf)
 
 **August 23, 2024**. Gave an invited talk on 'Locally Stable Time-Varying Multi-Seasonal AR Models' at European Seminars on Bayesian Econometrics (ESOBE) 2024 in Örebro, Sweden. [slides](https://github.com/mattiasvillani/Talks/raw/master/ESOBE2024Villani.pdf)
 
@@ -36,7 +36,7 @@ featured_image: /images/linocut_newspaper.jpg
 
 **February 16, 2024**. New publication. Our paper 'Bayesian Modeling of Effective and Functional Brain Connectivity using Hierarchical Vector Autoregressions' (with Bertil Wegmann, Anders Lundquist and Anders Eklund) has been accepted for publication in *Journal of the Royal Statistical Society, Series C* [arXiv version](https://arxiv.org/abs/2112.04249)
 
-**February 15, 2024**. Guest lecture on Bayesian regression at KTH Royal Institute for Technology. [slides](https://github.com/mattiasvillani/Talks/raw/master/GuestLectureKTH2024.pdf)
+**February 15, 2024**. Guest lecture on Bayesian regression at KTH Royal Institute for Technology. [slides](https://github.com/mattiasvillani/Talks/raw/master/GuestLectureKTH2024.pdf) 
 
 **Dec 7, 2023**. Giving a seminar on "Spectral Subsampling MCMC for Stationary Multivariate Time Series" at Örebro University. [slides](https://github.com/mattiasvillani/Talks/raw/master/VillaniOrebroDec2023.pdf)
 
