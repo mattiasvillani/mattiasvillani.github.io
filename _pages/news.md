@@ -8,7 +8,9 @@ featured_image: /images/linocut_newspaper.jpg
 
 ## News
 
-**Dec 15, 2024**. Gave an invited talk on 'Locally Stable Time-Varying Multi-Seasonal AR Models' at CFE2024 in London. [slides](https://github.com/mattiasvillani/Talks/raw/master/CFE2024Villani.pdf)
+**February 14, 2025**. Gave a full day introductory workshop on Bayesian statistics at Karolinska Institutet in Stockholm. [workshop web page](https://mattiasvillani.com/introbayes)
+
+**December 15, 2024**. Gave an invited talk on 'Locally Stable Time-Varying Multi-Seasonal AR Models' at CFE2024 in London. [slides](https://github.com/mattiasvillani/Talks/raw/master/CFE2024Villani.pdf)
 
 **November 22, 2024**. New paper 'Spectral domain likelihoods for Bayesian inference in time-varying parameter models' with Oskar Gustafsson and Robert Kohn. [arXiv](https://arxiv.org/abs/2411.14010)
 
