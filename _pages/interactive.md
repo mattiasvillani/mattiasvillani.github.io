@@ -1,4 +1,3 @@
-
 ---
 title: Interactive material
 subtitle: notebooks and dashboards with teaching material
