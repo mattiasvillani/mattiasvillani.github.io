@@ -2,7 +2,7 @@
 title: Interactive material
 subtitle: notebooks and dashboards with teaching material
 permalink: /interactive/
-featured_image: /images/linocut_teaching2.jpg
+featured_image: /images/univprofwithcomputer.png
 ---
 
 ## Basic mathematics
@@ -29,6 +29,10 @@ featured_image: /images/linocut_teaching2.jpg
 
 ## Statistical distributions
 - [Nearly 50 different statistical distributions](https://observablehq.com/collection/@mattiasvillani/distributions)
+
+## Basic statistics in Swedish
+
+- [List with notebooks for the SDA1 course](https://observablehq.com/collection/@mattiasvillani/sda1)
 
 ## Confidence intervals
 
