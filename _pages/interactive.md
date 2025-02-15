@@ -9,6 +9,8 @@ featured_image: /images/linocut_teaching2.jpg
 
 - [Derivative](https://observablehq.com/@mattiasvillani/the-derivative)
 - [Riemann integral](https://observablehq.com/@mattiasvillani/the-riemann-integral)
+- [Second derivative and function curvature](https://observablehq.com/@mattiasvillani/second-derivative-measures-the-curvature-of-a-function)
+  
 
 ## Descriptive Statistics
 
@@ -62,6 +64,29 @@ featured_image: /images/linocut_teaching2.jpg
 - [Normal posterior approximation for Beta model](https://observablehq.com/@mattiasvillani/posterior-approximation-beta-model)
 - [Frequentist coverage of credible intervals for a proportion](https://observablehq.com/@mattiasvillani/coverage-of-confidence-intervals-for-a-proportion)
 - [Bayesian test for a mean](https://observablehq.com/@mattiasvillani/bayesian-test-mean-normal-pop)
+- [Priors for AR process](https://observablehq.com/@mattiasvillani/ar-processes)
 
 ## Time series
 
+- [AR processes - simulation and autocorrelation function](https://observablehq.com/@mattiasvillani/ar-simulation-and-autocorrelation)
+- [Seasonal ARMA(p,q) - simulation and autocorrelation](https://observablehq.com/@mattiasvillani/seasonal-arma-p-q-simulation-and-autocorrelation)
+- [Spectral density - ARMA(p,q) process](https://observablehq.com/@mattiasvillani/spectral-density-of-arma)
+- [Spectral density of a seasonal ARMA(p,q)×(P,Q) process](https://observablehq.com/@mattiasvillani/spectral-density-seasonal-arma-p-q-p-q-process)
+- [ARTFIMA - tempered fractional differencing](https://observablehq.com/@mattiasvillani/artfima-tempered-fractional-differencing)
+- [ARTFIMA - spectral density](https://observablehq.com/@mattiasvillani/spectral-density-artfima-p-q-process)
+
+# Time-varying parameter models and state-space models
+
+- [Piecewise constant model for time series](https://observablehq.com/@mattiasvillani/piecewise-constant-model)
+- [Local level model](https://observablehq.com/@mattiasvillani/local-level-model)
+- [Local trend model](https://observablehq.com/@mattiasvillani/local-trend-model)
+- [Time-varying regression](https://observablehq.com/@mattiasvillani/time-varying-regression-model)
+- [Poisson time series model](https://observablehq.com/@mattiasvillani/poisson-time-series-model)
+- [Stochastic volatility model](https://observablehq.com/@mattiasvillani/stochastic-volatility-time-series-model)
+- [Kalman filtering on simulated data from local level model](https://observablehq.com/@mattiasvillani/kalman-filter-simulated-local-level)
+- [Kalman filtering for Nile river data](https://observablehq.com/@mattiasvillani/kalman-filtering-nile-river-data)
+- [Identification of the mean in the AR(1) process](https://observablehq.com/@mattiasvillani/identification-ar-1-process)
+- [Local level model with dynamic shrinkage process prior](https://observablehq.com/@mattiasvillani/local-level-model-dsp-prior)
+  
+## Interactive notebooks for research
+- [Time-varying spectral density for US industrial production data](https://observablehq.com/@mattiasvillani/tvsar-spectral-usip) from the paper [Time-Varying Multi-Seasonal AR Models](https://arxiv.org/abs/2409.18640)
