@@ -5,6 +5,10 @@ permalink: /teaching/
 featured_image: /images/linocut_teaching2.jpg
 ---
 
+## Interactive notebooks
+
+I have created a number of [interactive notebooks](interactive) for teaching. The notebooks are written in JavaScript on the [Observable](https://observablehq.com/) platform and can be run in the browser without any installation.
+
 ## Current courses
 
 {% for course in site.data.courselist %}

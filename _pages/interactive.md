@@ -5,19 +5,19 @@ permalink: /interactive/
 featured_image: /images/univprofwithcomputer.png
 ---
 
-## Basic mathematics
+### Basic mathematics
 
 - [Derivative](https://observablehq.com/@mattiasvillani/the-derivative)
 - [Riemann integral](https://observablehq.com/@mattiasvillani/the-riemann-integral)
 - [Second derivative and function curvature](https://observablehq.com/@mattiasvillani/second-derivative-measures-the-curvature-of-a-function)
   
 
-## Descriptive Statistics
+### Descriptive Statistics
 
 - [Choosing the bins in a histogram](https://observablehq.com/@mattiasvillani/histogram-the-choice-of-bins)
 - [Robustness of mean and median to outliers](https://observablehq.com/@mattiasvillani/how-the-mean-and-median-are-affected-by-extreme-observation)
 
-## Probability
+### Probability
 
 - [Normal and Poisson approximations of the Binomial distribution](https://observablehq.com/@mattiasvillani/approximating-the-binomial-distribution)
 - [Normal approximation of the sampling distribution for a proportion](https://observablehq.com/@mattiasvillani/normal-approximation-of-sample-proportion)
@@ -27,33 +27,33 @@ featured_image: /images/univprofwithcomputer.png
 - [Kullback-Leibler divergence for continuous distributions](https://observablehq.com/@mattiasvillani/kl-divergence-continuous)
 - [Tails and distribution of the maximum](https://observablehq.com/@mattiasvillani/distribution-of-the-maximum)
 
-## Statistical distributions
+### Statistical distributions
 - [Nearly 50 different statistical distributions](https://observablehq.com/collection/@mattiasvillani/distributions)
 
-## Basic statistics in Swedish
+### Basic statistics in Swedish
 
 - [List with notebooks for the SDA1 course](https://observablehq.com/collection/@mattiasvillani/sda1)
 
-## Confidence intervals
+### Confidence intervals
 
 - [Confidence interval for a proportion](https://observablehq.com/@mattiasvillani/confidence-interval-for-a-proportion)
 - [Confidence interval for a mean](https://observablehq.com/@mattiasvillani/confidence-interval-for-a-mean)
 - [Coverage of intervals for a proportion](https://observablehq.com/@mattiasvillani/ci-proportion-wald-vs-wilson)
 
-##  Hypothesis testing
+###  Hypothesis testing
 
 - [Hypothesis test for a mean](https://observablehq.com/@mattiasvillani/hypothesis-test-mean)
 - [Type I and II errors in hypothesis testing](https://observablehq.com/@mattiasvillani/hypothesis-test-for-a-mean-type-i-and-ii-errors)
 
 
-## Likelihood estimation
+### Likelihood estimation
 
 - [Maximum likelihood - Bernoulli model](https://observablehq.com/@mattiasvillani/maximum-likelihood-bernoulli-data)
 - [Maximum likelihood - Poisson model](https://observablehq.com/@mattiasvillani/maximum-likelihood-for-iid-poisson-data)
 - [Maximum likelihood - Poisson regression](https://observablehq.com/@mattiasvillani/maximum-likelihood-poisson-regression)
 - [Sampling distribution and likelihood function - Bernoulli model](https://observablehq.com/@mattiasvillani/sampling-distribution-and-likelihood-function-bern)
 
-## Bayesian Learning
+### Bayesian Learning
 
 - [Bayes' theorem for events](https://observablehq.com/@mattiasvillani/bayes-theorem-for-events)
 - [Bayesian inference for Bernoulli data](https://observablehq.com/@mattiasvillani/bayesian-inference-for-bernoulli-iid-data)
@@ -70,7 +70,7 @@ featured_image: /images/univprofwithcomputer.png
 - [Bayesian test for a mean](https://observablehq.com/@mattiasvillani/bayesian-test-mean-normal-pop)
 - [Priors for AR process](https://observablehq.com/@mattiasvillani/ar-processes)
 
-## Time series
+### Time series
 
 - [AR processes - simulation and autocorrelation function](https://observablehq.com/@mattiasvillani/ar-simulation-and-autocorrelation)
 - [Seasonal ARMA(p,q) - simulation and autocorrelation](https://observablehq.com/@mattiasvillani/seasonal-arma-p-q-simulation-and-autocorrelation)
@@ -79,7 +79,7 @@ featured_image: /images/univprofwithcomputer.png
 - [ARTFIMA - tempered fractional differencing](https://observablehq.com/@mattiasvillani/artfima-tempered-fractional-differencing)
 - [ARTFIMA - spectral density](https://observablehq.com/@mattiasvillani/spectral-density-artfima-p-q-process)
 
-# Time-varying parameter models and state-space models
+### Time-varying parameter models and state-space models
 
 - [Piecewise constant model for time series](https://observablehq.com/@mattiasvillani/piecewise-constant-model)
 - [Local level model](https://observablehq.com/@mattiasvillani/local-level-model)
@@ -92,5 +92,5 @@ featured_image: /images/univprofwithcomputer.png
 - [Identification of the mean in the AR(1) process](https://observablehq.com/@mattiasvillani/identification-ar-1-process)
 - [Local level model with dynamic shrinkage process prior](https://observablehq.com/@mattiasvillani/local-level-model-dsp-prior)
   
-## Interactive notebooks for research
+### Interactive notebooks for research
 - [Time-varying spectral density for US industrial production data](https://observablehq.com/@mattiasvillani/tvsar-spectral-usip) from the paper [Time-Varying Multi-Seasonal AR Models](https://arxiv.org/abs/2409.18640)

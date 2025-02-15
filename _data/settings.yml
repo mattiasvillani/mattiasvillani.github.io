@@ -16,8 +16,6 @@ menu_settings:
       url: '/research'
     - title: 'Teaching'
       url: '/teaching'
-    - title: 'Interactive material'
-      url: '/interactive'
     - title: 'Students'
       url: '/students'
     - title: 'News'
