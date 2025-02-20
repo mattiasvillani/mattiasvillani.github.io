@@ -8,6 +8,8 @@ featured_image: /images/linocut_newspaper.jpg
 
 ## News
 
+**February 20, 2025**. Gave a *TechTalk* at Stockholm University on how education in Statistics can benefit from interactive notebooks in the browser [web page with slides](https://mattiasvillani.com/interactive_intro)
+
 **February 14, 2025**. Gave a full day introductory workshop on Bayesian statistics at Karolinska Institutet in Stockholm. [workshop web page](https://mattiasvillani.com/introbayes)
 
 **December 15, 2024**. Gave an invited talk on 'Locally Stable Time-Varying Multi-Seasonal AR Models' at CFE2024 in London. [slides](https://github.com/mattiasvillani/Talks/raw/master/CFE2024Villani.pdf)
