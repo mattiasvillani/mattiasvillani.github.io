@@ -8,9 +8,13 @@ featured_image: /images/linocut_newspaper.jpg
 
 ## News
 
+**Febrary, 27, 2025**. Accepted chapter 'Spectral domain likelihoods for Bayesian inference in time-varying parameter models' in the forthcoming Springer book 'Recent Developments in Bayesian Econometrics and Their Applications', with Oskar Gustafsson and Robert Kohn. [arXiv](https://arxiv.org/abs/2502.14010)
+
 **February 20, 2025**. Gave a *TechTalk* at Stockholm University on how education in Statistics can benefit from interactive notebooks in the browser [web page with slides](https://mattiasvillani.com/interactive_intro)
 
 **February 14, 2025**. Gave a full day introductory workshop on Bayesian statistics at Karolinska Institutet in Stockholm. [workshop web page](https://mattiasvillani.com/introbayes)
+
+**January, 10, 2025**. Accepted chapter 'Modeling local predictive ability using power-transformed Gaussian processes' in the forthcoming Springer book 'Recent Developments in Bayesian Econometrics and Their Applications', with Oscar Oelrich [arXiv](https://arxiv.org/abs/2402.02068)
 
 **December 15, 2024**. Gave an invited talk on 'Locally Stable Time-Varying Multi-Seasonal AR Models' at CFE2024 in London. [slides](https://github.com/mattiasvillani/Talks/raw/master/CFE2024Villani.pdf)
 

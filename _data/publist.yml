@@ -1,13 +1,5 @@
 # arXiv in submission
 
-- title: "Spectral domain likelihoods for Bayesian inference in time-varying parameter models"
-  authors: Oskar Gustafsson and Robert Kohn
-  url: whatevs
-  image: linocut_spectral_chapter.png
-  display: submitted
-  arxiv: "2411.14010"
-  year: 
-
 - title: "Time-Varying Multi-Seasonal AR Models"
   authors: Ganna Fagerberg and Robert Kohn
   url: whatevs
@@ -16,14 +8,6 @@
   arxiv: "2409.18640" 
   year:
 
-- title: "Modeling local predictive ability using power-transformed Gaussian processes
-"
-  authors: Oscar Oelrich
-  url: whatevs
-  image: linocut_powerGP.jpg
-  display: submitted
-  arxiv: "2402.02068"
-  year:
 
 - title: "When are Bayesian model probabilities overconfident?"
   authors: Oscar Oelrich, Shutong Ding, Måns Magnusson and Aki Vehtari
@@ -39,6 +23,7 @@
   url: whatevs
   image: linocut_connectivity.jpg
   display: Journal of the Royal Statistical Society, Series C.
+  doi: https://doi.org/10.1093/jrsssc/qlae014
   arxiv: "2112.04249"
   year: 2024
   journal: true
@@ -553,6 +538,22 @@ Applications to Vector ARTFIMA Processes"
   conference: true
 
 # BOOK CHAPTERS
+
+- title: "Modeling local predictive ability using power-transformed Gaussian processes"
+  authors: Oscar Oelrich
+  url: whatevs
+  image: linocut_powerGP.jpg
+  display: In 'Recent Developments in Bayesian Econometrics and Their Applications', Springer
+  arxiv: "2402.02068"
+  year: 2025
+
+- title: "Spectral domain likelihoods for Bayesian inference in time-varying parameter models"
+  authors: Oskar Gustafsson and Robert Kohn
+  url: whatevs
+  image: linocut_spectral_chapter.png
+  display: In 'Recent Developments in Bayesian Econometrics and Their Applications', Springer
+  arxiv: "2411.14010"
+  year: 2025
 
 - title: "Bayesian Heteroscedastic Regression for Diffusion Tensor Imaging"
   authors: Bertil Wegmann and Anders Eklund
