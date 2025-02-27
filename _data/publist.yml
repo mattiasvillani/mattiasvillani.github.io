@@ -546,6 +546,7 @@ Applications to Vector ARTFIMA Processes"
   display: In 'Recent Developments in Bayesian Econometrics and Their Applications', Springer
   arxiv: "2402.02068"
   year: 2025
+  bookchapter: true
 
 - title: "Spectral domain likelihoods for Bayesian inference in time-varying parameter models"
   authors: Oskar Gustafsson and Robert Kohn
@@ -554,6 +555,7 @@ Applications to Vector ARTFIMA Processes"
   display: In 'Recent Developments in Bayesian Econometrics and Their Applications', Springer
   arxiv: "2411.14010"
   year: 2025
+  bookchapter: true
 
 - title: "Bayesian Heteroscedastic Regression for Diffusion Tensor Imaging"
   authors: Bertil Wegmann and Anders Eklund
