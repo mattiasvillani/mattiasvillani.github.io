@@ -8,6 +8,11 @@ featured_image: /images/linocut_newspaper.jpg
 
 ## News
 
+**May 30, 2025**. New paper 'Calibrated Bayesian inference for random fields on large irregular
+  domains using the debiased spatial Whittle likelihood' with Thomas Goodwin, Arthur Guillaumin, Matias Quiroz and Robert Kohn. [arXiv]()
+
+**April-May, 2025**. Developed and taught a new course 'Statistical Theory and Modelling' as part of the new interdisciplinary Masters' program 'Data Science, Statistics and Decision Analysis' at Stockholm University. [public web page with all material](https://statisticssu.github.io/STM/)
+
 **Febrary, 27, 2025**. Accepted chapter 'Spectral domain likelihoods for Bayesian inference in time-varying parameter models' in the forthcoming Springer book 'Recent Developments in Bayesian Econometrics and Their Applications', with Oskar Gustafsson and Robert Kohn. [arXiv](https://arxiv.org/abs/2502.14010)
 
 **February 20, 2025**. Gave a *TechTalk* at Stockholm University on how education in Statistics can benefit from interactive notebooks in the browser [web page with slides](https://mattiasvillani.com/interactive_intro)

@@ -1,5 +1,13 @@
 # arXiv in submission
 
+- title: "Calibrated Bayesian inference for Random Fields on Large Irregular Domains using the Debiased Spatial Whittle Likelihood"
+  authors: Thomas Goodwin and Arthur Guillaumin and Matias Quiroz and Robert Kohn
+  url: whatevs
+  image: SpatialWhittle_linocut.png
+  display: submitted
+  arxiv: "2409.18640" 
+  year:
+
 - title: "Time-Varying Multi-Seasonal AR Models"
   authors: Ganna Fagerberg and Robert Kohn
   url: whatevs
