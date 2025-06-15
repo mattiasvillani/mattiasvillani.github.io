@@ -12,7 +12,7 @@
   authors: Ganna Fagerberg and Robert Kohn
   url: whatevs
   image: linocut_seasonal_sar.png
-  display: submitted
+  display: under revision
   arxiv: "2409.18640" 
   year:
 
@@ -20,8 +20,16 @@
 - title: "When are Bayesian model probabilities overconfident?"
   authors: Oscar Oelrich, Shutong Ding, Måns Magnusson and Aki Vehtari
   image: linocut_overconf.jpg
-  display: submitted
+  display: under revision
   arxiv: "2003.04026"
+  year:
+
+- title: "Variational inference for steady-state BVARs"
+  authors: Oskar Gustafsson
+  url: whatevs
+  image: ssbvar_vi_linocut.png
+  display: under revision
+  arxiv: "2506.09271" 
   year:
   
 # Journal articles
