@@ -12,7 +12,7 @@ featured_image: /images/linocut_newspaper.jpg
 
 **August 20, 2025**. Gave a half-day tutorial 'Julia for Statistics' at the *8th international Conference on Econometrics and Statistics* (*EcoSta2025*) in Tokyo. [webpage with material](https://mattiasvillani.com/Julia4Stats)
 
-**June 17, 2025**. Giving a (pre-recorded) talk at the [Satellite workshop Bayesian Methods for Distributional and Semiparametric Regression](https://kleinlab-statml.github.io/subpages_research/events/BayesComp2025.html) at the [BayesComp2025](https://bayescomp2025.sg/) conference in Singapore. [slides](https://github.com/mattiasvillani/Talks/raw/master/BayesComp2025Villani.pdf) 
+**June 17, 2025**. Gave a (pre-recorded) talk at the [Satellite workshop Bayesian Methods for Distributional and Semiparametric Regression](https://kleinlab-statml.github.io/subpages_research/events/BayesComp2025.html) at the [BayesComp2025](https://bayescomp2025.sg/) conference in Singapore. [slides](https://github.com/mattiasvillani/Talks/raw/master/BayesComp2025Villani.pdf) 
 
 **May 30, 2025**. New paper 'Calibrated Bayesian inference for random fields on large irregular
   domains using the debiased spatial Whittle likelihood' with Thomas Goodwin, Arthur Guillaumin, Matias Quiroz and Robert Kohn. [arXiv](https://arxiv.org/abs/2505.23330)
