@@ -8,6 +8,8 @@ featured_image: /images/linocut_newspaper.jpg
 
 ## News
 
+**Nov 26, 2025**. Gave a seminar on "Bayesian inference in time-varying parameter models with global-local shrinkage process priors" at the Department of Statistics, Lund University. [slides](https://github.com/mattiasvillani/Talks/raw/master/LundNov2025Villani.pdf)
+
 **Nov 3, 2025**. I got a 4.3 MSEK grant from the Swedish Research Council (VR) for developing Bayesian models and computational methods for nonlinear and non-Gaussian time-varying parameter models.
 
 **August 21, 2025**. Gave a keynote at the *8th international Conference on Econometrics and Statistics* (*EcoSta2025*) in Tokyo on "Bayesian inference in time-varying parameter models with global-local shrinkage process priors". [slides](https://github.com/mattiasvillani/Talks/raw/master/Ecosta2025Villani.pdf)
