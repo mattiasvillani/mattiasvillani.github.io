@@ -8,7 +8,7 @@ featured_image: /images/linocut_newspaper.jpg
 
 ## News
 
-**Dec 10, 2025**. Gave a one-day tutorial "Probabilistic programming for statistical analysis in Julia" together with the [Turing.jl](https://turinglang.org/) team at the CFE-CMStatistics2025 conference in London. [web page with material](https://mattiasvillani.com/JuliaTuring)
+**Dec 10, 2025**. Gave a one-day tutorial on "Probabilistic programming for statistical analysis in Julia" together with the [Turing.jl](https://turinglang.org/) team at the CFE-CMStatistics2025 conference in London. [web page with material](https://mattiasvillani.com/JuliaTuring)
 
 **Nov 26, 2025**. Gave a seminar on "Bayesian inference in time-varying parameter models with global-local shrinkage process priors" at the Department of Statistics, Lund University. [slides](https://github.com/mattiasvillani/Talks/raw/master/LundNov2025Villani.pdf)
 
