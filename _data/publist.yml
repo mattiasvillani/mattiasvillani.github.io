@@ -32,6 +32,7 @@
   display: Journal of Computational and Graphical Statistics
   arxiv: "2409.18640" 
   year: 2025
+  journal: true
 
 - title: "Bayesian Modeling of Effective and Functional Brain Connectivity using Hierarchical Vector Autoregressions"
   authors: Bertil Wegmann, Anders Lundquist and Anders Eklund
