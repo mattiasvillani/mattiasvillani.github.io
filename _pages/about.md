@@ -13,7 +13,7 @@ I was Professor of Statistics at Linköping University in 2011-2023, spending ti
 
 Since 2018 I am back at my alma mater Stockholm University, where I hold the Professor chair of Statistics. 
 
-I currently serve as associate editor for [Bayesian Analysis](https://projecteuclid.org/journals/bayesian-analysis) (2020-) and have previously been associate editor for [Econometrics & Statistics](https://www.journals.elsevier.com/econometrics-and-statistics) (2015-2022).
+I currently serve as associate editor for [Bayesian Analysis](https://projecteuclid.org/journals/bayesian-analysis) (2020-) and CSDA Annals of Statistical Data Science (2025-). I have previously been associate editor for [Econometrics & Statistics](https://www.journals.elsevier.com/econometrics-and-statistics) (2015-2022).
 
 I enjoy programming, especially when I get to use the [Julia](https://julialang.org/) programming language. More recently, I have started to explore Javascript and [Observable](https://observablehq.com/) for interactive/reactive visualizations.
 
