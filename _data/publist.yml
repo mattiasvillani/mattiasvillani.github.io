@@ -8,14 +8,6 @@
   arxiv: "2505.23330" 
   year:
 
-- title: "Time-Varying Multi-Seasonal AR Models"
-  authors: Ganna Fagerberg and Robert Kohn
-  url: whatevs
-  image: linocut_seasonal_sar.png
-  display: under revision
-  arxiv: "2409.18640" 
-  year:
-
 - title: "When are Bayesian model probabilities overconfident?"
   authors: Oscar Oelrich, Shutong Ding, Måns Magnusson and Aki Vehtari
   image: linocut_overconf.jpg
@@ -32,6 +24,14 @@
   year:
   
 # Journal articles
+
+- title: "Time-Varying Multi-Seasonal AR Models"
+  authors: Ganna Fagerberg and Robert Kohn
+  url: whatevs
+  image: linocut_seasonal_sar.png
+  display: Journal of Computational and Graphical Statistics
+  arxiv: "2409.18640" 
+  year: 2025
 
 - title: "Bayesian Modeling of Effective and Functional Brain Connectivity using Hierarchical Vector Autoregressions"
   authors: Bertil Wegmann, Anders Lundquist and Anders Eklund
