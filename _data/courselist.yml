@@ -5,7 +5,7 @@
   image: linocut_blsu.jpg
   display: master level, 7.5 credits
   courseweb: https://github.com/mattiasvillani/BayesLearnCourse
-  semester: Fall 2025
+  semester: Fall 2026
   current: true
 
 - title: "Advanced Bayesian Learning"
@@ -13,7 +13,7 @@
   image: abl.jpg
   display: PhD level, 8 credits
   courseweb: https://github.com/mattiasvillani/AdvBayesLearnCourse
-  semester: Spring 2026
+  semester: April-May 2026
   current: true
 
 - title: "Statistical Theory and Modeling"
@@ -21,7 +21,7 @@
   image: stm_course.jpg
   display: master level in computer and systems sciences, 7.5 credits
   courseweb: https://statisticssu.github.io/STM/
-  semester: Spring 2025
+  semester: Spring 2026
   current: true
 
 - title: "Statistics and Data Analysis I (in Swedish)"
