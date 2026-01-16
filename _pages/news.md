@@ -8,6 +8,8 @@ featured_image: /images/linocut_newspaper.jpg
 
 ## 
 
+**Jan 16, 2026**. Gave an introduction to Git to masters students in Statistics and Data Science at Stockholm University to kick-off their self-organized workshop on Git. [website with material](https://mattiasvillani.com/intro2git/)
+
 **Jan 14, 2026**. Discussant on the paper 'SimplexMCMC: An Auxiliary-Variable Framework for Mixed Discrete–Continuous Posterior Distributions' at the Review Seminar for PhD candidate Jakob Torgander at Uppsala University. 
 
 **Dec 26, 2025**. The paper 'Time-Varying Multi-Seasonal AR Models' with Ganna Fagerberg and Robert Kohn has been accepted for publication in the *Journal of Computational and Graphical Statistics*. [arXiv](https://arxiv.org/abs/2409.18640)
