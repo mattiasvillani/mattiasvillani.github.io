@@ -3,10 +3,7 @@ title: News
 subtitle: more of a personal diary, really
 description: News.
 featured_image: /images/linocut_newspaper.jpg
----
-
-
-## 
+--- 
 
 **Jan 16, 2026**. Gave an introduction to Git to masters students in Statistics and Data Science at Stockholm University to kick-off their self-organized workshop on Git. [website with material](https://mattiasvillani.com/intro2git/)
 
