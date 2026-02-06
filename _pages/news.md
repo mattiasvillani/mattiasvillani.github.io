@@ -5,6 +5,8 @@ description: News.
 featured_image: /images/linocut_newspaper.jpg
 --- 
 
+**Feb 6, 2026**. Gave a half-day workshop on time-varying parameter models at University of Technology Sydney (UTS). [website with material](https://mattiasvillani.com/TimeVaryingParametersWorkshop/)
+
 **Jan 16, 2026**. Gave an introduction to Git to masters students in Statistics and Data Science at Stockholm University to kick-off their self-organized workshop on Git. [website with material](https://mattiasvillani.com/intro2git/)
 
 **Jan 14, 2026**. Discussant on the paper 'SimplexMCMC: An Auxiliary-Variable Framework for Mixed Discrete–Continuous Posterior Distributions' at the Review Seminar for PhD candidate Jakob Torgander at Uppsala University. 
