@@ -8,6 +8,14 @@
   semester: February 2026
   current: false
 
+- title: "Intro to Git"
+  url: https://mattiasvillani.com/intro2git/
+  image: linocut_blsu.jpg
+  display:  Introductory lecture at Git workshop, Stockholm University
+  tutorialweb: https://mattiasvillani.com/intro2git/
+  semester: January 2026
+  current: false
+
 - title: "Probabilistic Programming for Statistical Analysis in Julia"
   url: https://mattiasvillani.com/JuliaTuring/
   image: linocut_blsu.jpg
