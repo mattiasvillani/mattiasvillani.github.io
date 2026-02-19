@@ -5,7 +5,7 @@ permalink: /tutorials/
 featured_image: /images/linocut_teaching2.jpg
 ---
 
-## Workshops
+## Workshops and Tutorials
 
 {% for tutorial in site.data.tutorialslist %}
 
