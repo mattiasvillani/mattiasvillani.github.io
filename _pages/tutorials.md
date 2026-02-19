@@ -19,7 +19,7 @@ featured_image: /images/linocut_teaching2.jpg
   <li class="flex-item2">
     <strong> {{ tutorial.title }}</strong><br/>
     {{ tutorial.display }}<br/>
-    Given next time in {{ tutorial.semester}}<br/>
+    {{ tutorial.semester}}<br/>
     {% if tutorial.abstract %} <a data-bs-toggle="collapse" href="#{{tutorial.url}}"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{tutorial.url}}">TUTORIAL INFO</a> {% endif %}
     {% if tutorial.tutorialweb %}<a href="{{ tutorial.tutorialweb }}" target="_blank"><button class="btn-doi">WEB PAGE</button></a> {% endif %}
     {% if tutorial.gitrepo %}<a href="{{ tutorial.gitrepo }}" target="_blank"><button class="btn-arxiv">GIT REPO</button></a> {% endif %}
