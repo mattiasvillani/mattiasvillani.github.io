@@ -15,3 +15,11 @@
   tutorialweb: https://mattiasvillani.com/Julia4Stats/
   semester: August 2025
   current: false
+
+- title: "Introduction to Bayes - a full-day workshop"
+  url: https://mattiasvillani.com/introbayes/
+  image: introbayesKI.svg
+  display:  Workshop at Karolinska Institutet, Stockholm.
+  tutorialweb: https://mattiasvillani.com/introbayes/
+  semester: February 2025
+  current: false

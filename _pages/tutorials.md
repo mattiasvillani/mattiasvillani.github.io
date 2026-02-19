@@ -9,9 +9,6 @@ featured_image: /images/linocut_teaching2.jpg
 
 {% for tutorial in site.data.tutorialslist %}
 
-{% if tutorial.current == true %}
-
-
   <div class="well-paper publication-entry" style = "background-color: #ffffff">
   <ul class="flex-container">
   <li class="flex-item1">
@@ -39,8 +36,6 @@ featured_image: /images/linocut_teaching2.jpg
   </li>
   </ul>
   </div>
-
-  {% endif %}
   
 {% endfor %}
 
