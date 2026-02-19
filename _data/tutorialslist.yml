@@ -2,10 +2,18 @@
 
 - title: "Workshop on time-varying parameter models"
   url: https://mattiasvillani.com/TimeVaryingParametersWorkshop/
-  image: linocut_blsu.jpg
+  image: linocut_seasonal_sar.png
   display: Half-day workshop at University of Technology Sydney (UTS)
   tutorialweb: https://mattiasvillani.com/TimeVaryingParametersWorkshop/
   semester: February 2026
+  current: false
+
+- title: "Probabilistic Programming for Statistical Analysis in Julia"
+  url: https://mattiasvillani.com/JuliaTuring/
+  image: linocut_blsu.jpg
+  display:  Full-day workshop at CMStatistics-CFE conference in London
+  tutorialweb: https://mattiasvillani.com/JuliaTuring/
+  semester: December 2025
   current: false
 
 - title: "Julia for Statistics - a tutorial"
