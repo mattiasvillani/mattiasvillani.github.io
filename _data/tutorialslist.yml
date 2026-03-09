@@ -24,10 +24,10 @@
   semester: December 2025
   current: false
 
-- title: "Julia for Statistics - a tutorial"
+- title: "Julia for Statistics"
   url: https://mattiasvillani.com/Julia4Stats/
   image: linocut_blsu.jpg
-  display:  Econometrics & Statistics (EcoSta) conference in Tokyo
+  display:  Half-day tutorial at Econometrics & Statistics (EcoSta) conference in Tokyo
   tutorialweb: https://mattiasvillani.com/Julia4Stats/
   semester: August 2025
   current: false

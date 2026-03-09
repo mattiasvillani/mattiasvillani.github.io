@@ -30,6 +30,7 @@
   url: whatevs
   image: linocut_seasonal_sar.png
   display: Journal of Computational and Graphical Statistics
+  doi: https://doi.org/10.1080/10618600.2026.2614102
   arxiv: "2409.18640" 
   year: 2025
   journal: true
