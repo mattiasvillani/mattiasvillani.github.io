@@ -5,6 +5,7 @@ description: News.
 featured_image: /images/linocut_newspaper.jpg
 --- 
 
+**March 12, 2026**. Gave a seminar on 'Bayesian inference for nonlinear and non-Gaussian state-space models with global-local shrinkage process priors' at Örebro University. 
 
 **Feb 6, 2026**. Gave a half-day workshop on time-varying parameter models at University of Technology Sydney (UTS). [website with material](https://mattiasvillani.com/TimeVaryingParametersWorkshop/)
 
