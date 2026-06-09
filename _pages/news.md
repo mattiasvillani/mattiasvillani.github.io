@@ -5,7 +5,7 @@ description: News.
 featured_image: /images/linocut_newspaper.jpg
 --- 
 
-**June 4, 2026**. Gave a keynote ''Bayesian inference in non-Gaussian time series with global-local shrinkage process priors' at the 30th Nordic Conference in Mathematical Statistics (NordStat2026) in Helsinki, Finland. [slides](https://mattiasvillani.com/seminars/nordstat2026).
+**June 4, 2026**. Gave a keynote 'Bayesian inference in non-Gaussian time series with global-local shrinkage process priors' at the 30th Nordic Conference in Mathematical Statistics (NordStat2026) in Helsinki, Finland. [slides](https://mattiasvillani.com/seminars/nordstat2026).
 
 **March 12, 2026**. Gave a seminar on 'Bayesian inference for nonlinear and non-Gaussian state-space models with global-local shrinkage process priors' at Örebro University. 
 
