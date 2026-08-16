@@ -5,6 +5,10 @@ description: News.
 featured_image: /images/linocut_newspaper.jpg
 --- 
 
+**August 17-21, 2026**. In scientific committee and attending [International Conference on Bayesian Inference and Probabilistic Programming (StanCon2026)](https://www.stancon2026.org/) in Uppsala, Sweden. 
+
+**June 28-July 3, 2026**. Attending the [2026 ISBA World Meeting](https://isba2026.github.io/) in Nagoya, Japan. My students' posters: [Ganna Fagerberg](https://github.com/GannaFagerberg/Posters/raw/main/Poster_Japan.pdf) and [Yijie Niu](https://github.com/YijieNiu/Poster/raw/main/ISBA(2026).pdf).
+
 **June 4, 2026**. Gave a keynote 'Bayesian inference in non-Gaussian time series with global-local shrinkage process priors' at the 30th Nordic Conference in Mathematical Statistics (NordStat2026) in Helsinki, Finland. [slides](https://mattiasvillani.com/seminars/nordstat2026).
 
 **March 12, 2026**. Gave a seminar on 'Bayesian inference for nonlinear and non-Gaussian state-space models with global-local shrinkage process priors' at Örebro University. 
