@@ -1,5 +1,13 @@
 # arXiv in submission
 
+- title: "Spectral divide-and-conquer MCMC for long stationary time series"
+  authors: Zixuan Wang, Matias Quiroz, Feng Li and Robert Kohn
+  url: whatevs
+  image: linocut_spectraldivide.png
+  display: submitted
+  arxiv: "2609.23985" 
+  year: 
+
 - title: "Time-Varying Multi-Seasonal ARMA Models"
   authors: Ganna Fagerberg and Robert Kohn
   url: whatevs
