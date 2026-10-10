@@ -1,6 +1,6 @@
 # arXiv in submission
 
-- title: "Log predictive density score estimation in the presence of outliers"
+- title: "Log Predictive Density Score Estimation in the Presence of Outliers"
   authors: Oskar Gustafsson
   url: whatevs
   image: linocut_marglike_outliers2.png
@@ -8,7 +8,7 @@
   arxiv: "2610.04748" 
   year: 
 
-- title: "Spectral divide-and-conquer MCMC for long stationary time series"
+- title: "Spectral Divide-and-Conquer MCMC for Long Stationary Time Series"
   authors: Zixuan Wang, Matias Quiroz, Feng Li and Robert Kohn
   url: whatevs
   image: linocut_spectraldivide.png
@@ -32,14 +32,14 @@
   arxiv: "2505.23330" 
   year:
 
-- title: "When are Bayesian model probabilities overconfident?"
+- title: "When are Bayesian Model Probabilities Overconfident?"
   authors: Oscar Oelrich, Shutong Ding, Måns Magnusson and Aki Vehtari
   image: linocut_overconf.jpg
   display: under revision
   arxiv: "2003.04026"
   year:
 
-- title: "Variational inference for steady-state BVARs"
+- title: "Variational Inference for Steady-State BVARs"
   authors: Oskar Gustafsson
   url: whatevs
   image: ssbvar_vi_linocut.png

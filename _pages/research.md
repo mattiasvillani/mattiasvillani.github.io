@@ -3,7 +3,7 @@ layout: page
 title: "Research"
 subtitle: my publications
 permalink: /research/
-featured_image: /images/prof_research.png
+featured_image: /images/prof_research.jpg
 ---
 
 The image for each paper is an AI-generated modification of an original image in the paper.
@@ -51,7 +51,7 @@ The image for each paper is an AI-generated modification of an original image in
   <ul class="flex-container">
   <li class="flex-item1">
     {% if publi.image %}
-     <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publi.image }}" class="img-responsive"/>
+     <img src="{{ site.url }}{{ site.baseurl }}/images/publications/thumbs/{{ publi.image | split: "." | first }}.jpg" class="img-responsive" width="320" height="320" loading="lazy" decoding="async"/>
     {% endif %}
   </li>
   <li class="flex-item2">
@@ -76,7 +76,7 @@ The image for each paper is an AI-generated modification of an original image in
 
   {% if bibtest == true %}
   <div class="collapse" id="{{publi.url}}2"><div class="well-bib">
-   <iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0'></iframe>
+   <iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0' loading="lazy"></iframe>
   </div></div>
   {% endif %}
 
@@ -137,7 +137,7 @@ The image for each paper is an AI-generated modification of an original image in
 <ul class="flex-container">
 <li class="flex-item1">
   {% if publi.image %}
-     <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publi.image }}" class="img-responsive"/>
+     <img src="{{ site.url }}{{ site.baseurl }}/images/publications/thumbs/{{ publi.image | split: "." | first }}.jpg" class="img-responsive" width="320" height="320" loading="lazy" decoding="async"/>
   {% endif %}
 </li>
 <li class="flex-item2">
@@ -161,7 +161,7 @@ The image for each paper is an AI-generated modification of an original image in
 
 {% if bibtest == true %}
 <div class="collapse" id="{{publi.url}}2"><div class="well-bib">
-<iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0'></iframe>
+<iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0' loading="lazy"></iframe>
 </div></div>
 {% endif %}
 
@@ -227,7 +227,7 @@ The image for each paper is an AI-generated modification of an original image in
 <ul class="flex-container">
 <li class="flex-item1">
   {% if publi.image %}
-     <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publi.image }}" class="img-responsive"/>
+     <img src="{{ site.url }}{{ site.baseurl }}/images/publications/thumbs/{{ publi.image | split: "." | first }}.jpg" class="img-responsive" width="320" height="320" loading="lazy" decoding="async"/>
   {% endif %}
 </li>
 <li class="flex-item2">
@@ -251,7 +251,7 @@ The image for each paper is an AI-generated modification of an original image in
 
 {% if bibtest == true %}
 <div class="collapse" id="{{publi.url}}2"><div class="well-bib">
-<iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0'></iframe>
+<iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0' loading="lazy"></iframe>
 </div></div>
 {% endif %}
 
@@ -322,7 +322,7 @@ The image for each paper is an AI-generated modification of an original image in
 <ul class="flex-container">
 <li class="flex-item1">
   {% if publi.image %}
-     <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publi.image }}" class="img-responsive"/>
+     <img src="{{ site.url }}{{ site.baseurl }}/images/publications/thumbs/{{ publi.image | split: "." | first }}.jpg" class="img-responsive" width="320" height="320" loading="lazy" decoding="async"/>
   {% endif %}
 </li>
 <li class="flex-item2">
@@ -346,7 +346,7 @@ The image for each paper is an AI-generated modification of an original image in
 
 {% if bibtest == true %}
 <div class="collapse" id="{{publi.url}}2"><div class="well-bib">
-<iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0'></iframe>
+<iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0' loading="lazy"></iframe>
 </div></div>
 {% endif %}
 
@@ -410,7 +410,7 @@ The image for each paper is an AI-generated modification of an original image in
 <ul class="flex-container">
 <li class="flex-item1">
   {% if publi.image %}
-     <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publi.image }}" class="img-responsive"/>
+     <img src="{{ site.url }}{{ site.baseurl }}/images/publications/thumbs/{{ publi.image | split: "." | first }}.jpg" class="img-responsive" width="320" height="320" loading="lazy" decoding="async"/>
   {% endif %}
 </li>
 <li class="flex-item2">
@@ -434,7 +434,7 @@ The image for each paper is an AI-generated modification of an original image in
 
 {% if bibtest == true %}
 <div class="collapse" id="{{publi.url}}2"><div class="well-bib">
-<iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0'></iframe>
+<iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0' loading="lazy"></iframe>
 </div></div>
 {% endif %}
 
@@ -500,7 +500,7 @@ The image for each paper is an AI-generated modification of an original image in
 <ul class="flex-container">
 <li class="flex-item1">
   {% if publi.image %}
-     <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publi.image }}" class="img-responsive"/>
+     <img src="{{ site.url }}{{ site.baseurl }}/images/publications/thumbs/{{ publi.image | split: "." | first }}.jpg" class="img-responsive" width="320" height="320" loading="lazy" decoding="async"/>
   {% endif %}
 </li>
 <li class="flex-item2">
@@ -524,7 +524,7 @@ The image for each paper is an AI-generated modification of an original image in
 
 {% if bibtest == true %}
 <div class="collapse" id="{{publi.url}}2"><div class="well-bib">
-<iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0'></iframe>
+<iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0' loading="lazy"></iframe>
 </div></div>
 {% endif %}
 
@@ -594,7 +594,7 @@ The image for each paper is an AI-generated modification of an original image in
 <ul class="flex-container">
 <li class="flex-item1">
   {% if publi.image %}
-     <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publi.image }}" class="img-responsive"/>
+     <img src="{{ site.url }}{{ site.baseurl }}/images/publications/thumbs/{{ publi.image | split: "." | first }}.jpg" class="img-responsive" width="320" height="320" loading="lazy" decoding="async"/>
   {% endif %}
 </li>
 <li class="flex-item2">
@@ -618,7 +618,7 @@ The image for each paper is an AI-generated modification of an original image in
 
 {% if bibtest == true %}
 <div class="collapse" id="{{publi.url}}2"><div class="well-bib">
-<iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0'></iframe>
+<iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0' loading="lazy"></iframe>
 </div></div>
 {% endif %}
 
