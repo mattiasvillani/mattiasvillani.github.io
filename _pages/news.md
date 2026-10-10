@@ -5,6 +5,8 @@ description: News.
 featured_image: /images/linocut_newspaper.jpg
 --- 
 
+**September 30, 2026**.  Gave the talk 'Developing a research culture in teaching-dominated environments' at the [Department of Child and Youth Studies](https://www.su.se/english/divisions/department-of-child-and-youth-studies) at Stockholm University [slides](https://mattiasvillani.com/ResearchCulture/ResearchCultureTalk.html)
+
 **Sept 9, 2026**. Gave a keynote 'Bayesian inference in non-Gaussian time series with global-local shrinkage process priors' at the 2nd Workshop on Statistics and Finance at Linnaeus University, Sweden. [slides](https://mattiasvillani.com/seminars/vaxjo2026).
 
 **August 17-21, 2026**. In scientific committee and attending [International Conference on Bayesian Inference and Probabilistic Programming (StanCon2026)](https://www.stancon2026.org/) in Uppsala, Sweden. 
