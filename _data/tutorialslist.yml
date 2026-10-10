@@ -39,3 +39,68 @@
   tutorialweb: https://mattiasvillani.com/introbayes/
   semester: February 2025
   current: false
+
+- title: "Bayesian Machine Learning"
+  url: https://github.com/mattiasvillani/WinterConfHemavan2019
+  image: introbayesKI.svg
+  display:  Lecture Series at the Winter Conference in Statistics, Sweden.
+  tutorialweb: https://github.com/mattiasvillani/WinterConfHemavan2019
+  semester: March 2019
+  current: false
+
+- title: "Machine Learning Models and Methods for Econometricians"
+  url: https://github.com/mattiasvillani/ESOBE2017
+  image: linocut_blsu.jpg
+  display:  Workshop at the ESOBE 2017 conference in Maastricht.
+  tutorialweb: https://github.com/mattiasvillani/ESOBE2017
+  semester: October 2017
+  current: false
+
+- title: "Machine Learning for Industry"  
+  url: https://github.com/STIMALiU/ml4industry
+  image: linocut_blsu.jpg
+  display:  AI Competence Sweden course for industry participants 
+  tutorialweb: https://github.com/STIMALiU/ml4industry
+  semester: Fall 2019
+  current: false
+
+- title: "Computational Methods for Large-Scale Bayesian Inference"
+  url: 
+  image: linocut_blsu.jpg
+  display:  Full day Master Class at Melbourne Business School, Australia.
+  tutorialweb: 
+  semester: October 2016
+  current: false
+
+- title: "Bayesian Methods for VARs, State-Space and DSGE models"
+  url: 
+  image: linocut_blsu.jpg
+  display:  One-day course National Institute of Economic Research, Sweden.
+  tutorialweb: 
+  semester: 2015
+  current: false
+
+- title: "Statistical Learning"
+  url: 
+  image: linocut_blsu.jpg
+  display:  Two-day course on Statistical Learning at Cramér Society Summer School
+  tutorialweb: 
+  semester: June 2011
+  current: false
+
+- title: "Bayesian Methods for Central Banks"
+  url: 
+  image: linocut_blsu.jpg
+  display:  Two-day course at Norges Bank, Oslo, Norway.
+  tutorialweb: 
+  semester: 2004
+  current: false
+
+- title: "Bayesian Econometrics"
+  url: 
+  image: linocut_blsu.jpg
+  display:  Mini-course on Bayesian Econometrics at the Sveriges Riksbank, Stockholm.
+  tutorialweb: 
+  semester: 2003
+  current: false
+
