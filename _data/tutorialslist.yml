@@ -10,7 +10,7 @@
 
 - title: "Intro to Git"
   url: https://mattiasvillani.com/intro2git/
-  image: linocut_blsu.jpg
+  image: linocut_git.png
   display:  Introductory lecture at Git workshop, Stockholm University
   tutorialweb: https://mattiasvillani.com/intro2git/
   semester: January 2026
@@ -18,7 +18,7 @@
 
 - title: "Probabilistic Programming for Statistical Analysis in Julia"
   url: https://mattiasvillani.com/JuliaTuring/
-  image: linocut_blsu.jpg
+  image: linocut_turing.png
   display:  Full-day workshop at CMStatistics-CFE conference in London
   tutorialweb: https://mattiasvillani.com/JuliaTuring/
   semester: December 2025
@@ -26,7 +26,7 @@
 
 - title: "Julia for Statistics"
   url: https://mattiasvillani.com/Julia4Stats/
-  image: linocut_blsu.jpg
+  image: linocut_julia.png
   display:  Half-day tutorial at Econometrics & Statistics (EcoSta) conference in Tokyo
   tutorialweb: https://mattiasvillani.com/Julia4Stats/
   semester: August 2025
@@ -42,7 +42,7 @@
 
 - title: "Bayesian Machine Learning"
   url: https://github.com/mattiasvillani/WinterConfHemavan2019
-  image: introbayesKI.svg
+  image: linocut_ml_winter.png
   display:  Lecture Series at the Winter Conference in Statistics, Sweden.
   tutorialweb: https://github.com/mattiasvillani/WinterConfHemavan2019
   semester: March 2019
@@ -82,7 +82,7 @@
 
 - title: "Statistical Learning"
   url: 
-  image: linocut_blsu.jpg
+  image: linocut_stat_learning.png
   display:  Two-day course on Statistical Learning at Cramér Society Summer School
   tutorialweb: 
   semester: June 2011
