@@ -1,4 +1,10 @@
-
+- title: "Julia for Statistics"
+  url: https://mattiasvillani.com/Julia4Stats/
+  image: linocut_julia.png
+  display:  Half-day tutorial at Econometrics & Statistics (EcoSta) conference in Tokyo and at University of New South Wales (UNSW) in Sydney.
+  tutorialweb: https://mattiasvillani.com/Julia4Stats/
+  semester: August 2025 and November 2026
+  current: false
 
 - title: "Workshop on time-varying parameter models"
   url: https://mattiasvillani.com/TimeVaryingParametersWorkshop/
@@ -22,14 +28,6 @@
   display:  Full-day workshop at CMStatistics-CFE conference in London
   tutorialweb: https://mattiasvillani.com/JuliaTuring/
   semester: December 2025
-  current: false
-
-- title: "Julia for Statistics"
-  url: https://mattiasvillani.com/Julia4Stats/
-  image: linocut_julia.png
-  display:  Half-day tutorial at Econometrics & Statistics (EcoSta) conference in Tokyo
-  tutorialweb: https://mattiasvillani.com/Julia4Stats/
-  semester: August 2025
   current: false
 
 - title: "Introduction to Bayes - a full-day workshop"

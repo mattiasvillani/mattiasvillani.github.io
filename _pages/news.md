@@ -5,6 +5,13 @@ description: News.
 featured_image: /images/linocut_newspaper.jpg
 --- 
 
+**November 6, 2026**. Gave a statistics seminar at University of New South Wales on 'Distributional Regression with
+Dynamic Shrinkage Process Priors'.
+
+**November 6, 2026**. Gave half-day workshop at University of New South Wales, organized by Statistical Society of Australia. [webpage](https://mattiasvillani.com/Julia4Stats/).
+
+**November 4, 2026**. Gave the 2026 Data Science and Statistics lecture at Wollongong University, Australia. [slides](https://github.com/mattiasvillani/Talks/raw/master/WollongongNov2026.pdf).
+
 **September 30, 2026**.  Gave the talk 'Developing a research culture in teaching-dominated environments' at the [Department of Child and Youth Studies](https://www.su.se/english/divisions/department-of-child-and-youth-studies) at Stockholm University. [slides](https://mattiasvillani.com/ResearchCulture/ResearchCultureTalk.html)
 
 **Sept 9, 2026**. Gave a keynote 'Bayesian inference in non-Gaussian time series with global-local shrinkage process priors' at the 2nd Workshop on Statistics and Finance at Linnaeus University, Sweden. [slides](https://mattiasvillani.com/seminars/vaxjo2026).
