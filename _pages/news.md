@@ -6,7 +6,7 @@ featured_image: /images/linocut_newspaper.jpg
 --- 
 
 
-**November 26, 2026**. Gave a tech talk at my department 'AI wrote it. It runs! Is it right?' on how to verify correctness of AI generated code for research in statistics. [slides](https://mattiasvillani.com/getting-ai-code-right/) | [git repo](https://github.com/mattiasvillani/getting-ai-code-right)
+**November 26, 2026**. Gave a tech talk at my department 'AI wrote it. It runs! Is it right?' on how to verify correctness of AI generated code for research in statistics. [slides](https://mattiasvillani.com/getting-ai-code-right/) [git repo](https://github.com/mattiasvillani/getting-ai-code-right)
 
 **November 6, 2026**. Gave a statistics seminar at University of New South Wales on 'Distributional Regression with
 Dynamic Shrinkage Process Priors'.
