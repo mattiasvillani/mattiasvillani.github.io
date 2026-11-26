@@ -5,10 +5,13 @@ description: News.
 featured_image: /images/linocut_newspaper.jpg
 --- 
 
+**November 26, 2026**. Gave a tech talk at my department 'AI wrote it. It runs! Is it right?' on how to verify correctness of AI generated code for research in statistics. [slides](https://mattiasvillani.com/getting-ai-code-right/) | [git repo](https://github.com/mattiasvillani/getting-ai-code-right)
+
+
 **November 6, 2026**. Gave a statistics seminar at University of New South Wales on 'Distributional Regression with
 Dynamic Shrinkage Process Priors'.
 
-**November 6, 2026**. Gave half-day workshop at University of New South Wales, organized by Statistical Society of Australia. [webpage](https://mattiasvillani.com/Julia4Stats/).
+**November 6, 2026**. Gave half-day workshop at University of New South Wales on 'Julia for Statistics', organized by Statistical Society of Australia. [webpage](https://mattiasvillani.com/Julia4Stats/).
 
 **November 4, 2026**. Gave the 2026 Data Science and Statistics lecture at Wollongong University, Australia. [slides](https://github.com/mattiasvillani/Talks/raw/master/WollongongNov2026.pdf).
 
